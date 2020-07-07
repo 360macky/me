@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Code:300|Montserrat:600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+:root {
+    --white: #f3f3f3;
+    --color-default: #2a313a;
+    --color-primary: #757ce8;
+    --color-dark: #3f50b5;
+    --mobile-width: 28.75em;
+    --responsive-width: 390px;
+    --font-montserrat: 'Montserrat', sans-serif;
+    --font-fira-code: 'Fira Code', monospace;
+}
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-fira-code);
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1;
+    color: var(--white);
+    box-sizing: border-box;
+}
+
+h1,
+h2 {
+    font-family: var(--font-montserrat);
+    font-weight: 600;
+    text-align: center;
+}
+
+h1 {
+    font-size: 6.2rem;
+}
+
+h2 {
+    font-size: 4.2rem;
+}
+
+h3 {
+    font-size: 3.2rem;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--color-primary);
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list a {
+    display: block;
+    font-size: 1.4rem;
+    padding: 20px;
+}
+
+.nav-list a:hover,
+.nav-list a:focus {
+    background-color: var(--color-dark);
+}
+
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #212121;
+}
+
+.welcome-section__profession {
+    font-size: 3.2rem;
+    font-weight: 200;
+    color: var(--color-primary);
+}
+
+.welcome-section__profession {
+    font-size: 3.2rem;
+    font-weight: 200;
+    color: var(--color-primary);
+}
+
+.welcome-section__more-information {
+    width: 80%;
+    padding-top: 20px;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.projects-section {
+    text-align: center;
+    padding: 10rem 2rem;
+    background-color: var(--color-dark);
+}
+
+.projects-section-header {
+    max-width: 640px;
+    margin: 0px auto 70px auto;
+}
+
+@media (max-width: var(--responsive-width)) {
+    .projects-section-header {
+        font-size: 4rem;
+    }
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 30px;
+    width: 95%;
+    max-width: 1280px;
+    margin: 0rem auto;
+    margin-bottom: 70px;
+}
+
+.project {
+    background-color: var(--color-default);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-out;
+}
+
+.project:hover {
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5);
+}
+
+.project-image {
+    width: 100%;
+    height: calc(100% - 7rem);
+    object-fit: cover;
+}
+
+.project-title {
+    padding: 2rem 0.5rem;
+    font-size: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 2px;
+}
+
+.btn__call-action {
+    font-size: 1.8rem;
+    font-family: var(--font-montserrat);
+    background-color: var(--color-default);
+    transition: 0.2s ease-out;
+}
+
+.btn__call-action:hover {
+    background-color: var(--color-dark);
+}
+
+.btn__call-action:hover
+.fa-magic {
+    transition: 0.3s ease-out;
+    transform: rotate(20deg);
+}
+
+.btn__call-action:hover
+.fa-hand-paper {
+    transition: 0.3s ease-out;
+    transform: rotate(-20deg);
+}
+
+.btn__show-all {
+    font-size: 2rem;
+    font-style: italic;
+    background-color: var(--color-default);
+    transition: 0.2s ease-out;
+}
+
+.btn__show-all:hover {
+    background-color: var(--color-primary);
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0rem 2rem;
+    background-color: var(--color-default);
+}
+
+.contact-section-header {
+    font-size: 6rem;
+}
+
+@media (max-width: var(--responsive-width)) {
+    .contact-section-header {
+        font-size: 4rem;
+    }
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.contact-details {
+    font-size: 1.8rem;
+    transition: 300ms text-decoration;
+}
+
+.contact-details:hover
+label {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer {
+    font-family: var(--font-montserrat);
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    background-color: var(--color-default);
+    border-top: 4px solid var(--color-primary);
+    padding: 2rem;
+}
+
+@media (max-width: var(--responsive-width)) {
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+}
