@@ -16,8 +16,7 @@
     --color-default: #2a313a;
     --color-primary: #757ce8;
     --color-dark: #3f50b5;
-    --mobile-width: 28.75em;
-    --responsive-width: 390px;
+    --mobile-font-width: 28.75em;
     --font-montserrat: 'Montserrat', sans-serif;
     --font-fira-code: 'Fira Code', monospace;
 }
@@ -134,7 +133,7 @@ img {
     margin: 0px auto 70px auto;
 }
 
-@media (max-width: var(--responsive-width)) {
+@media (max-width: 390px) {
     .projects-section-header {
         font-size: 4rem;
     }
@@ -227,7 +226,7 @@ img {
     font-size: 6rem;
 }
 
-@media (max-width: var(--responsive-width)) {
+@media (max-width: 390px) {
     .contact-section-header {
         font-size: 4rem;
     }
@@ -264,7 +263,7 @@ footer {
     padding: 2rem;
 }
 
-@media (max-width: var(--responsive-width)) {
+@media (max-width: 390px) {
     footer {
         flex-direction: column;
         text-align: center;
