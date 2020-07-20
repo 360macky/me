@@ -151,6 +151,23 @@ img {
     line-height: 1.4;
 }
 
+.welcome-section__social-networks {
+    margin-top: 20px;
+}
+
+.welcome-section__social-networks i {
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: 0.3s ease-out background-color;    
+}
+
+.welcome-section__social-networks i:hover {
+    background-color: var(--color-dark);
+    border-radius: 5px;
+}
+
 .projects-section {
     text-align: center;
     padding: 10rem 2rem;
