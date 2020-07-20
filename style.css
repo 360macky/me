@@ -14,6 +14,7 @@
 :root {
     --white: #f3f3f3;
     --color-default: #2a313a;
+    --color-default-darker: #000814;
     --color-primary: #757ce8;
     --color-dark: #3f50b5;
     --mobile-font-width: 28.75em;
@@ -76,6 +77,7 @@ img {
     left: 0;
     width: 100%;
     background-color: var(--color-primary);
+    z-index: 2;
 }
 
 .nav-list {
@@ -198,17 +200,75 @@ img {
 .project {
     background-color: var(--color-default);
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-    transition: 0.3s ease-out;
 }
 
-.project:hover {
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5);
+.project-image-container {
+    overflow: hidden;
 }
 
 .project-image {
+    background-image: url("https://github.com/360macky/ISS-tracker/raw/master/screenshot.png");
     width: 100%;
-    height: calc(100% - 7rem);
-    object-fit: cover;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    transition: transform 1s ease;
+}
+
+.project-card:hover
+.project-image {
+    transform: scale(1.5);
+}
+
+.project-actions {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-self: end;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.project-actions__button {
+    cursor: pointer;
+    background-color: var(--color-default-darker);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 1px 12px;
+    margin-top: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.project-actions__button--secondary i {
+    transition: 0.3s ease-out;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.project-actions__button--secondary:hover
+i {
+    transition: 0.3s ease-out;
+    visibility: visible;
+    opacity: 1;
+}
+
+.project-actions__button--recommended {
+    background-color: var(--color-primary);
+}
+
+.project-actions__button--recommended:hover
+.fa-atom {
+    transition: 3s ease-out;
+    transform: rotate(360deg);
+}
+
+.project-actions__button--recommended:hover
+.fa-meteor {
+    transition: 3s ease-out;
+    transform: rotate(-180deg);
 }
 
 .project-title {
@@ -216,10 +276,50 @@ img {
     font-size: 2rem;
 }
 
+.project-card {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: var(--color-default);
+    padding: 0px 0px 8px 0px;
+    border-radius: 15px;
+    transition: 0.3s ease-out;
+}
+
+.project-card:hover {
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5);
+}
+
+.project-description {
+    margin-top: 5px;
+    font-size: 1.2rem;
+    padding: 0px 40px;
+}
+
+.project-tags {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1.2rem;
+    font-size: 1rem;
+    padding: 0px 8px;
+}
+
+.project-tags a {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: var(--color-default-darker);
+    color: var(--white);
+    border-radius: 5px;
+    padding: 2px;
+    font-style: italic;
+}
+
 .btn {
     display: inline-block;
     padding: 1rem 2rem;
-    border-radius: 2px;
+    border-radius: 12px;
 }
 
 .btn__call-action {
