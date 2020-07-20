@@ -238,6 +238,41 @@ img {
     background-color: var(--color-primary);
 }
 
+.about-me-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.about-me-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.about-me-container > div {
+    width: 380px;
+    background-color: white;
+    color: black;
+    padding: 18px;
+}
+
+.about-me-container h3 {
+    color: var(--color-primary);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about-me-container {
+    font-size: 1.4rem;
+}
+
 .contact-section {
     display: flex;
     flex-direction: column;
