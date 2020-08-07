@@ -112,7 +112,8 @@ img {
         font-size: 1.3rem;
     }
     .welcome-section__profession {
-        font-size: 2.3rem;
+        font-size: 1.9rem;
+        margin-top: 15px;
     }
     .contact-section {
         padding-top: 100px;
