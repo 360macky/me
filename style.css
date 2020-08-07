@@ -121,6 +121,9 @@ img {
     .contact-section-header h2 {
         font-size: 3rem;
     }
+    .welcome-section__social-networks i {
+        margin: 0px;
+    }
 }
 
 @media (min-width: 460px) {
@@ -129,6 +132,11 @@ img {
     }
     .welcome-section__profession {
         font-size: 3.2rem;
+    }
+    .welcome-section__social-networks i {
+        padding: 15px;
+        margin-right: 10px;
+        margin-left: 10px;
     }
 }
 
@@ -160,8 +168,6 @@ img {
 
 .welcome-section__social-networks i {
     padding: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
     cursor: pointer;
     transition: 0.3s ease-out background-color;    
     border-radius: 10px;
