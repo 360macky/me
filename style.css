@@ -121,8 +121,14 @@ img {
     .contact-section-header h2 {
         font-size: 3rem;
     }
+    .projects-section-header {
+        font-size: 3.8rem;
+    }
     .welcome-section__social-networks i {
         margin: 0px;
+    }
+    .about-me-section h2 {
+        font-size: 3.8rem;
     }
 }
 
@@ -225,7 +231,7 @@ img {
 
 @media (max-width: 460px) {
     .projects-section-header {
-        font-size: 4rem;
+        font-size: 3.8rem;
     }
 }
 
@@ -431,7 +437,6 @@ i {
 .about-me-section h2 {
     margin-top: 100px;
     margin-bottom: 50px;
-    /* margin-top: 100px; */
     color: var(--color-dark)
 }
 
