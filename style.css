@@ -144,6 +144,9 @@ img {
         margin-right: 10px;
         margin-left: 10px;
     }
+    .contact-links {
+        margin-top: 5rem;
+    }
 }
 
 .welcome-section {
@@ -491,7 +494,7 @@ i {
     justify-content: center;
     width: 100%;
     max-width: 980px;
-    margin-top: 5rem;
+    margin-top: 2rem;
     flex-wrap: wrap;
     cursor: pointer;
 }
