@@ -1,0 +1,58 @@
+{
+    "mainElements": {
+        "nav": ["Hola", "Proyectos", "Sobre mí", "Contacto"],
+        "switchLanguage": {
+            "en": {
+                "message": "Read it in English"
+            }
+        },
+        "switchLanguagePreference": "en"
+    },
+    "welcomePage": {
+        "title": "Hola, soy Marcelo",
+        "briefDescription": "Un programador",
+        "longerDescription": "Soy un estudiante autodidacta de desarrollo de software. Me gusta aprender y amo crear.",
+        "buttonCallToAction": "Cosas que hago"
+    },
+    "projects": {
+        "title": "Estos son algunos de mis proyectos",
+        "projectInput": "Buscar en mis proyectos: JavaScript, Python o CSS",
+        "projectCard": {
+            "tags": "Etiquetas",
+            "lookCode": "Ver código",
+            "use": "¡Usar!"
+        },
+        "moreProjectsButton": "Ver más"
+    },
+    "about": {
+        "title": "Un poco más de mí",
+        "card_1": {
+            "title": "Breve historia",
+            "content": "Después de aprender mucho sobre la evolución de Internet, en 2015 decidí crear mi primer sitio web. A partir de ahí aprendí mucho sobre informática. Lo que me motivó a seguir aprendiendo más en otros campos como el diseño, la inteligencia artificial, la música o la algoritmia."
+        },
+        "card_2": {
+            "title": "Hoy...",
+            "content": "Entonces me convertí en un programador autodidacta. Un gran fanático de aprender sobre cualquier tecnología. Y aplicarlo a proyectos de innovación, investigación científica o ayuda social. Y también enseñar a usarlo."
+        },
+        "card_3": {
+            "title": "Más datos",
+            "content": [
+                "Tengo 18 años.",
+                "Aproximadamente 5 años programando.",
+                "Actualmente estoy estudiando en el instituto tecnológico SENATI.",
+                "Doy clases de informática en YouTube.",
+                "Amo lo que hago."
+            ]
+        }
+    },
+    "contact": {
+        "title": "¡A crear algo juntos!",
+        "links": {
+            "github": "Proyectos GitHub",
+            "twitter": "Twitter",
+            "mail": "Envíame un correo",
+            "youtube": "Mira mis vídeos",
+            "linkedin": "Mis certificaciones"
+        }
+    }
+}
