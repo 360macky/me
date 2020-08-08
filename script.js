@@ -1,4 +1,4 @@
-const languageCode = navigator.language.slice(0, 2);
+
 
 const projects = {
     '0': {
