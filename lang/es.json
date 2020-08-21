@@ -16,10 +16,10 @@
     },
     "projects": {
         "title": "Estos son algunos de mis proyectos",
-        "projectInput": "Buscar en mis proyectos: JavaScript, Python o CSS",
+        "projectInput": "Buscar en mis proyectos: JavaScript, React o NodeJS",
         "projectCard": {
             "tags": "Etiquetas",
-            "lookCode": "Ver código",
+            "lookCode": "Ver documentación",
             "use": "¡Usar!"
         },
         "moreProjectsButton": "Ver más"
@@ -48,7 +48,7 @@
     "contact": {
         "title": "¡A crear algo juntos!",
         "links": {
-            "github": "Proyectos GitHub",
+            "github": "Proyectos en GitHub",
             "twitter": "Twitter",
             "mail": "Envíame un correo",
             "youtube": "Mira mis vídeos",
