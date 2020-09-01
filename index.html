@@ -65,6 +65,9 @@
 
             gtag('config', 'UA-174901412-1');
         </script>
+
+        <!-- English and Spanish -->
+        <script src="./lang/es.json"></script>
     </head>
     <body>
         <nav id="navbar" class="nav">
@@ -72,36 +75,38 @@
                 <li>
                     <a href="#welcome-section">
                         <i class="far fa-hand-peace nav__icons"></i>
-                        <label>Hello</label></a
+                        <label id="nav__hello">Hello</label></a
                     >
                 </li>
                 <li>
                     <a href="#projects">
                         <i class="fas fa-rocket nav__icons"></i>
-                        <label>Projects</label></a
+                        <label id="nav__projects">Projects</label></a
                     >
                 </li>
                 <li>
                     <a href="#about-me">
                         <i class="fas fa-user-astronaut nav__icons"></i>
-                        <label>About</label></a
+                        <label id="nav__about">About</label></a
                     >
                 </li>
                 <li>
                     <a href="#contact">
                         <i class="fas fa-rss nav__icons"></i>
-                        <label>Contact</label></a
+                        <label id="nav__contact">Contact</label></a
                     >
                 </li>
             </ul>
         </nav>
 
         <section id="welcome-section" class="welcome-section">
-            <h1>Hi I am Marcelo</h1>
-            <p class="welcome-section__profession">/* a developer */</p>
+            <h1 id="title">Hi I am Marcelo</h1>
+            <p class="welcome-section__profession">
+                /* <span id="briefDescription">a developer</span> */
+            </p>
             <div class="welcome-section__more-information">
                 <p>
-                    <i
+                    <i id="longerDescription"
                         >I'm a self-taught software development student.<br />I
                         like to learn, and I love to create.</i
                     >
@@ -110,7 +115,7 @@
             <div class="" style="margin-top: 30px;">
                 <a href="#projects" class="btn btn__call-action">
                     <i class="fas fa-magic"></i>
-                    &nbsp;Things that I do&nbsp;
+                    &nbsp;<label id="buttonCallToAction">Things that I do</label>&nbsp;
                     <i class="fas fa-hand-paper"></i>
                 </a>
             </div>
@@ -139,10 +144,13 @@
                     ></i
                 ></a>
             </div>
+            <div class="welcome-section__switch_language">
+                <a onclick="reloadLanguage()" id="switchLanguage">Cambiar a español</a>
+            </div>
         </section>
 
         <section id="projects" class="projects-section">
-            <h2 class="projects-section-header">
+            <h2 class="projects-section-header" id="projectsTitle">
                 These are some of my projects
             </h2>
             <div class="projects__search-box">
@@ -177,16 +185,16 @@
                 target="_blank"
             >
                 <i class="fab fa-github"></i>
-                Show all -->
+                <label id="show-all">Show all</label>
             </a>
         </section>
 
         <section id="about-me" class="about-me-section">
-            <h2 class="project-section-header">A little more about me</h2>
+            <h2 class="project-section-header" id="aboutTitle">A little more about me</h2>
             <div class="about-me-container">
                 <div class="about-me--brief-story">
-                    <h3><i class="fas fa-book-reader"></i> Brief Story</h3>
-                    <p>
+                    <h3><i class="fas fa-book-reader"></i> <label id="briefStory">Brief Story</label></h3>
+                    <p id="briefStory__content">
                         After learning a lot about how the Internet has evolved,
                         in 2015 I decided to create my first website. From there
                         I learned a lot about computer science. What motivated
@@ -195,8 +203,8 @@
                     </p>
                 </div>
                 <div class="about-me--today">
-                    <h3><i class="fas fa-rocket"></i> Today...</h3>
-                    <p>
+                    <h3><i class="fas fa-rocket"></i> <label id="today">Today</label>...</h3>
+                    <p id="today__content">
                         So I became a self-taught developer. A big fan of
                         learning about any technology. And apply it to
                         innovation projects, scientific research or social aid.
@@ -204,26 +212,26 @@
                     </p>
                 </div>
                 <div class="about-me--more-data">
-                    <h3><i class="fas fa-user-astronaut"></i> More data</h3>
-                    <ul class="about-me--more-data__list">
+                    <h3><i class="fas fa-user-astronaut"></i> <label id="moreData">More data</label></h3>
+                    <ul class="about-me--more-data__list" id="moreData__content">
                         <li>
-                            > <i class="fas fa-running"></i> I'm 18 years old.
+                            > <i class="fas fa-running"></i> <label>I'm 18 years old.</label>
                         </li>
                         <li>
-                            > <i class="far fa-hand-paper"></i> About 5 years of
-                            programming.
+                            > <i class="far fa-hand-paper"></i> <label>About 5 years of
+                            programming.</label>
                         </li>
                         <li>
-                            > <i class="fas fa-graduation-cap"></i> I am
+                            > <i class="fas fa-graduation-cap"></i> <label>I am
                             currently studying at the SENATI technology
-                            institute.
+                            institute.</label>
                         </li>
                         <li>
-                            > <i class="fab fa-youtube"></i> I teach computer
-                            science on YouTube.
+                            > <i class="fab fa-youtube"></i> <label>I teach computer
+                            science on YouTube.</label>
                         </li>
                         <li>
-                            > <i class="fas fa-heart"></i> I love what I do.
+                            > <i class="fas fa-heart"></i> <label>I love what I do.</label>
                         </li>
                     </ul>
                 </div>
@@ -232,9 +240,9 @@
 
         <section id="contact" class="contact-section">
             <div class="contact-section-header">
-                <h2>Let's create together...</h2>
+                <h2 id="contactTitle">Let's create together...</h2>
             </div>
-            <div class="contact-links">
+            <div class="contact-links" id="contactContent">
                 <a
                     id="profile-link"
                     href="https://github.com/360macky/"
@@ -277,5 +285,6 @@
             < / 2015 - 2020 >
         </footer>
         <script src="./script.js"></script>
+        <script src="./lang/core/language.js"></script>
     </body>
 </html>
