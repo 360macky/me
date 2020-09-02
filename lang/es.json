@@ -10,7 +10,7 @@
     },
     "welcomePage": {
         "title": "Hola, soy Marcelo",
-        "briefDescription": "Un programador",
+        "briefDescription": "un programador",
         "longerDescription": "Soy un estudiante autodidacta de desarrollo de software. Me gusta aprender y amo crear.",
         "buttonCallToAction": "Cosas que hago"
     },
@@ -19,7 +19,7 @@
         "projectInput": "Buscar en mis proyectos: JavaScript, React o NodeJS",
         "projectCard": {
             "tags": "Etiquetas",
-            "lookCode": "Ver documentación",
+            "lookCode": "Historia",
             "use": "¡Usar!"
         },
         "moreProjectsButton": "Ver más"
