@@ -107,6 +107,7 @@ img {
         font-size: 4rem;
     }
     .welcome-section__more-information {
+        width: 80%;
         font-size: 1.2rem;
     }
     .btn__call-action {
@@ -139,7 +140,7 @@ img {
     }
     .welcome-section__profession {
         margin-top: 14px;
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     .welcome-section__social-networks i {
         padding: 15px;
@@ -148,6 +149,10 @@ img {
     }
     .contact-links {
         margin-top: 5rem;
+    }
+    .welcome-section__more-information {
+        width: 50%;
+        font-size: 1.5rem;
     }
 }
 
@@ -167,7 +172,6 @@ img {
 }
 
 .welcome-section__more-information {
-    width: 80%;
     padding-top: 20px;
     text-align: center;
     line-height: 1.4;
