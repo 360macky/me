@@ -16,7 +16,7 @@
     },
     "projects": {
         "title": "Estos son algunos de mis proyectos",
-        "projectInput": "Buscar en mis proyectos: JavaScript, React o NodeJS",
+        "projectInput": "Buscar proyectos",
         "projectCard": {
             "tags": "Etiquetas",
             "lookCode": "Historia",
