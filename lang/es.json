@@ -11,7 +11,7 @@
     "welcomePage": {
         "title": "Hola, soy Marcelo",
         "briefDescription": "un programador",
-        "longerDescription": "Soy un estudiante autodidacta de desarrollo de software. Me gusta aprender y amo crear.",
+        "longerDescription": "Me gusta aprender y amo crear.",
         "buttonCallToAction": "Cosas que hago"
     },
     "projects": {
