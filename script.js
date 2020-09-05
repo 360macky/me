@@ -10,12 +10,6 @@ function searchOnChange() {
 
     let searchText = document.getElementById('search').value;
 
-    let notFoundMessageBox = document.getElementById(
-        'projects--projects-not-found'
-    );
-
-    let notFoundMessage = document.getElementById('searchtext-not-found');
-
     if (searchText) {
         let results = {};
         let resultsIndex = 0;
@@ -34,18 +28,9 @@ function searchOnChange() {
                 resultsIndex++;
             }
         }
-
-        if (!results.hasOwnProperty(0)) {
-            notFoundMessageBox.style.display = 'block';
-            notFoundMessage.innerText = searchText;
-        } else {
-            notFoundMessageBox.style.display = 'none';
-        }
-
         loadProjects(results);
     } else {
         loadProjects(projects);
-        notFoundMessageBox.style.display = 'none';
     }
 }
 
