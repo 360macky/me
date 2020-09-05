@@ -11,7 +11,6 @@
   "welcomePage": {
     "title": "Hi, I am Marcelo",
     "briefDescription": "an experienced JavaScript developer",
-    "longerDescription": "I like to learn, and I love to create.",
     "buttonCallToAction": "Things that I do"
   },
   "projects": {
