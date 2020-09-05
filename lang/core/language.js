@@ -190,9 +190,6 @@ function renderLanguageContent(language) {
   document.getElementById(
     'moreData__content'
   ).children[3].children[1].innerText = language.about.card_3.content[3];
-  document.getElementById(
-    'moreData__content'
-  ).children[4].children[1].innerText = language.about.card_3.content[4];
 
   // Contact
   document.getElementById('contactTitle').innerText = language.contact.title;
