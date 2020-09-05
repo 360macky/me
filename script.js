@@ -1,67 +1,5 @@
 
 
-const projects = {
-    '0': {
-        name: 'SpaceX Capsules Search',
-        description:
-            'SpaceX Capsules Finder with information like landings, status, type and more',
-        tags: ['SpaceX API', 'ReactJS', 'NodeJS', 'SpaceX'],
-        url_repo: 'https://github.com/360macky/spacex-capsules-search',
-        url_deploy: 'https://spacex-capsules-search.vercel.app/',
-        image:
-            'https://raw.githubusercontent.com/360macky/spacex-capsules-search/master/src/images/spacex-background.jpg',
-    },
-    '1': {
-        name: 'Fashion Item Classifier',
-        description:
-            'A  fashion-item classifier developed with TensorFlow 2.0.0',
-        tags: ['TensorFlow', 'Python', 'Keras', 'Neural Networks'],
-        url_repo: 'https://github.com/360macky/FashionItem-Classifier',
-        url_deploy: 'https://spacex-capsules-search.vercel.app/',
-        image:
-            'https://github.com/zalandoresearch/fashion-mnist/raw/master/doc/img/fashion-mnist-sprite.png',
-    },
-    '2': {
-        name: 'ReactFlix',
-        description:
-            'Search and know more about your favorite movies instantly',
-        tags: [
-            'ReactJS',
-            'NodeJS',
-            'Async-await',
-            'The Movie Database',
-            'JSON',
-            'JavaScript',
-        ],
-        url_repo: 'https://github.com/360macky/ReactFlix',
-        url_deploy: 'https://reactflix.vercel.app/',
-        image:
-            'https://github.com/360macky/ReactFlix/raw/master/screenshot_1.png',
-    },
-    '3': {
-        name: 'ISS-Tracker',
-        description: 'Tracking locator for the International Space Station',
-        tags: [
-            'Python',
-            'ISS Tracker',
-            'Requests',
-            'International Space Station',
-        ],
-        url_repo: 'https://github.com/360macky/ISS-tracker',
-        url_deploy: 'https://github.com/360macky/ISS-tracker',
-        image:
-            'https://github.com/360macky/ISS-tracker/raw/master/screenshot.png',
-    },
-    '4': {
-        name: 'Clickmoji',
-        description: 'Beautiful emoji app with Vue',
-        tags: ['Vue', 'JavaScript', 'Vue Components', 'GitHub Pages'],
-        url_repo: 'https://github.com/360macky/clickmoji',
-        url_deploy: 'https://360macky.github.io/clickmoji/',
-        image:
-            'https://github.com/360macky/clickmoji/raw/master/screenshot.png',
-    },
-};
 
 function searchOnChange() {
     let searchText = document.getElementById('search').value;
@@ -98,8 +36,6 @@ function searchOnChange() {
             notFoundMessageBox.style.display = 'none';
         }
 
-        // console.log({ searchText });
-        console.log(results);
         loadProjects(results);
     } else {
         loadProjects(projects);
@@ -122,15 +58,6 @@ const cardElement = {
         '<a href="https://www.google.com/search?q=TAG" target="_blank" title="TAG">TAG</a>',
 };
 
-function concatAndReplaceTemplate(template, projectIndex, element) {
-    return template.concat(
-        cardElement[element].replace(
-            element.toUpperCase(),
-            projects[projectIndex][element]
-        )
-    );
-}
-
 function loadProjects(projectsStack) {
     let projectsGrid = document.getElementById('projects-grid');
     let projectsCards = [];
@@ -139,12 +66,6 @@ function loadProjects(projectsStack) {
         let project = projectsStack[projectIndex];
         let projectCard = '<div class="project-card">';
         let projectUrlElement = cardElement['url'];
-
-        // projectCard = concatAndReplaceTemplate(
-        //     projectCard,
-        //     projectIndex,
-        //     'image'
-        // );
 
         projectCard = projectCard.concat(
             cardElement['image'].replace(
@@ -166,17 +87,6 @@ function loadProjects(projectsStack) {
                 projectsStack[projectIndex]['description']
             )
         );
-
-        // projectCard = concatAndReplaceTemplate(
-        //     projectCard,
-        //     projectIndex,
-        //     'name'
-        // );
-        // projectCard = concatAndReplaceTemplate(
-        //     projectCard,
-        //     projectIndex,
-        //     'description'
-        // );
 
         let projectTagsElement =
             '<p class="project-tags" id="project-tags"><b>Tags:</b>&nbsp;';
@@ -210,5 +120,3 @@ function loadProjects(projectsStack) {
     projectsCards = projectsCards.join('');
     projectsGrid.innerHTML = projectsCards;
 }
-
-loadProjects(projects);
