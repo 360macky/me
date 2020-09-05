@@ -59,9 +59,14 @@ ul {
     list-style: none;
 }
 
+button,
 a {
     text-decoration: none;
     color: var(--white);
+    cursor: pointer;
+}
+
+a label {
     cursor: pointer;
 }
 
