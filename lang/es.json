@@ -27,11 +27,11 @@
         "title": "Un poco más de mí",
         "card_1": {
             "title": "Breve historia",
-            "content": "Después de aprender mucho sobre la evolución de Internet, en 2015 decidí crear mi primer sitio web. A partir de ahí aprendí mucho sobre informática. Lo que me motivó a seguir aprendiendo más en otros campos como el diseño, la inteligencia artificial, la música o la algoritmia."
+            "content": "Después de aprender mucho sobre la evolución de Internet, en 2015 decidí crear mi primer sitio web. A partir de ahí aprendí mucho sobre informática. Lo que me motivó a seguir aprendiendo más en otros campos como el diseño, la inteligencia artificial, o la algoritmia."
         },
         "card_2": {
             "title": "Hoy",
-            "content": "Entonces me convertí en un programador autodidacta. Un gran fanático de aprender sobre cualquier tecnología. Aplicarla a proyectos de innovación, investigación científica o ayuda social. Y también enseñar a usarla."
+            "content": "Entonces me convertí en un programador autodidacta. Un gran fanático de aprender sobre cualquier tecnología. Aplicarla a proyectos de innovación, investigación científica o impacto social."
         },
         "card_3": {
             "title": "Más datos",
@@ -39,7 +39,6 @@
                 "Tengo 18 años.",
                 "Aproximadamente 5 años programando.",
                 "Actualmente estoy estudiando en el instituto tecnológico SENATI.",
-                "Enseño Ciencias de la Computación en YouTube.",
                 "Amo lo que hago."
             ]
         }

@@ -27,11 +27,11 @@
     "title": "A little more about me",
     "card_1": {
       "title": "Brief story",
-      "content": "After learning a lot about how the Internet has evolved, in 2015 I decided to create my first website. From there I learned a lot about computer science. What motivated me to continue learning more in other fields such as design, artificial intelligence, music or algorithms."
+      "content": "After learning a lot about how the Internet has evolved, in 2015 I decided to create my first website. From there I learned a lot about computer science. What motivated me to continue learning more in other fields such as design, artificial intelligence, or algorithms."
     },
     "card_2": {
       "title": "Today",
-      "content": "So I became a self-taught developer. A big fan of learning about any technology. And apply it to innovation projects, scientific research or social aid. And also teach how to use it."
+      "content": "So I became a self-taught developer. A big fan of learning about any technology. And apply it to innovation projects, scientific research or social aid."
     },
     "card_3": {
       "title": "Más datos",
@@ -39,7 +39,6 @@
         "I'm 18 years old",
         "About 5 years programming.",
         "I am currently studying at the SENATI technology institute.",
-        "I teach computer science on YouTube.",
         "I love what I do."
       ]
     }
