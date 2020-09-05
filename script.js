@@ -1,7 +1,13 @@
-
-
-
 function searchOnChange() {
+
+    let projects;
+
+    if (languageCode == 'es') {
+        projects = SPANISH_PROJECTS;
+    } else {
+        projects = ENGLISH_PROJECTS;
+    }
+
     let searchText = document.getElementById('search').value;
 
     let notFoundMessageBox = document.getElementById(
@@ -41,10 +47,6 @@ function searchOnChange() {
         loadProjects(projects);
         notFoundMessageBox.style.display = 'none';
     }
-
-    // If search is not -1
-    // then storage this object
-    // In a object group and show it
 }
 
 const cardElement = {
