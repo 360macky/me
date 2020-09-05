@@ -18,7 +18,7 @@
     "projectInput": "Search in my projects",
     "projectCard": {
       "tags": "Tags",
-      "lookCode": "Look documentation",
+      "lookCode": "History",
       "use": "Use"
     },
     "moreProjectsButton": "Show all"
