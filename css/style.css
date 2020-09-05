@@ -253,6 +253,7 @@ img {
     max-width: 1280px;
     margin: 0rem auto;
     margin-bottom: 70px;
+    align-items: flex-start;
 }
 
 .project {
