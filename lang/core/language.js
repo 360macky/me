@@ -13,8 +13,6 @@ function renderLanguageContent(language) {
   document.getElementById('title').innerText = language.welcomePage.title;
   document.getElementById('briefDescription').innerText =
     language.welcomePage.briefDescription;
-  document.getElementById('longerDescription').innerText =
-    language.welcomePage.longerDescription;
   document.getElementById('buttonCallToAction').innerText =
     language.welcomePage.buttonCallToAction;
 
