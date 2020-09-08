@@ -19,14 +19,14 @@ const ENGLISH_PROJECTS = {
           'https://raw.githubusercontent.com/360macky/spacex-capsules-search/master/src/images/spacex-background.jpg',
   },
   '1': {
-      name: 'Fashion Item Classifier',
+      name: 'Lyrics Machine',
       description:
-          'A  fashion-item classifier developed with TensorFlow 2.0.0',
-      tags: ['TensorFlow', 'Python', 'Keras', 'Neural Networks'],
-      url_repo: 'https://github.com/360macky/FashionItem-Classifier',
-      url_deploy: 'https://spacex-capsules-search.vercel.app/',
+          'Get the lyrics of your favorite songs instantly',
+      tags: ['Babel', 'Webpack', 'Sass', 'Fetch API', 'Bootstrap'],
+      url_repo: 'https://github.com/360macky/lyrics-machine',
+      url_deploy: 'https://lyrics-machine.vercel.app/',
       image:
-          'https://github.com/zalandoresearch/fashion-mnist/raw/master/doc/img/fashion-mnist-sprite.png',
+          'https://github.com/360macky/lyrics-machine/raw/master/.github/screenshot.png',
   },
   '2': {
       name: 'ReactFlix',
@@ -85,11 +85,11 @@ const SPANISH_PROJECTS = {
       name: 'Máquina de letras',
       description:
           'Obtén la letra de una canción de forma instantánea',
-      tags: ['Babel', 'Webpack', 'Sass', 'Fetch API'],
-      url_repo: 'https://github.com/360macky/FashionItem-Classifier',
-      url_deploy: 'https://spacex-capsules-search.vercel.app/',
+      tags: ['Babel', 'Webpack', 'Sass', 'Fetch API', 'Bootstrap'],
+      url_repo: 'https://github.com/360macky/lyrics-machine',
+      url_deploy: 'https://lyrics-machine.vercel.app/',
       image:
-          'https://github.com/zalandoresearch/fashion-mnist/raw/master/doc/img/fashion-mnist-sprite.png',
+          'https://github.com/360macky/lyrics-machine/raw/master/.github/screenshot.png',
   },
   '2': {
       name: 'ReactFlix',
