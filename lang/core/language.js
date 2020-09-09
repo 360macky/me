@@ -46,18 +46,20 @@ const ENGLISH_PROJECTS = {
           'https://github.com/360macky/ReactFlix/raw/master/screenshot_1.png',
   },
   '3': {
-      name: 'ISS-Tracker',
+      name: 'ISS Realtime Locator',
       description: 'Tracking locator for the International Space Station',
       tags: [
-          'Python',
-          'ISS Tracker',
-          'Requests',
+          'ReactJS',
+          'Webpack',
+          'Babel',
+          'Sass',
+          'Google Maps',
           'International Space Station',
       ],
-      url_repo: 'https://github.com/360macky/ISS-tracker',
-      url_deploy: 'https://github.com/360macky/ISS-tracker',
+      url_repo: 'https://github.com/360macky/ISS-Realtime-Locator/',
+      url_deploy: 'https://iss-realtime-locator.vercel.app/',
       image:
-          'https://github.com/360macky/ISS-tracker/raw/master/screenshot.png',
+          'https://github.com/360macky/ISS-Realtime-Locator/raw/master/.github/screenshot.png',
   },
   '4': {
       name: 'Clickmoji',
@@ -137,6 +139,22 @@ const SPANISH_PROJECTS = {
       url_deploy: 'https://360macky.github.io/clickmoji/',
       image:
           'https://github.com/360macky/clickmoji/raw/master/screenshot.png',
+  },
+  '6': {
+      name: 'Localizador de la ISS',
+      description: 'Localizador de seguimiento para la Estación Espacial Internacional',
+      tags: [
+          'ReactJS',
+          'Webpack',
+          'Babel',
+          'Sass',
+          'Google Maps',
+          'International Space Station',
+      ],
+      url_repo: 'https://github.com/360macky/ISS-Realtime-Locator/',
+      url_deploy: 'https://iss-realtime-locator.vercel.app/',
+      image:
+          'https://github.com/360macky/ISS-Realtime-Locator/raw/master/.github/screenshot.png',
   },
 };
 
