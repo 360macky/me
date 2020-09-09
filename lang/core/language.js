@@ -70,6 +70,15 @@ const ENGLISH_PROJECTS = {
       image:
           'https://github.com/360macky/clickmoji/raw/master/screenshot.png',
   },
+  '5': {
+    name: 'SurveyFormCSS',
+    description: 'Modern style form on GitHub Pages',
+    tags: ['HTML', 'CSS', 'freeCodeCamp'],
+    url_repo: 'https://github.com/360macky/SurveyFormCSS',
+    url_deploy: 'https://360macky.github.io/SurveyFormCSS/',
+    image:
+        'https://github.com/360macky/SurveyFormCSS/raw/master/screenshot.png',
+    },
 };
 
 const SPANISH_PROJECTS = {
