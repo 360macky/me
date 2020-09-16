@@ -141,15 +141,6 @@ const SPANISH_PROJECTS = {
           'https://github.com/360macky/SurveyFormCSS/raw/master/screenshot.png',
   },
   '5': {
-      name: 'Clickmoji',
-      description: 'Aplicación de emojis y colores en VueJS',
-      tags: ['HTML', 'CSS', 'VueJS'],
-      url_repo: 'https://github.com/360macky/clickmoji',
-      url_deploy: 'https://360macky.github.io/clickmoji/',
-      image:
-          'https://github.com/360macky/clickmoji/raw/master/screenshot.png',
-  },
-  '6': {
       name: 'Localizador de la ISS',
       description: 'Localizador de seguimiento para la Estación Espacial Internacional',
       tags: [
