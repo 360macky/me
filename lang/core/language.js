@@ -43,7 +43,7 @@ const ENGLISH_PROJECTS = {
       url_repo: 'https://github.com/360macky/ReactFlix',
       url_deploy: 'https://reactflix.vercel.app/',
       image:
-          'https://github.com/360macky/ReactFlix/raw/master/screenshot_1.png',
+          'https://raw.githubusercontent.com/360macky/ReactFlix/master/.github/screenshot_1.png',
   },
   '3': {
       name: 'ISS Realtime Locator',
@@ -116,7 +116,7 @@ const SPANISH_PROJECTS = {
       url_repo: 'https://github.com/360macky/ReactFlix',
       url_deploy: 'https://reactflix.vercel.app/',
       image:
-          'https://github.com/360macky/ReactFlix/raw/master/screenshot_1.png',
+          'https://raw.githubusercontent.com/360macky/ReactFlix/master/.github/screenshot_1.png',
   },
   '3': {
       name: 'Pedro Paulet Tribute',
