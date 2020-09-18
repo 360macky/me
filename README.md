@@ -1,11 +1,3 @@
-<style>
-  @import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
-
-  h1 {
-    font-family: 'Montserrat', sans-serif;
-  }
-</style>
-
 <h1 align="center">MarceloArias.com</h1>
 
 <p align="center"> 💡 Portfolio of projects and applications made by me 😊</p>
