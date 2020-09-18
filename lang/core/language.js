@@ -16,7 +16,7 @@ const ENGLISH_PROJECTS = {
       url_repo: 'https://github.com/360macky/Saturn',
       url_deploy: 'https://saturn-store.cf/',
       image:
-          'https://github.com/360macky/Saturn/blob/master/.github/screenshot_tablet.png',
+          'https://raw.githubusercontent.com/360macky/Saturn/master/.github/screenshot_tablet.png',
   },
   '1': {
       name: 'SpaceX Capsules Search',
@@ -91,7 +91,7 @@ const SPANISH_PROJECTS = {
       url_repo: 'https://github.com/360macky/Saturn',
       url_deploy: 'https://saturn-store.cf/',
       image:
-          'https://github.com/360macky/Saturn/blob/master/.github/screenshot_tablet.png',
+          'https://raw.githubusercontent.com/360macky/Saturn/master/.github/screenshot_tablet.png',
   },
   '1': {
       name: 'SpaceX Capsules Search',
