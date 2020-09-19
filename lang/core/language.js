@@ -14,7 +14,7 @@ const ENGLISH_PROJECTS = {
           'Ecommerce website powered by Firebase and integrated with Stripe',
       tags: ['ReactJS', 'Firebase', 'Material Icons', 'Stripe', 'React Router'],
       url_repo: 'https://github.com/360macky/Saturn',
-      url_deploy: 'https://saturn-store.cf/',
+      url_deploy: 'https://saturn-32b13.web.app/',
       image:
           'https://raw.githubusercontent.com/360macky/Saturn/master/.github/screenshot_tablet.png',
   },
@@ -89,7 +89,7 @@ const SPANISH_PROJECTS = {
           'Sitio web de comercio electrónico alojado en Firebase e integrado con Stripe',
       tags: ['ReactJS', 'Firebase', 'Material Icons', 'Stripe', 'React Router'],
       url_repo: 'https://github.com/360macky/Saturn',
-      url_deploy: 'https://saturn-store.cf/',
+      url_deploy: 'https://saturn-32b13.web.app/',
       image:
           'https://raw.githubusercontent.com/360macky/Saturn/master/.github/screenshot_tablet.png',
   },
