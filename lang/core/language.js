@@ -71,7 +71,7 @@ const ENGLISH_PROJECTS = {
       image:
           'https://github.com/360macky/ISS-Realtime-Locator/raw/master/.github/screenshot.png',
   },
-  '6': {
+  '5': {
     name: 'Manzana LLC',
     description: 'The demo-platform for renting rooms, houses, and workspaces',
     tags: ['React', 'NodeJS', 'Firebase', 'React Date Range'],
@@ -146,15 +146,6 @@ const SPANISH_PROJECTS = {
         'https://github.com/360macky/ISS-Realtime-Locator/raw/master/.github/screenshot.png',
   },
   '5': {
-      name: 'SurveyFormCSS',
-      description: 'Formulario de estilo moderno en GitHub Pages',
-      tags: ['HTML', 'CSS', 'freeCodeCamp'],
-      url_repo: 'https://github.com/360macky/SurveyFormCSS',
-      url_deploy: 'https://360macky.github.io/SurveyFormCSS/',
-      image:
-          'https://github.com/360macky/SurveyFormCSS/raw/master/screenshot.png',
-  },
-  '6': {
     name: 'Manzana LLC',
     description: 'La plataforma de demostración para alquilar habitaciones, casas y espacios de trabajo',
     tags: ['React', 'NodeJS', 'Firebase', 'React Date Range'],
