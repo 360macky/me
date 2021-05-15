@@ -4,8 +4,8 @@ document.cookie = 'preferredLanguage=' + languageCode;
 let languageEs = {};
 let languageEn = {};
 
-const SPANISH_LANGUAGE = 'https://marceloarias.com/lang/es.json';
-const ENGLISH_LANGUAGE = 'https://marceloarias.com/lang/en.json';
+const SPANISH_LANGUAGE = 'https://portfolio.marceloarias.com/lang/es.json';
+const ENGLISH_LANGUAGE = 'https://portfolio.marceloarias.com/lang/en.json';
 
 const ENGLISH_PROJECTS = {
   '0': {
