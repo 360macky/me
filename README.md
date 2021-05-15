@@ -1,7 +1,7 @@
-<h1 align="center">MarceloArias.com</h1>
+<h1 align="center">Portfolio.MarceloArias.com</h1>
 
-<p align="center"> 💡 Portfolio of projects and applications made by me 😊</p>
-<p align="center"><a href="https://marceloarias.com/">💻 Go to the website! 🚀</a></p>
+<p align="center"> 💡 Portfolio of projects and web applications made by me 😊</p>
+<p align="center"><a href="https://portfolio.marceloarias.com/">💻 Go to the website! 🚀</a></p>
 
 <img
   src=".github/screenshot.png"
