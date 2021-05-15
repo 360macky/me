@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Fira+Code:300|Montserrat:600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fira+Code:300|Inter:600&display=swap');
 
 * {
     margin: 0;
@@ -18,7 +18,7 @@
     --color-primary: #425fc7;
     --color-dark: #003696;
     --mobile-font-width: 28.75em;
-    --font-montserrat: 'Montserrat', sans-serif;
+    --font-montserrat: 'Inter', sans-serif;
     --font-fira-code: 'Fira Code', monospace;
 }
 
