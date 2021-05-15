@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Fira+Code:300|Inter:600;800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fira+Code:300|Inter:600;800;900&display=swap');
 
 * {
     margin: 0;
@@ -30,7 +30,6 @@ html {
 body {
     font-family: var(--font-fira-code);
     font-size: 1.8rem;
-    font-weight: 300;
     line-height: 1;
     color: var(--white);
     box-sizing: border-box;
