@@ -19,7 +19,7 @@
     "projectCard": {
       "tags": "Tags",
       "lookCode": "Code",
-      "use": "Use"
+      "use": "Open app"
     },
     "moreProjectsButton": "Show all"
   },
@@ -27,17 +27,17 @@
     "title": "A little more about me",
     "card_1": {
       "title": "Brief story",
-      "content": "After learning a lot about how the Internet has evolved, in 2015 I decided to create my first website. From there I learned a lot about computer science. What motivated me to continue learning more in other fields such as design, artificial intelligence, or algorithms."
+      "content": "Since 2015 I started creating my first websites. I learned the basics of HTML at a very young age, and over the years I have supplemented my knowledge with CSS and JavaScript. I have worked with Vue and Angular, but React.js is my preferred library."
     },
     "card_2": {
       "title": "Today",
-      "content": "So I became a self-taught developer. A big fan of learning about any technology. And apply it to innovation projects, scientific research or social aid."
+      "content": "As a FrontEnd developer I can now build, design and deploy sites using good practices. I'm still learning about web UX design, UI prototyping, and new JS libraries."
     },
     "card_3": {
       "title": "More data",
       "content": [
         "I'm 19 years old",
-        "About 5 years programming.",
+        "About 6 years programming, and with work experience.",
         "I am currently studying at the SENATI technology institute.",
         "I love what I do."
       ]
@@ -49,7 +49,7 @@
       "github": "GitHub Projects",
       "twitter": "Twitter",
       "mail": "Send a mail",
-      "youtube": "Send me a message",
+      "youtube": "Watch my videos",
       "linkedin": "My certifications"
     }
   }

@@ -19,25 +19,25 @@
         "projectCard": {
             "tags": "Etiquetas",
             "lookCode": "Código",
-            "use": "¡Usar!"
+            "use": "Abrir app"
         },
         "moreProjectsButton": "Ver más"
     },
     "about": {
-        "title": "Un poco más de mí",
+        "title": "Sobre mí",
         "card_1": {
             "title": "Breve historia",
-            "content": "Después de aprender mucho sobre la evolución de Internet, decidí crear mi primer sitio web. A partir de ahí aprendí mucho sobre informática. Lo que me motivó a seguir aprendiendo más en otros campos como el diseño, la inteligencia artificial o la algoritmia."
+            "content": "Desde 2015 comencé a crear mis primeros sitios web. Aprendí los conceptos básicos de HTML y he complementado mis conocimientos con CSS y JavaScript. He trabajado con Vue y Angular, pero React.js es mi librería preferida."
         },
         "card_2": {
             "title": "Actualmente",
-            "content": "Soy un programador autodidacta. Un gran fanático de aprender sobre cualquier tecnología. Aplicarla a proyectos de innovación, investigación científica o impacto social."
+            "content": "Como desarrollador de FrontEnd, puedo crear, diseñar e implementar sitios web utilizando buenas prácticas. Aún así, sigo aprendiendo sobre diseño UX, prototipos de UI y nuevas librerías JS."
         },
         "card_3": {
             "title": "Más datos",
             "content": [
                 "Tengo 19 años.",
-                "Aproximadamente 5 años programando.",
+                "Aproximadamente 6 años programando, y con experiencia laboral previa.",
                 "Actualmente estoy estudiando en el instituto tecnológico SENATI.",
                 "Amo lo que hago."
             ]
@@ -49,7 +49,7 @@
             "github": "Proyectos en GitHub",
             "twitter": "Twitter",
             "mail": "Envíame un correo",
-            "youtube": "Envíame un mensaje",
+            "youtube": "Mira mis vídeos",
             "linkedin": "Mis certificaciones"
         }
     }
