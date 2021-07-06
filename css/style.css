@@ -14,6 +14,7 @@
 :root {
     --white: #f3f3f3;
     --color-default: #2a313a;
+    --color-black: #1b1f25;
     --color-default-darker: #001367;
     --color-primary: #425fc7;
     --color-dark: #003696;
@@ -295,7 +296,7 @@ img {
 
 .project-actions__button {
     cursor: pointer;
-    background-color: var(--color-default-darker);
+    background-color: var(--color-black);
     color: white;
     border: none;
     border-radius: 10px;
@@ -320,6 +321,21 @@ i {
 
 .project-actions__button--recommended {
     background-color: var(--color-primary);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .footer-atom {
+        animation: footer-atom-spin infinite 3s ease-in-out;
+    }
+}
+
+@keyframes footer-atom-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
 }
 
 .project-actions__button--recommended:hover
@@ -482,15 +498,30 @@ i {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .about-me-container > div {
     width: 380px;
     background-color: white;
-    color: black;
-    padding: 18px;
+    color: rgb(17, 17, 17);
+    padding: 28px;
     margin: 20px;
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 25px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.about-me-container > div:hover {
+    background-color: var(--color-primary);
+    transition: 300ms background-color, color;
+    color: white;
+}
+
+.about-me-container > div:hover h3 {
+    transition: 300ms color;
+    color: white;
 }
 
 .about-me-container h3 {
