@@ -72,13 +72,13 @@ const ENGLISH_PROJECTS = {
           'https://github.com/360macky/ISS-Realtime-Locator/raw/master/.github/screenshot.png',
   },
   '5': {
-    name: 'SurveyFormCSS',
-    description: 'Modern style form on GitHub Pages',
-    tags: ['HTML', 'CSS', 'freeCodeCamp'],
-    url_repo: 'https://github.com/360macky/SurveyFormCSS',
-    url_deploy: 'https://360macky.github.io/SurveyFormCSS/',
+    name: 'Manzana',
+    description: 'The demo-platform for renting rooms, houses, and workspaces in LATAM',
+    tags: ['Firebase', 'React Router', 'React Date Range', 'Node.js'],
+    url_repo: 'https://github.com/360macky/manzana',
+    url_deploy: 'https://manzana-app.web.app/',
     image:
-        'https://github.com/360macky/SurveyFormCSS/raw/master/screenshot.png',
+        'https://github.com/360macky/manzana/raw/master/.github/screenshot.png',
     },
 };
 
@@ -146,13 +146,13 @@ const SPANISH_PROJECTS = {
         'https://github.com/360macky/ISS-Realtime-Locator/raw/master/.github/screenshot.png',
   },
   '5': {
-      name: 'SurveyFormCSS',
-      description: 'Formulario de estilo moderno en GitHub Pages',
-      tags: ['HTML', 'CSS', 'freeCodeCamp'],
-      url_repo: 'https://github.com/360macky/SurveyFormCSS',
-      url_deploy: 'https://360macky.github.io/SurveyFormCSS/',
+      name: 'Manzana',
+      description: 'La plataforma demo para adquirir espacios libres en LATAM',
+      tags: ['Firebase', 'React Router', 'React Date Range', 'Node.js'],
+      url_repo: 'https://github.com/360macky/manzana',
+      url_deploy: 'https://manzana-app.web.app/',
       image:
-          'https://github.com/360macky/SurveyFormCSS/raw/master/screenshot.png',
+          'https://github.com/360macky/manzana/raw/master/.github/screenshot.png',
   },
 };
 
