@@ -16,7 +16,7 @@ const ENGLISH_PROJECTS = {
       url_repo: 'https://github.com/360macky/Saturn',
       url_deploy: 'https://saturn-32b13.web.app/',
       image:
-          'https://raw.githubusercontent.com/360macky/Saturn/master/.github/screenshot_tablet.png',
+          'https://portfolio.marceloarias.com/images/projects/saturn.webp',
   },
   '1': {
       name: 'SpaceX Capsules Search',
@@ -26,7 +26,7 @@ const ENGLISH_PROJECTS = {
       url_repo: 'https://github.com/360macky/spacex-capsules-search',
       url_deploy: 'https://spacex-capsules-search.vercel.app/',
       image:
-          'https://raw.githubusercontent.com/360macky/spacex-capsules-search/master/src/images/spacex-background.jpg',
+          'https://portfolio.marceloarias.com/images/projects/spacex-search.webp',
   },
   '2': {
       name: 'Lyrics Machine',
@@ -36,7 +36,7 @@ const ENGLISH_PROJECTS = {
       url_repo: 'https://github.com/360macky/lyrics-machine',
       url_deploy: 'https://lyrics-machine.vercel.app/',
       image:
-          'https://github.com/360macky/lyrics-machine/raw/master/.github/screenshot.png',
+          'https://portfolio.marceloarias.com/images/projects/lyrics-machine.webp',
   },
   '3': {
       name: 'ReactFlix',
@@ -53,7 +53,7 @@ const ENGLISH_PROJECTS = {
       url_repo: 'https://github.com/360macky/ReactFlix',
       url_deploy: 'https://reactflix.vercel.app/',
       image:
-          'https://raw.githubusercontent.com/360macky/ReactFlix/master/.github/screenshot_1.png',
+          'https://portfolio.marceloarias.com/images/projects/reactflix.webp',
   },
   '4': {
       name: 'ISS Realtime Locator',
@@ -69,7 +69,7 @@ const ENGLISH_PROJECTS = {
       url_repo: 'https://github.com/360macky/ISS-Realtime-Locator/',
       url_deploy: 'https://iss-realtime-locator.vercel.app/',
       image:
-          'https://github.com/360macky/ISS-Realtime-Locator/raw/master/.github/screenshot.png',
+          'https://portfolio.marceloarias.com/images/projects/iss-realtime-locator.webp',
   },
   '5': {
     name: 'Manzana',
@@ -78,7 +78,7 @@ const ENGLISH_PROJECTS = {
     url_repo: 'https://github.com/360macky/manzana',
     url_deploy: 'https://manzana-app.web.app/',
     image:
-        'https://github.com/360macky/manzana/raw/master/.github/screenshot.png',
+        'https://portfolio.marceloarias.com/images/projects/manzana.webp',
     },
 };
 
@@ -91,7 +91,7 @@ const SPANISH_PROJECTS = {
       url_repo: 'https://github.com/360macky/Saturn',
       url_deploy: 'https://saturn-32b13.web.app/',
       image:
-          'https://raw.githubusercontent.com/360macky/Saturn/master/.github/screenshot_tablet.png',
+          'https://portfolio.marceloarias.com/images/projects/saturn.webp',
   },
   '1': {
       name: 'SpaceX Capsules Search',
@@ -101,7 +101,7 @@ const SPANISH_PROJECTS = {
       url_repo: 'https://github.com/360macky/spacex-capsules-search',
       url_deploy: 'https://spacex-capsules-search.vercel.app/',
       image:
-          'https://raw.githubusercontent.com/360macky/spacex-capsules-search/master/src/images/spacex-background.jpg',
+          'https://portfolio.marceloarias.com/images/projects/spacex-search.webp',
   },
   '2': {
       name: 'Máquina de letras',
@@ -111,7 +111,7 @@ const SPANISH_PROJECTS = {
       url_repo: 'https://github.com/360macky/lyrics-machine',
       url_deploy: 'https://lyrics-machine.vercel.app/',
       image:
-          'https://github.com/360macky/lyrics-machine/raw/master/.github/screenshot.png',
+          'https://portfolio.marceloarias.com/images/projects/lyrics-machine.webp',
   },
   '3': {
       name: 'ReactFlix',
@@ -127,7 +127,7 @@ const SPANISH_PROJECTS = {
       url_repo: 'https://github.com/360macky/ReactFlix',
       url_deploy: 'https://reactflix.vercel.app/',
       image:
-          'https://raw.githubusercontent.com/360macky/ReactFlix/master/.github/screenshot_1.png',
+          'https://portfolio.marceloarias.com/images/projects/reactflix.webp',
   },
   '4': {
     name: 'Localizador en tiempo real de ISS',
@@ -143,7 +143,7 @@ const SPANISH_PROJECTS = {
     url_repo: 'https://github.com/360macky/ISS-Realtime-Locator/',
     url_deploy: 'https://iss-realtime-locator.vercel.app/',
     image:
-        'https://github.com/360macky/ISS-Realtime-Locator/raw/master/.github/screenshot.png',
+        'https://portfolio.marceloarias.com/images/projects/iss-realtime-locator.webp',
   },
   '5': {
       name: 'Manzana',
@@ -152,7 +152,7 @@ const SPANISH_PROJECTS = {
       url_repo: 'https://github.com/360macky/manzana',
       url_deploy: 'https://manzana-app.web.app/',
       image:
-          'https://github.com/360macky/manzana/raw/master/.github/screenshot.png',
+          'https://portfolio.marceloarias.com/images/projects/manzana.webp',
   },
 };
 
