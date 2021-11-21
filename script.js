@@ -40,9 +40,9 @@ const cardElement = {
     name: '<p class="project-title">NAME</p>',
     description: '<p class="project-description">DESCRIPTION</p>',
     url:
-        '<div class="project-actions"><a class="project-actions__button project-actions__button--secondary" href="URL_REPO" target="_blank"><i class="fas fa-laptop-code"></i> <label class="lookCode">Look code</label> <i class="fas fa-microscope"></i></a><a class="project-actions__button project-actions__button--recommended" href="URL_DEPLOY" target="_blank"><i class="fas fa-meteor"></i> <label class="use">Use!</label> <i class="fas fa-atom"></i></a></div>',
+        '<div class="project-actions"><a class="project-actions__button project-actions__button--secondary" href="URL_REPO" target="_blank" rel="noreferrer"><i class="fas fa-laptop-code"></i> <label class="lookCode">Look code</label> <i class="fas fa-microscope"></i></a><a class="project-actions__button project-actions__button--recommended" href="URL_DEPLOY" target="_blank" rel="noreferrer"><i class="fas fa-meteor"></i> <label class="use">Use!</label> <i class="fas fa-atom"></i></a></div>',
     tag:
-        '<a href="https://www.google.com/search?q=TAG" target="_blank" title="TAG">TAG</a>',
+        '<a href="https://www.google.com/search?q=TAG" target="_blank" title="TAG" rel="noreferrer">TAG</a>',
 };
 
 function loadProjects(projectsStack) {
