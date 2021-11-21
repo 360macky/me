@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Fira+Code:300|Inter:600;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Inter:wght@300;500;700&display=swap');
 
 * {
     margin: 0;
@@ -56,6 +56,11 @@ h3 {
     font-weight: 800;
 }
 
+.website-title {
+    letter-spacing: -0.15rem;
+    font-weight: 700;
+}
+
 ul {
     list-style: none;
 }
@@ -102,7 +107,7 @@ img {
     background-color: var(--color-dark);
 }
 
-@media (max-width: 460px) {
+@media (max-width: 640px) {
     .nav-list label {
         display: none;
     }
@@ -141,7 +146,7 @@ img {
     }
 }
 
-@media (min-width: 460px) {
+@media (min-width: 640px) {
     .btn__call-action {
         font-size: 1.8rem;
     }
@@ -229,7 +234,7 @@ img {
     background-color: var(--color-default-darker);
 }
 
-@media (max-width: 460px) {
+@media (max-width: 640px) {
     .searchbox {
         width: 100%;
         font-size: 1.4rem;
@@ -245,7 +250,7 @@ img {
     margin: 0px auto 70px auto;
 }
 
-@media (max-width: 460px) {
+@media (max-width: 640px) {
     .projects-section-header {
         font-size: 3.8rem;
     }
@@ -549,7 +554,7 @@ i {
     font-size: 6rem;
 }
 
-@media (max-width: 460px) {
+@media (max-width: 640px) {
     .contact-section-header {
         font-size: 4rem;
     }
@@ -592,7 +597,7 @@ footer {
     padding: 2rem;
 }
 
-@media (max-width: 460px) {
+@media (max-width: 640px) {
     footer {
         flex-direction: column;
         text-align: center;
