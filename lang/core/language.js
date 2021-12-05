@@ -19,12 +19,12 @@ const ENGLISH_PROJECTS = {
           'https://portfolio.marceloarias.com/images/projects/saturn.webp',
   },
   '1': {
-      name: 'SpaceX Capsules Search',
+      name: '1spaceX',
       description:
           'SpaceX Capsules Finder with information like landings, status, type and more',
       tags: ['SpaceX API', 'ReactJS', 'NodeJS', 'SpaceX'],
       url_repo: 'https://github.com/360macky/spacex-capsules-search',
-      url_deploy: 'https://spacex-capsules-search.vercel.app/',
+      url_deploy: 'https://1spacex.com/',
       image:
           'https://portfolio.marceloarias.com/images/projects/spacex-search.webp',
   },
@@ -94,12 +94,12 @@ const SPANISH_PROJECTS = {
           'https://portfolio.marceloarias.com/images/projects/saturn.webp',
   },
   '1': {
-      name: 'SpaceX Capsules Search',
+      name: '1spaceX',
       description:
           'Buscador de cápsulas SpaceX con información como aterrizajes, estado, tipo y más',
       tags: ['SpaceX API', 'ReactJS', 'NodeJS', 'SpaceX'],
       url_repo: 'https://github.com/360macky/spacex-capsules-search',
-      url_deploy: 'https://spacex-capsules-search.vercel.app/',
+      url_deploy: 'https://1spacex.com/',
       image:
           'https://portfolio.marceloarias.com/images/projects/spacex-search.webp',
   },
