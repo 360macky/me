@@ -23,6 +23,11 @@
     --font-fira-code: 'Fira Code', monospace;
 }
 
+::selection {
+    color: white;
+    background: var(--color-default-darker);
+}
+
 html {
     box-sizing: border-box;
     scroll-behavior: smooth;
