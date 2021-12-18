@@ -422,14 +422,20 @@ i {
 
 .btn__call-action:hover
 .fa-magic {
-    transition: 0.3s ease-out;
     transform: rotate(20deg);
 }
 
 .btn__call-action:hover
 .fa-hand-paper {
-    transition: 0.3s ease-out;
     transform: rotate(-20deg);
+}
+
+.far,
+.fas,
+.fab {
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+    transition-property: transform;
 }
 
 .btn__show-all {
