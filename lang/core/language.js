@@ -72,13 +72,13 @@ const ENGLISH_PROJECTS = {
           'https://portfolio.marceloarias.com/images/projects/iss-realtime-locator.webp',
   },
   '5': {
-    name: 'Manzana',
-    description: 'The demo-platform for renting rooms, houses, and workspaces in LATAM',
-    tags: ['Firebase', 'React Router', 'React Date Range', 'Node.js'],
-    url_repo: 'https://github.com/360macky/manzana',
-    url_deploy: 'https://manzana-app.web.app/',
+    name: 'PlatziKey',
+    description: 'A Chrome extension that improves Platzi Exams with keyboard shortcuts, an integrated whiteboard and Zen/SSH mode',
+    tags: ['Chrome', 'JavaScript', 'Extension', 'DOM'],
+    url_repo: 'https://github.com/360macky/platzikey',
+    url_deploy: 'https://github.com/360macky/platzikey',
     image:
-        'https://portfolio.marceloarias.com/images/projects/manzana.webp',
+        'https://portfolio.marceloarias.com/images/projects/platzikey.webp',
     },
 };
 
@@ -146,14 +146,14 @@ const SPANISH_PROJECTS = {
         'https://portfolio.marceloarias.com/images/projects/iss-realtime-locator.webp',
   },
   '5': {
-      name: 'Manzana',
-      description: 'La plataforma demo para adquirir espacios libres en LATAM',
-      tags: ['Firebase', 'React Router', 'React Date Range', 'Node.js'],
-      url_repo: 'https://github.com/360macky/manzana',
-      url_deploy: 'https://manzana-app.web.app/',
-      image:
-          'https://portfolio.marceloarias.com/images/projects/manzana.webp',
-  },
+    name: 'PlatziKey',
+    description: 'Una extensión que mejora la experiencia de los exámenes de Platzi con atajos de teclado, una pizarra integrada y modo Zen/SSH',
+    tags: ['Chrome', 'JavaScript', 'Extension', 'DOM'],
+    url_repo: 'https://github.com/360macky/platzikey',
+    url_deploy: 'https://github.com/360macky/platzikey',
+    image:
+        'https://portfolio.marceloarias.com/images/projects/platzikey.webp',
+    },
 };
 
 function renderLanguageContent(language) {
