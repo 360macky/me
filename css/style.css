@@ -530,11 +530,11 @@ i {
     border: 1px solid rgb(228, 228, 228);
     border-radius: 25px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: 300ms background-color, color;
 }
 
 .about-me-container > div:hover {
     background-color: var(--color-primary);
-    transition: 300ms background-color, color;
     color: white;
 }
 
