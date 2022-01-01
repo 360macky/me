@@ -21,7 +21,8 @@
             "lookCode": "Código",
             "use": "Abrir app"
         },
-        "moreProjectsButton": "Ver más"
+    "textMoreProjects": "Tengo más proyectos Open Source",
+    "moreProjectsButton": "Ver más"
     },
     "about": {
         "title": "Sobre mí",

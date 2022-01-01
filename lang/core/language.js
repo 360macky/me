@@ -172,6 +172,8 @@ function renderLanguageContent(language) {
     language.projects.projectInput;
   document.getElementById('show-all').innerText =
     language.projects.moreProjectsButton;
+  document.getElementById('show-all-text').innerText =
+    language.projects.textMoreProjects;
 
   // Nav
   document.getElementById('nav__hello').innerText =
