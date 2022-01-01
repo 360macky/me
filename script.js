@@ -1,5 +1,4 @@
 function searchOnChange() {
-
     let projects;
 
     if (languageCode == 'es') {
@@ -19,10 +18,8 @@ function searchOnChange() {
 
             if (
                 projects[projectIndex].name.search(searchPattern) != -1 ||
-                projects[projectIndex].description.search(searchPattern) !=
-                    -1 ||
-                projects[projectIndex].tags.join(' ').search(searchPattern) !=
-                    -1
+                projects[projectIndex].description.search(searchPattern) != -1 ||
+                projects[projectIndex].tags.join(' ').search(searchPattern) != -1
             ) {
                 results[resultsIndex] = projects[projectIndex];
                 resultsIndex++;
@@ -35,14 +32,11 @@ function searchOnChange() {
 }
 
 const cardElement = {
-    image:
-        '<div class="project-image-container"><div class="project-image" style="background-image: url(\'IMAGE\');"></div></div>',
+    image: '<div class="project-image-container"><div class="project-image" style="background-image: url(\'IMAGE\');"></div></div>',
     name: '<p class="project-title">NAME</p>',
     description: '<p class="project-description">DESCRIPTION</p>',
-    url:
-        '<div class="project-actions"><a class="project-actions__button project-actions__button--secondary" href="URL_REPO" target="_blank" rel="noreferrer"><i class="fas fa-laptop-code"></i> <label class="lookCode">Look code</label> <i class="fas fa-microscope"></i></a><a class="project-actions__button project-actions__button--recommended" href="URL_DEPLOY" target="_blank" rel="noreferrer"><i class="fas fa-meteor"></i> <label class="use">Use!</label> <i class="fas fa-atom"></i></a></div>',
-    tag:
-        '<a href="https://www.google.com/search?q=TAG" target="_blank" title="TAG" rel="noreferrer">TAG</a>',
+    url: '<div class="project-actions"><a class="project-actions__button project-actions__button--secondary" href="URL_REPO" target="_blank" rel="noreferrer"><i class="fas fa-laptop-code"></i> <label class="lookCode">Look code</label> <i class="fas fa-microscope"></i></a><a class="project-actions__button project-actions__button--recommended" href="URL_DEPLOY" target="_blank" rel="noreferrer"><i class="fas fa-meteor"></i> <label class="use">Use!</label> <i class="fas fa-atom"></i></a></div>',
+    tag: '<a href="https://www.google.com/search?q=TAG" target="_blank" title="TAG" rel="noreferrer">TAG</a>',
 };
 
 function loadProjects(projectsStack) {
@@ -55,17 +49,11 @@ function loadProjects(projectsStack) {
         let projectUrlElement = cardElement['url'];
 
         projectCard = projectCard.concat(
-            cardElement['image'].replace(
-                'image'.toUpperCase(),
-                projectsStack[projectIndex]['image']
-            )
+            cardElement['image'].replace('image'.toUpperCase(), projectsStack[projectIndex]['image'])
         );
 
         projectCard = projectCard.concat(
-            cardElement['name'].replace(
-                'name'.toUpperCase(),
-                projectsStack[projectIndex]['name']
-            )
+            cardElement['name'].replace('name'.toUpperCase(), projectsStack[projectIndex]['name'])
         );
 
         projectCard = projectCard.concat(
@@ -75,29 +63,20 @@ function loadProjects(projectsStack) {
             )
         );
 
-        let projectTagsElement =
-            '<p class="project-tags" id="project-tags"><b>Tags:</b>&nbsp;';
+        let projectTagsElement = '<p class="project-tags" id="project-tags"><b>Tags:</b>&nbsp;';
 
         for (let tagIndex in project['tags']) {
             let tag = project['tags'][tagIndex];
-            projectTagsElement = projectTagsElement.concat(
-                cardElement['tag'].replace(/TAG/g, tag)
-            );
+            projectTagsElement = projectTagsElement.concat(cardElement['tag'].replace(/TAG/g, tag));
         }
 
         projectTagsElement = projectTagsElement.concat('</p>');
 
         projectCard = projectCard.concat(projectTagsElement);
 
-        projectUrlElement = projectUrlElement.replace(
-            'URL_REPO',
-            project['url_repo']
-        );
+        projectUrlElement = projectUrlElement.replace('URL_REPO', project['url_repo']);
 
-        projectUrlElement = projectUrlElement.replace(
-            'URL_DEPLOY',
-            project['url_deploy']
-        );
+        projectUrlElement = projectUrlElement.replace('URL_DEPLOY', project['url_deploy']);
 
         projectCard = projectCard.concat(projectUrlElement);
         projectCard = projectCard.concat('</div>');
