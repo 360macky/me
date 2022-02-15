@@ -3,6 +3,10 @@
 <p align="center"> 💡 Portfolio of projects and web applications made by me 😊</p>
 <p align="center"><a href="https://portfolio.marceloarias.com/">💻 Go to the website! 🚀</a></p>
 
+<p align="center">
+    <a href="https://github.com/360macky/me/actions/workflows/audit.yml"><img src="https://github.com/360macky/me/actions/workflows/audit.yml/badge.svg" /></a>
+</p>
+
 <img
   src=".github/screenshot.png"
   align="center"
