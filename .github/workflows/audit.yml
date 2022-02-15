@@ -10,6 +10,5 @@ jobs:
         with:
           urls: |
             https://portfolio.marceloarias.com/
-          budgetPath: ./budget.json # test performance budgets
-          uploadArtifacts: true # save results as an action artifacts
+          uploadArtifacts: true
           configPath: './.github/workflows/setup/lighthouse-audit.json'
