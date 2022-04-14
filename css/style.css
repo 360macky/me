@@ -275,11 +275,6 @@ img {
     align-items: flex-start;
 }
 
-.project {
-    background-color: var(--color-default);
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-}
-
 .project-image-container {
     overflow: hidden;
 }
@@ -291,11 +286,6 @@ img {
     background-position: center;
     overflow: hidden;
     transition: transform 1s ease;
-}
-
-.project-card:hover
-.project-image {
-    transform: scale(1.5);
 }
 
 .project-actions {
