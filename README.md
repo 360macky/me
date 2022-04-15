@@ -8,7 +8,7 @@
 </p>
 
 <img
-  src=".github/screenshot.png"
+  src=".github/screenshot.jpeg"
   align="center"
   title="Screenshot of Marcelo Arias portafolio"  
   alt="Screenshot of Marcelo Arias portafolio"  
