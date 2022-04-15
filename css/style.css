@@ -183,7 +183,7 @@ img {
     align-items: center;
     width: 100%;
     min-height: 100vh;
-    background-color: #212121;
+    background-color: var(--color-black);
 }
 
 .welcome-section__profession {
