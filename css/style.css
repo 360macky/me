@@ -19,7 +19,7 @@
     --color-primary: #425fc7;
     --color-dark: #003696;
     --mobile-font-width: 28.75em;
-    --font-montserrat: 'Inter', sans-serif;
+    --font-inter: 'Inter', sans-serif;
     --font-fira-code: 'Fira Code', monospace;
 }
 
@@ -43,7 +43,7 @@ body {
 
 h1,
 h2 {
-    font-family: var(--font-montserrat);
+    font-family: var(--font-inter);
     font-weight: 800;
     text-align: center;
 }
@@ -220,7 +220,7 @@ img {
 
 .searchbox {
     background-color: var(--color-dark);
-    font-family: var(--font-montserrat);
+    font-family: var(--font-inter);
     text-align: center;
     margin-bottom: 40px;
     border-radius: 15px;
@@ -409,7 +409,7 @@ i {
 }
 
 .btn__call-action {
-    font-family: var(--font-montserrat);
+    font-family: var(--font-inter);
     background-color: var(--color-default);
     transition: 0.2s ease-out;
 }
@@ -590,7 +590,7 @@ label {
 }
 
 footer {
-    font-family: var(--font-montserrat);
+    font-family: var(--font-inter);
     display: flex;
     flex-direction: column;
     justify-content: center;
