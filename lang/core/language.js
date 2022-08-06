@@ -11,7 +11,7 @@ const ENGLISH_PROJECTS = {
     0: {
         name: 'Saturn',
         description: 'Ecommerce website powered by Firebase and integrated with Stripe',
-        tags: ['ReactJS', 'Firebase', 'Material Icons', 'Stripe', 'React Router'],
+        tags: ['React', 'Firebase', 'Material Icons', 'Stripe', 'React Router'],
         url_repo: 'https://github.com/360macky/Saturn',
         url_deploy: 'https://saturn-32b13.web.app/',
         image: 'https://portfolio.marceloarias.com/images/projects/saturn.webp',
@@ -19,7 +19,7 @@ const ENGLISH_PROJECTS = {
     1: {
         name: '1spaceX',
         description: 'SpaceX Capsules Finder with information like landings, status, type and more',
-        tags: ['SpaceX API', 'ReactJS', 'NodeJS', 'SpaceX'],
+        tags: ['SpaceX API', 'React', 'NodeJS', 'SpaceX'],
         url_repo: 'https://github.com/360macky/spacex-capsules-search',
         url_deploy: 'https://1spacex.com/',
         image: 'https://portfolio.marceloarias.com/images/projects/spacex-search.webp',
@@ -35,7 +35,7 @@ const ENGLISH_PROJECTS = {
     3: {
         name: 'ReactFlix',
         description: 'Search and know more about your favorite movies instantly',
-        tags: ['ReactJS', 'NodeJS', 'Async-await', 'The Movie Database', 'JSON', 'JavaScript'],
+        tags: ['React', 'NodeJS', 'Async-await', 'The Movie Database', 'JSON', 'JavaScript'],
         url_repo: 'https://github.com/360macky/ReactFlix',
         url_deploy: 'https://reactflix.vercel.app/',
         image: 'https://portfolio.marceloarias.com/images/projects/reactflix.webp',
@@ -43,7 +43,7 @@ const ENGLISH_PROJECTS = {
     4: {
         name: 'ISS Realtime Locator',
         description: 'Tracking locator for the International Space Station',
-        tags: ['ReactJS', 'Webpack', 'Babel', 'Sass', 'Google Maps', 'International Space Station'],
+        tags: ['React', 'Webpack', 'Babel', 'Sass', 'Google Maps', 'International Space Station'],
         url_repo: 'https://github.com/360macky/ISS-Realtime-Locator/',
         url_deploy: 'https://iss-realtime-locator.vercel.app/',
         image: 'https://portfolio.marceloarias.com/images/projects/iss-realtime-locator.webp',
@@ -63,7 +63,7 @@ const SPANISH_PROJECTS = {
     0: {
         name: 'Saturn',
         description: 'Sitio web de comercio electrónico alojado en Firebase e integrado con Stripe',
-        tags: ['ReactJS', 'Firebase', 'Material Icons', 'Stripe', 'React Router'],
+        tags: ['React', 'Firebase', 'Material Icons', 'Stripe', 'React Router'],
         url_repo: 'https://github.com/360macky/Saturn',
         url_deploy: 'https://saturn-32b13.web.app/',
         image: 'https://portfolio.marceloarias.com/images/projects/saturn.webp',
@@ -71,7 +71,7 @@ const SPANISH_PROJECTS = {
     1: {
         name: '1spaceX',
         description: 'Buscador de cápsulas SpaceX con información como aterrizajes, estado, tipo y más',
-        tags: ['SpaceX API', 'ReactJS', 'NodeJS', 'SpaceX'],
+        tags: ['SpaceX API', 'React', 'NodeJS', 'SpaceX'],
         url_repo: 'https://github.com/360macky/spacex-capsules-search',
         url_deploy: 'https://1spacex.com/',
         image: 'https://portfolio.marceloarias.com/images/projects/spacex-search.webp',
@@ -87,7 +87,7 @@ const SPANISH_PROJECTS = {
     3: {
         name: 'ReactFlix',
         description: 'Busca y conoce más sobre tus películas favoritas',
-        tags: ['ReactJS', 'NodeJS', 'Async-await', 'The Movie Database', 'JSON'],
+        tags: ['React', 'NodeJS', 'Async-await', 'The Movie Database', 'JSON'],
         url_repo: 'https://github.com/360macky/ReactFlix',
         url_deploy: 'https://reactflix.vercel.app/',
         image: 'https://portfolio.marceloarias.com/images/projects/reactflix.webp',
@@ -95,7 +95,7 @@ const SPANISH_PROJECTS = {
     4: {
         name: 'Localizador en tiempo real de ISS',
         description: 'Localizador de seguimiento para la Estación Espacial Internacional',
-        tags: ['ReactJS', 'Webpack', 'Babel', 'Sass', 'Google Maps', 'International Space Station'],
+        tags: ['React', 'Webpack', 'Babel', 'Sass', 'Google Maps', 'International Space Station'],
         url_repo: 'https://github.com/360macky/ISS-Realtime-Locator/',
         url_deploy: 'https://iss-realtime-locator.vercel.app/',
         image: 'https://portfolio.marceloarias.com/images/projects/iss-realtime-locator.webp',
