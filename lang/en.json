@@ -1,57 +1,58 @@
 {
-  "mainElements": {
-    "nav": ["Hello", "Projects", "About", "Contact"],
-    "switchLanguage": {
-      "en": {
-        "message": "Leer en español"
-      }
+    "mainElements": {
+        "nav": ["Hello", "Projects", "About", "Contact"],
+        "switchLanguage": {
+            "en": {
+                "message": "Leer en español"
+            }
+        },
+        "switchLanguagePreference": "es"
     },
-    "switchLanguagePreference": "es"
-  },
-  "welcomePage": {
-    "title": "Hi, I am Marcelo",
-    "briefDescription": "an experienced JavaScript developer",
-    "buttonCallToAction": "Things that I do"
-  },
-  "projects": {
-    "title": "These are some of my projects",
-    "projectInput": "Search in my projects",
-    "projectCard": {
-      "tags": "Tags",
-      "lookCode": "Code",
-      "use": "Open app"
+    "welcomePage": {
+        "title": "Hi, I am Marcelo",
+        "briefDescription": "an experienced JavaScript developer",
+        "buttonCallToAction": "Things that I do"
     },
-    "textMoreProjects": "I have more open-source projects",
-    "moreProjectsButton": "Show all"
-  },
-  "about": {
-    "title": "A little more about me",
-    "card_1": {
-      "title": "Brief story",
-      "content": "Since 2015 I started creating my first websites. I learned the basics of HTML at a very young age, and over the years I have supplemented my knowledge with CSS and JavaScript. I have worked with Vue and Angular, but React.js is my preferred library."
+    "projects": {
+        "title": "These are some of my projects",
+        "projectInput": "Search in my projects",
+        "projectCard": {
+            "tags": "Tags",
+            "lookCode": "Code",
+            "use": "Open app"
+        },
+        "textMoreProjects": "I have more open-source projects",
+        "moreProjectsButton": "Show all"
     },
-    "card_2": {
-      "title": "Today",
-      "content": "As a FrontEnd developer I can now build, design and deploy sites using good practices. I'm still learning about web UX design, UI prototyping, and new JS libraries."
+    "about": {
+        "title": "A little more about me",
+        "card_1": {
+            "title": "Brief story",
+            "content": "Since 2015 I started creating my first websites. I learned the basics of HTML at a very young age, and over the years I have supplemented my knowledge with CSS and JavaScript. I have worked with Vue and Angular, but React.js is my preferred library."
+        },
+        "card_2": {
+            "title": "Today",
+            "content": "As a FrontEnd developer I can now build, design and deploy sites using good practices. I'm still learning about web UX design, UI prototyping, and new JS libraries."
+        },
+        "card_3": {
+            "title": "More data",
+            "content": [
+                "I'm 20 years old",
+                "About 7 years programming, and with work experience.",
+                " I'm Software Development graduate of the National Institute of Technology.",
+                "I love what I do."
+            ]
+        }
     },
-    "card_3": {
-      "title": "More data",
-      "content": [
-        "I'm 20 years old",
-        "About 7 years programming, and with work experience.",
-        " I'm Software Development graduate of the National Institute of Technology.",
-        "I love what I do."
-      ]
+    "contact": {
+        "title": "Let's create together...",
+        "links": {
+            "github": "GitHub Projects",
+            "twitter": "Twitter",
+            "mail": "Send a mail",
+            "youtube": "Watch my videos",
+            "linkedin": "My certifications",
+            "blog": "My personal blog"
+        }
     }
-  },
-  "contact": {
-    "title": "Let's create together...",
-    "links": {
-      "github": "GitHub Projects",
-      "twitter": "Twitter",
-      "mail": "Send a mail",
-      "youtube": "Watch my videos",
-      "linkedin": "My certifications"
-    }
-  }
 }

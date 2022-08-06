@@ -21,8 +21,8 @@
             "lookCode": "Código",
             "use": "Abrir app"
         },
-    "textMoreProjects": "Tengo más proyectos Open Source",
-    "moreProjectsButton": "Ver más"
+        "textMoreProjects": "Tengo más proyectos Open Source",
+        "moreProjectsButton": "Ver más"
     },
     "about": {
         "title": "Sobre mí",
@@ -51,7 +51,8 @@
             "twitter": "Twitter",
             "mail": "Envíame un correo",
             "youtube": "Mira mis vídeos",
-            "linkedin": "Mis certificaciones"
+            "linkedin": "Mis certificaciones",
+            "blog": "Mi blog personal"
         }
     }
 }
