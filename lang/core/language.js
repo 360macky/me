@@ -112,51 +112,51 @@ const SPANISH_PROJECTS = {
 };
 
 function renderLanguageContent(language) {
-    document.getElementById('switchLanguage').innerText =
+    document.getElementById('switchLanguage').textContent =
         language.mainElements.switchLanguage.en.message;
-    document.getElementById('title').innerText = language.welcomePage.title;
-    document.getElementById('briefDescription').innerText = language.welcomePage.briefDescription;
-    document.getElementById('buttonCallToAction').innerText = language.welcomePage.buttonCallToAction;
+    document.getElementById('title').textContent = language.welcomePage.title;
+    document.getElementById('briefDescription').textContent = language.welcomePage.briefDescription;
+    document.getElementById('buttonCallToAction').textContent = language.welcomePage.buttonCallToAction;
 
     // Projects
-    document.getElementById('projectsTitle').innerText = language.projects.title;
+    document.getElementById('projectsTitle').textContent = language.projects.title;
     document.getElementById('search').placeholder = language.projects.projectInput;
-    document.getElementById('show-all').innerText = language.projects.moreProjectsButton;
-    document.getElementById('show-all-text').innerText = language.projects.textMoreProjects;
+    document.getElementById('show-all').textContent = language.projects.moreProjectsButton;
+    document.getElementById('show-all-text').textContent = language.projects.textMoreProjects;
 
     // Nav
-    document.getElementById('nav__hello').innerText = language.mainElements.nav[0];
-    document.getElementById('nav__projects').innerText = language.mainElements.nav[1];
-    document.getElementById('nav__about').innerText = language.mainElements.nav[2];
-    document.getElementById('nav__contact').innerText = language.mainElements.nav[3];
+    document.getElementById('nav__hello').textContent = language.mainElements.nav[0];
+    document.getElementById('nav__projects').textContent = language.mainElements.nav[1];
+    document.getElementById('nav__about').textContent = language.mainElements.nav[2];
+    document.getElementById('nav__contact').textContent = language.mainElements.nav[3];
 
     // About
-    document.getElementById('aboutTitle').innerText = language.about.title;
-    document.getElementById('briefStory').innerText = language.about.card_1.title;
-    document.getElementById('briefStory__content').innerText = language.about.card_1.content;
-    document.getElementById('today').innerText = language.about.card_2.title;
-    document.getElementById('today__content').innerText = language.about.card_2.content;
-    document.getElementById('moreData').innerText = language.about.card_3.title;
-    document.getElementById('moreData__content').children[0].children[1].innerText =
+    document.getElementById('aboutTitle').textContent = language.about.title;
+    document.getElementById('briefStory').textContent = language.about.card_1.title;
+    document.getElementById('briefStory__content').textContent = language.about.card_1.content;
+    document.getElementById('today').textContent = language.about.card_2.title;
+    document.getElementById('today__content').textContent = language.about.card_2.content;
+    document.getElementById('moreData').textContent = language.about.card_3.title;
+    document.getElementById('moreData__content').children[0].children[1].textContent =
         language.about.card_3.content[0];
-    document.getElementById('moreData__content').children[1].children[1].innerText =
+    document.getElementById('moreData__content').children[1].children[1].textContent =
         language.about.card_3.content[1];
-    document.getElementById('moreData__content').children[2].children[1].innerText =
+    document.getElementById('moreData__content').children[2].children[1].textContent =
         language.about.card_3.content[2];
-    document.getElementById('moreData__content').children[3].children[1].innerText =
+    document.getElementById('moreData__content').children[3].children[1].textContent =
         language.about.card_3.content[3];
 
     // Contact
-    document.getElementById('contactTitle').innerText = language.contact.title;
-    document.getElementById('contactContent').children[0].children[1].innerText =
+    document.getElementById('contactTitle').textContent = language.contact.title;
+    document.getElementById('contactContent').children[0].children[1].textContent =
         language.contact.links['github'];
-    document.getElementById('contactContent').children[1].children[1].innerText =
+    document.getElementById('contactContent').children[1].children[1].textContent =
         language.contact.links['twitter'];
-    document.getElementById('contactContent').children[2].children[1].innerText =
+    document.getElementById('contactContent').children[2].children[1].textContent =
         language.contact.links['mail'];
-    document.getElementById('contactContent').children[3].children[1].innerText =
+    document.getElementById('contactContent').children[3].children[1].textContent =
         language.contact.links['youtube'];
-    document.getElementById('contactContent').children[4].children[1].innerText =
+    document.getElementById('contactContent').children[4].children[1].textContent =
         language.contact.links['linkedin'];
 
     for (
@@ -164,7 +164,7 @@ function renderLanguageContent(language) {
         buttonIndex < document.getElementsByClassName('lookCode').length;
         buttonIndex++
     ) {
-        document.getElementsByClassName('lookCode')[buttonIndex].innerText =
+        document.getElementsByClassName('lookCode')[buttonIndex].textContent =
             language.projects.projectCard.lookCode;
     }
 
@@ -173,7 +173,7 @@ function renderLanguageContent(language) {
         buttonIndex < document.getElementsByClassName('use').length;
         buttonIndex++
     ) {
-        document.getElementsByClassName('use')[buttonIndex].innerText =
+        document.getElementsByClassName('use')[buttonIndex].textContent =
             language.projects.projectCard.use;
     }
 }
