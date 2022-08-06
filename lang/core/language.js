@@ -158,6 +158,8 @@ function renderLanguageContent(language) {
         language.contact.links['youtube'];
     document.getElementById('contactContent').children[4].children[1].textContent =
         language.contact.links['linkedin'];
+    document.getElementById('contactContent').children[5].children[1].textContent =
+        language.contact.links['blog'];
 
     for (
         let buttonIndex = 0;
