@@ -22,7 +22,7 @@
 }
 
 ::selection {
-    color: white;
+    color: var(--white);
     background: var(--color-default-darker);
 }
 
@@ -227,16 +227,16 @@ img {
     border-radius: 15px;
     font-size: 1.8rem;
     padding: 1rem;
-    color: white;
+    color: var(--white);
     outline: none;
     width: 80%;
     transition-property: background-color;
     transition: 0.3s ease;
-    border: 1px solid white;
+    border: 1px solid var(--white);
 }
 
 .searchbox::placeholder {
-    color: rgb(206, 206, 206);
+    color: var(--white);
 }
 
 .searchbox:focus {
@@ -301,7 +301,7 @@ img {
 .project-actions__button {
     cursor: pointer;
     background-color: var(--color-black);
-    color: white;
+    color: var(--white);
     border: none;
     border-radius: 10px;
     padding: 10px 20px;
@@ -367,17 +367,23 @@ img {
     background-color: var(--color-default);
     padding: 0px 0px 8px 0px;
     border-radius: 15px;
-    transition: 0.3s ease-out;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-property: box-shadow transform;
 }
 
 .project-card:hover {
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
 }
 
 .project-description {
     margin-top: 5px;
     font-size: 1.2rem;
     padding: 0px 40px;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.1;
+    font-weight: 200;
 }
 
 .project-tags {
@@ -397,7 +403,6 @@ img {
     color: var(--white);
     border-radius: 5px;
     padding: 2px;
-    font-style: italic;
 }
 
 .btn {
@@ -434,9 +439,8 @@ img {
 
 .btn__show-all {
     font-size: 2rem;
-    font-style: italic;
-    background-color: var(--color-default);
     transition: 0.2s ease-out;
+    border: 2px solid var(--white);
 }
 
 .btn__show-all:hover {
@@ -449,7 +453,6 @@ img {
     justify-content: center;
     width: 100%;
     min-height: 100vh;
-    background-color: white;
     padding-top: 15px;
     padding-bottom: 15px;
 }

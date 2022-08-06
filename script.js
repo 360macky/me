@@ -86,3 +86,26 @@ function loadProjects(projectsStack) {
     projectsCards = projectsCards.join('');
     projectsGrid.innerHTML = projectsCards;
 }
+
+function switchTheme() {
+    const ifDarkThemeEnabled = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    if (ifDarkThemeEnabled) {
+        console.log('Tonight is gonna b');
+        document.documentElement.style.setProperty('--white', '#f3f3f3');
+        document.documentElement.style.setProperty('--color-default', '#2a313a');
+        document.documentElement.style.setProperty('--color-black', '#1b1f25');
+        document.documentElement.style.setProperty('--color-default-darker', '#001367');
+        document.documentElement.style.setProperty('--color-primary', '#425fc7');
+        document.documentElement.style.setProperty('--color-dark', '#003696');
+    } else {
+        document.documentElement.style.setProperty('--white', '#1b1f25');
+        document.documentElement.style.setProperty('--color-default', '#dddddd');
+        document.documentElement.style.setProperty('--color-black', '#f3f3f3');
+        document.documentElement.style.setProperty('--color-default-darker', '#bac6ff');
+        document.documentElement.style.setProperty('--color-primary', '#839eff');
+        document.documentElement.style.setProperty('--color-dark', '#839eff');
+    }
+}
+
+window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', switchTheme);
+switchTheme();
