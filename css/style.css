@@ -160,10 +160,12 @@ img {
         margin-top: 14px;
         font-size: 2rem;
     }
-    .welcome-section__social-networks i {
-        padding: 15px;
+    .welcome-section__social-networks a {
         margin-right: 10px;
         margin-left: 10px;
+    }
+    .welcome-section__social-networks i {
+        padding: 15px;
     }
     .contact-links {
         margin-top: 5rem;
@@ -196,13 +198,14 @@ img {
 }
 
 .welcome-section__social-networks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 20px;
 }
 
 .welcome-section__social-networks i {
-    padding: 10px;
-    cursor: pointer;
-    transition: 0.3s ease-out background-color;    
+    transition: 0.3s ease-out background-color;
     border-radius: 10px;
 }
 
@@ -313,8 +316,7 @@ img {
     opacity: 0;
 }
 
-.project-actions__button--secondary:hover
-i {
+.project-actions__button--secondary:hover i {
     transition: 0.3s ease-out;
     visibility: visible;
     opacity: 1;
@@ -332,21 +334,19 @@ i {
 
 @keyframes footer-atom-spin {
     from {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
     to {
-      transform: rotate(360deg);
+        transform: rotate(360deg);
     }
 }
 
-.project-actions__button--recommended:hover
-.fa-atom {
+.project-actions__button--recommended:hover .fa-atom {
     transition: 3s ease-out;
     transform: rotate(360deg);
 }
 
-.project-actions__button--recommended:hover
-.fa-meteor {
+.project-actions__button--recommended:hover .fa-meteor {
     transition: 3s ease-out;
     transform: rotate(-180deg);
 }
@@ -416,13 +416,11 @@ i {
     background-color: var(--color-dark);
 }
 
-.btn__call-action:hover
-.fa-magic {
+.btn__call-action:hover .fa-magic {
     transform: rotate(20deg);
 }
 
-.btn__call-action:hover
-.fa-hand-paper {
+.btn__call-action:hover .fa-hand-paper {
     transform: rotate(-20deg);
 }
 
@@ -498,7 +496,7 @@ i {
 .about-me-section h2 {
     margin-top: 100px;
     margin-bottom: 50px;
-    color: var(--color-dark)
+    color: var(--color-dark);
 }
 
 .about-me-container {
@@ -581,8 +579,7 @@ i {
     color: var(--color-dark);
 }
 
-.contact-details:hover
-label {
+.contact-details:hover label {
     text-decoration: underline;
     cursor: pointer;
 }
