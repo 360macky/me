@@ -214,9 +214,21 @@ img {
 }
 
 .projects-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
     padding: 10rem 1.5rem;
     background-color: var(--color-dark);
+}
+
+.projects__description {
+    padding: 1rem;
+    padding-bottom: 3rem;
+    max-width: 1024px;
+    font-family: var(--font-inter);
+    font-weight: 300;
+    line-height: 130%;
 }
 
 .searchbox {
@@ -256,7 +268,7 @@ img {
 
 .projects-section-header {
     max-width: 640px;
-    margin: 0px auto 70px auto;
+    margin: 0px auto 40px auto;
 }
 
 @media (max-width: 640px) {
@@ -357,7 +369,9 @@ img {
     justify-content: center;
     padding: 2rem 0.5rem;
     font-size: 2rem;
-    height: 120px;
+    min-height: 70px;
+    font-family: var(--font-inter);
+    font-weight: 600;
 }
 
 .project-card {
@@ -438,6 +452,7 @@ img {
 }
 
 .btn__show-all {
+    margin-top: 2rem;
     font-size: 2rem;
     transition: 0.2s ease-out;
     border: 2px solid var(--white);
