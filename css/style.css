@@ -232,6 +232,7 @@ img {
 }
 
 .searchbox {
+    display: none;
     background-color: var(--color-dark);
     font-family: var(--font-inter);
     text-align: center;
