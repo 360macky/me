@@ -412,12 +412,12 @@ img {
 }
 
 .project-tags a {
-    margin-right: 10px;
-    margin-bottom: 10px;
-    background-color: var(--color-default-darker);
+    margin-right: 0.8rem;
+    margin-top: 0.8rem;
+    background-color: var(--color-dark);
     color: var(--white);
-    border-radius: 5px;
-    padding: 2px;
+    border-radius: 20px;
+    padding: 5px;
 }
 
 .btn {
