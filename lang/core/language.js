@@ -42,7 +42,7 @@ const ENGLISH_PROJECTS = {
     },
     4: {
         name: 'Hackbank',
-        description: 'The first Bank-to-bank transfer simulator in Peru.',
+        description: 'The first Bank-to-bank transfer simulator in Peru',
         tags: ['React', 'React Native', 'Expo', 'React Navigation'],
         url_repo: 'https://github.com/360macky/hackbank/',
         url_deploy: 'https://hackbank.app/',
@@ -94,7 +94,7 @@ const SPANISH_PROJECTS = {
     },
     4: {
         name: 'Hackbank',
-        description: 'El primer simulador de transferencia de banco-a-banco en Perú.',
+        description: 'El primer simulador de transferencia de banco-a-banco en Perú',
         tags: ['React', 'React Native', 'Expo', 'React Navigation'],
         url_repo: 'https://github.com/360macky/hackbank/',
         url_deploy: 'https://hackbank.app/',
