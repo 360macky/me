@@ -142,13 +142,20 @@ img {
         font-size: 3rem;
     }
     .projects-section-header {
-        font-size: 3.8rem;
+        font-size: 3.2rem;
     }
     .welcome-section__social-networks i {
         margin: 0px;
     }
     .about-me-section h2 {
-        font-size: 3.8rem;
+        font-size: 3.2rem;
+    }
+    .projects__description {
+        font-size: 1.4rem;
+        padding: 0 !important;
+    }
+    .projects-section {
+        padding: 7rem 1.5rem !important;
     }
 }
 
@@ -159,10 +166,6 @@ img {
     .welcome-section__profession {
         margin-top: 14px;
         font-size: 2rem;
-    }
-    .welcome-section__social-networks a {
-        margin-right: 10px;
-        margin-left: 10px;
     }
     .welcome-section__social-networks i {
         padding: 15px;
@@ -199,9 +202,11 @@ img {
 
 .welcome-section__social-networks {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    gap: 1.4rem;
 }
 
 .welcome-section__social-networks i {
@@ -270,12 +275,6 @@ img {
 .projects-section-header {
     max-width: 640px;
     margin: 0px auto 40px auto;
-}
-
-@media (max-width: 640px) {
-    .projects-section-header {
-        font-size: 3.8rem;
-    }
 }
 
 .projects-grid {
@@ -471,6 +470,7 @@ img {
     min-height: 100vh;
     padding-top: 15px;
     padding-bottom: 15px;
+    background-color: var(--color-black);
 }
 
 .about-me--more-data__list {
@@ -512,10 +512,10 @@ img {
     border-radius: 50%;
 }
 
-.about-me-section h2 {
+.project-section-header {
     margin-top: 100px;
     margin-bottom: 50px;
-    color: var(--color-dark);
+    color: var(--color-primary);
 }
 
 .about-me-container {
