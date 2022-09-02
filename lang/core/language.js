@@ -120,6 +120,7 @@ function renderLanguageContent(language) {
 
     // Projects
     document.getElementById('projectsTitle').textContent = language.projects.title;
+    document.getElementById('projectsDescription').textContent = language.projects.description;
     document.getElementById('search').placeholder = language.projects.projectInput;
     document.getElementById('show-all').textContent = language.projects.moreProjectsButton;
     document.getElementById('show-all-text').textContent = language.projects.textMoreProjects;
