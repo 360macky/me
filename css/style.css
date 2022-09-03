@@ -10,7 +10,7 @@
 }
 
 :root {
-    --white: #f3f3f3;
+    --color-white: #f3f3f3;
     --color-default: #2a313a;
     --color-black: #1b1f25;
     --color-default-darker: #001367;
@@ -23,7 +23,7 @@
 }
 
 ::selection {
-    color: var(--white);
+    color: var(--color-white);
     background: var(--color-default-darker);
 }
 
@@ -36,7 +36,7 @@ body {
     font-family: var(--font-fira-code);
     font-size: 1.8rem;
     line-height: 1;
-    color: var(--white);
+    color: var(--color-white);
     box-sizing: border-box;
 }
 
@@ -72,7 +72,7 @@ ul {
 button,
 a {
     text-decoration: none;
-    color: var(--white);
+    color: var(--color-white);
     cursor: pointer;
 }
 
@@ -267,16 +267,16 @@ img {
     border-radius: 15px;
     font-size: 1.8rem;
     padding: 1rem;
-    color: var(--white);
+    color: var(--color-white);
     outline: none;
     width: 80%;
     transition-property: background-color;
     transition: 0.3s ease;
-    border: 1px solid var(--white);
+    border: 1px solid var(--color-white);
 }
 
 .searchbox::placeholder {
-    color: var(--white);
+    color: var(--color-white);
 }
 
 .searchbox:focus {
@@ -343,7 +343,7 @@ img {
 .project-actions__button {
     cursor: pointer;
     background-color: var(--color-black);
-    color: var(--white);
+    color: var(--color-white);
     border: none;
     border-radius: 10px;
     font-size: 1.3rem;
@@ -463,7 +463,7 @@ img {
     margin-right: 0.5rem;
     margin-top: 0.5rem;
     background-color: var(--color-dark);
-    color: var(--white);
+    color: var(--color-white);
     border-radius: 20px;
     padding: 0.3rem 0.7rem;
 }
@@ -510,7 +510,7 @@ img {
     margin-top: 2rem;
     font-size: 2rem;
     transition: 0.2s ease-out;
-    border: 2px solid var(--white);
+    border: 2px solid var(--color-white);
 }
 
 .about-me-section {
@@ -556,7 +556,7 @@ img {
 .welcome-section__switch_language a {
     font-size: 1.2rem;
     transition: 300ms color;
-    color: var(--white);
+    color: var(--color-white);
     font-family: var(--font-inter);
     font-weight: 300;
 }
@@ -595,7 +595,7 @@ img {
 .about-me-container > div {
     width: 380px;
     background-color: var(--color-black);
-    color: var(--white);
+    color: var(--color-white);
     padding: 28px;
     margin: 20px;
     border: 1px solid rgb(228, 228, 228);

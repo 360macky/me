@@ -105,7 +105,7 @@ function loadProjects(projectsStack) {
 function switchTheme() {
     const ifDarkThemeEnabled = window.matchMedia('(prefers-color-scheme: dark)').matches;
     if (ifDarkThemeEnabled) {
-        document.documentElement.style.setProperty('--white', '#f3f3f3');
+        document.documentElement.style.setProperty('--color-white', '#f3f3f3');
         document.documentElement.style.setProperty('--color-default', '#2a313a');
         document.documentElement.style.setProperty('--color-black', '#1b1f25');
         document.documentElement.style.setProperty('--color-default-darker', '#001367');
@@ -113,7 +113,7 @@ function switchTheme() {
         document.documentElement.style.setProperty('--color-dark', '#003696');
         document.documentElement.style.setProperty('--color-primary-lighter', '#7A97FF');
     } else {
-        document.documentElement.style.setProperty('--white', '#1b1f25');
+        document.documentElement.style.setProperty('--color-white', '#1b1f25');
         document.documentElement.style.setProperty('--color-default', '#dddddd');
         document.documentElement.style.setProperty('--color-black', '#f3f3f3');
         document.documentElement.style.setProperty('--color-default-darker', '#bac6ff');
