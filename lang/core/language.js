@@ -57,7 +57,7 @@ const ENGLISH_PROJECTS = {
         name: 'PlatziKey',
         description:
             'A Chrome extension that improves Platzi Exams with keyboard shortcuts, an integrated whiteboard and Zen/SSH mode',
-        tags: ['Chrome', 'JavaScript', 'Extension', 'DOM'],
+        tags: ['Chrome', 'JavaScript', 'Extension'],
         url_repo: 'https://github.com/360macky/platzikey',
         url_learn: 'https://github.com/360macky/platzikey',
         url_deploy: 'https://github.com/360macky/platzikey',
@@ -115,7 +115,7 @@ const SPANISH_PROJECTS = {
         name: 'PlatziKey',
         description:
             'Una extensión que mejora la experiencia de los exámenes de Platzi con atajos de teclado, una pizarra integrada y modo Zen/SSH',
-        tags: ['Chrome', 'JavaScript', 'Extension', 'DOM'],
+        tags: ['Chrome', 'JavaScript', 'Extension'],
         url_repo: 'https://github.com/360macky/platzikey',
         url_learn: 'https://github.com/360macky/platzikey',
         url_deploy: 'https://github.com/360macky/platzikey',
