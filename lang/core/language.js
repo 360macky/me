@@ -201,7 +201,7 @@ function renderLanguageContent(language) {
     }
 }
 
-function loadLanguage(languageCode) {
+const loadLanguage = async (languageCode) => {
     document.documentElement.lang = languageCode;
     if (languageCode == 'es') {
         loadProjects(SPANISH_PROJECTS);
@@ -218,7 +218,7 @@ function loadLanguage(languageCode) {
                 renderLanguageContent(data);
             });
     }
-}
+};
 
 function reloadLanguage() {
     if (languageCode == 'es') {
