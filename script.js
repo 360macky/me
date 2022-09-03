@@ -33,7 +33,7 @@ function searchOnChange() {
 
 const cardElement = {
     image: '<div class="project-image-container"><div class="project-image" style="background-image: url(\'IMAGE\');"></div></div>',
-    name: '<p class="project-title">NAME</p>',
+    name: '<h3 class="project-title">NAME</h3>',
     description: '<p class="project-description">DESCRIPTION</p>',
     url: `
         <div class="project-actions">

@@ -76,10 +76,6 @@ a {
     cursor: pointer;
 }
 
-a label {
-    cursor: pointer;
-}
-
 img {
     display: block;
     width: 100%;
@@ -146,7 +142,7 @@ img {
     .contact-section {
         padding-top: 100px;
     }
-    .contact-section-header h2 {
+    .contact-section-header h1 {
         font-size: 3rem;
     }
     .projects-section-header {
@@ -632,13 +628,13 @@ img {
     background-color: var(--color-default);
 }
 
-.contact-section-header {
-    font-size: 6rem;
+.contact-section-header h1 {
+    font-size: 4.2rem;
 }
 
 @media (max-width: 640px) {
-    .contact-section-header {
-        font-size: 4rem;
+    .contact-section-header h1 {
+        font-size: 3.2rem;
     }
 }
 
