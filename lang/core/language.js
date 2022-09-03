@@ -124,6 +124,8 @@ const SPANISH_PROJECTS = {
 };
 
 function renderLanguageContent(language) {
+  document.title = language.title;
+
   document.getElementById('switchLanguage').textContent =
     language.mainElements.switchLanguage.en.message;
   document.getElementById('title').textContent = language.welcomePage.title;

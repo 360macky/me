@@ -1,4 +1,5 @@
 {
+  "title": "Marcelo Arias Portfolio",
   "mainElements": {
     "nav": ["Hello", "Projects", "About", "Contact"],
     "switchLanguage": {
