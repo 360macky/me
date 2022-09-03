@@ -74,25 +74,25 @@
             <ul class="nav-list">
                 <li>
                     <a href="#welcome-section">
-                        <i class="far fa-hand-peace nav__icons"></i>
+                        <i class="far fa-hand-peace nav__icons" role="img"></i>
                         <label id="nav__hello" aria-label="Hello">Hello</label></a
                     >
                 </li>
                 <li>
                     <a href="#projects">
-                        <i class="fas fa-rocket nav__icons"></i>
+                        <i class="fas fa-rocket nav__icons" role="img"></i>
                         <label id="nav__projects" aria-label="Projects">Projects</label></a
                     >
                 </li>
                 <li>
                     <a href="#about-me">
-                        <i class="fas fa-user-astronaut nav__icons"></i>
+                        <i class="fas fa-user-astronaut nav__icons" role="img"></i>
                         <label id="nav__about" aria-label="About">About</label></a
                     >
                 </li>
                 <li>
                     <a href="#contact">
-                        <i class="far fa-comment-alt nav__icons"></i>
+                        <i class="far fa-comment-alt nav__icons" role="img"></i>
                         <label id="nav__contact" aria-label="Contact">Contact</label></a
                     >
                 </li>
@@ -106,26 +106,51 @@
             </p>
             <div class="" style="margin-top: 25px">
                 <a href="#projects" class="btn btn__call-action">
-                    <i class="fas fa-magic"></i>
+                    <i class="fas fa-magic" role="img"></i>
                     &nbsp;<label id="buttonCallToAction">Things that I do</label>&nbsp;
-                    <i class="fas fa-hand-paper"></i>
+                    <i class="fas fa-hand-paper" role="img"></i>
                 </a>
             </div>
             <div class="welcome-section__social-networks">
-                <a href="https://github.com/360macky" target="_blank" rel="noreferrer"
-                    ><i alt="GitHub" title="GitHub" class="fab fa-github"></i
+                <a
+                    href="https://github.com/360macky"
+                    alt="GitHub"
+                    title="GitHub"
+                    target="_blank"
+                    rel="noreferrer"
+                    ><i alt="GitHub" title="GitHub" class="fab fa-github" role="img"></i
                 ></a>
-                <a href="https://twitter.com/360macky" target="_blank" rel="noreferrer"
-                    ><i alt="Twitter" title="Twitter" class="fab fa-twitter"></i
+                <a
+                    href="https://twitter.com/360macky"
+                    alt="Twitter"
+                    title="Twitter"
+                    target="_blank"
+                    rel="noreferrer"
+                    ><i alt="Twitter" title="Twitter" class="fab fa-twitter" role="img"></i
                 ></a>
-                <a href="mailto:hola@marceloarias.com" target="_blank" rel="noreferrer"
-                    ><i alt="Email" title="Email" class="fas fa-at"></i
+                <a
+                    href="mailto:hello@marceloarias.com"
+                    alt="Email"
+                    title="Email"
+                    target="_blank"
+                    rel="noreferrer"
+                    ><i alt="Email" title="Email" class="fas fa-at" role="img"></i
                 ></a>
-                <a href="https://youtube.com/ArteDeProgramar" target="_blank" rel="noreferrer"
-                    ><i alt="YouTube" title="YouTube" class="fab fa-youtube"></i
+                <a
+                    href="https://youtube.com/ArteDeProgramar"
+                    alt="YouTube"
+                    title="YouTube"
+                    target="_blank"
+                    rel="noreferrer"
+                    ><i alt="YouTube" title="YouTube" class="fab fa-youtube" role="img"></i
                 ></a>
-                <a href="https://www.linkedin.com/in/marcelo-arias/" target="_blank" rel="noreferrer"
-                    ><i alt="LinkedIn" title="LinkedIn" class="fab fa-linkedin-in"></i
+                <a
+                    href="https://www.linkedin.com/in/marcelo-arias/"
+                    alt="LinkedIn"
+                    title="LinkedIn"
+                    target="_blank"
+                    rel="noreferrer"
+                    ><i alt="LinkedIn" title="LinkedIn" class="fab fa-linkedin-in" role="img"></i
                 ></a>
             </div>
             <div class="welcome-section__switch_language">
@@ -135,26 +160,15 @@
 
         <section id="projects" class="projects-section">
             <h2 class="projects-section-header" id="projectsTitle">These are some of my projects</h2>
-            <div class="projects__search-box">
-                <input
-                    type="text"
-                    name="search"
-                    id="search"
-                    class="searchbox"
-                    placeholder="Search in my projects"
-                    spellcheck="false"
-                    autocomplete="off"
-                    onkeyup="searchOnChange()"
-                />
-            </div>
+            <div class="projects__description" id="projectsDescription"></div>
             <div class="projects-grid" id="projects-grid"></div>
-            <label id="show-all-text"> I have more open-source projects</label>...
+            <span><label id="show-all-text"> I have more open-source projects</label>...</span>
             <a
                 href="https://github.com/360macky?tab=repositories"
                 class="btn btn__show-all"
                 target="_blank"
             >
-                <i class="fab fa-github"></i>
+                <i class="fab fa-github" role="img"></i>
                 <label id="show-all">Show all</label>
             </a>
         </section>
@@ -164,7 +178,7 @@
             <div class="about-me-container">
                 <div class="about-me--brief-story">
                     <h3>
-                        <i class="fas fa-book-reader"></i>
+                        <i class="fas fa-book-reader" role="img"></i>
                         <label id="briefStory">Brief Story</label>
                     </h3>
                     <p id="briefStory__content">
@@ -176,7 +190,7 @@
                 </div>
                 <div class="about-me--today">
                     <h3>
-                        <i class="fas fa-rocket"></i>
+                        <i class="fas fa-rocket" role="img"></i>
                         <label id="today">Today</label>...
                     </h3>
                     <p id="today__content">
@@ -187,25 +201,25 @@
                 </div>
                 <div class="about-me--more-data">
                     <h3>
-                        <i class="fas fa-user-astronaut"></i>
+                        <i class="fas fa-user-astronaut" role="img"></i>
                         <label id="moreData">More data</label>
                     </h3>
                     <ul class="about-me--more-data__list" id="moreData__content">
                         <li>
-                            > <i class="fas fa-running"></i>
-                            <label>I'm 20 years old.</label>
+                            > <i class="fas fa-flask" role="img"></i>
+                            <label></label>
                         </li>
                         <li>
-                            > <i class="far fa-hand-paper"></i>
-                            <label>About 7 years of programming.</label>
+                            > <i class="far fa-hand-paper" role="img"></i>
+                            <label></label>
                         </li>
                         <li>
-                            > <i class="fas fa-graduation-cap"></i>
-                            <label> I'm Software Development graduate of the National Institute of Technology.</label>
+                            > <i class="fas fa-graduation-cap" role="img"></i>
+                            <label></label>
                         </li>
                         <li>
-                            > <i class="fas fa-heart"></i>
-                            <label>I love what I do.</label>
+                            > <i class="fas fa-heart" role="img"></i>
+                            <label></label>
                         </li>
                     </ul>
                 </div>
@@ -222,20 +236,20 @@
                     href="https://github.com/360macky/"
                     target="_blank"
                     class="btn contact-details"
-                    ><i class="fab fa-github"></i> <label>GitHub Projects</label></a
+                    ><i class="fab fa-github" role="img"></i> <label>GitHub Projects</label></a
                 >
                 <a href="https://twitter.com/360macky/" target="_blank" class="btn contact-details"
-                    ><i class="fab fa-twitter"></i> <label>Twitter</label></a
+                    ><i class="fab fa-twitter" role="img"></i> <label>Twitter</label></a
                 >
-                <a href="mailto:hola@marceloarias.com" target="_blank" class="btn contact-details"
-                    ><i class="fas fa-at"></i> <label>Send a mail</label></a
+                <a href="mailto:hello@marceloarias.com" target="_blank" class="btn contact-details"
+                    ><i class="fas fa-at" role="img"></i> <label>Send a mail</label></a
                 >
                 <a
                     href="https://youtube.com/ArteDeProgramar"
                     target="_blank"
                     class="btn contact-details"
                 >
-                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-youtube" role="img"></i>
                     <label>Watch my videos</label>
                 </a>
                 <a
@@ -243,11 +257,11 @@
                     target="_blank"
                     class="btn contact-details"
                 >
-                    <i class="fab fa-linkedin-in"></i>
+                    <i class="fab fa-linkedin-in" role="img"></i>
                     <label>My certifications</label>
                 </a>
                 <a href="https://marcelog.blog" target="_blank" class="btn contact-details">
-                    <i class="fas fa-rss"></i>
+                    <i class="fas fa-rss" role="img"></i>
                     <label>My personal blog</label>
                 </a>
             </div>
@@ -257,7 +271,7 @@
             <br />
             <div>
                 <a href="https://marceloarias.com" title="Marcelo Arias website"> MarceloArias.com </a>
-                <i class="fas fa-atom footer-atom"></i>
+                <i class="fas fa-atom footer-atom" role="img"></i>
                 Change the world
             </div>
         </footer>
