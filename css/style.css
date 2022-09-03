@@ -366,6 +366,13 @@ img {
   width: 100%;
   margin-bottom: 0.6rem;
   padding: 0.5rem 0rem;
+  transition-property: color, transform;
+  transition-duration: 250ms;
+  transition-timing-function: ease;
+}
+
+.project-actions__button--secondary:hover {
+  color: var(--color-primary-lighter);
 }
 
 .project-actions__button--secondary i {
@@ -513,6 +520,10 @@ img {
   font-size: 2rem;
   transition: 0.2s ease-out;
   border: 2px solid var(--color-white);
+}
+
+.btn__show-all:active {
+  transform: scale(0.98);
 }
 
 .about-me-section {
