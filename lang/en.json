@@ -9,7 +9,7 @@
         "switchLanguagePreference": "es"
     },
     "welcomePage": {
-        "title": "Hi, I am Marcelo",
+        "title": "Hi, I'm Marcelo",
         "briefDescription": "an experienced JavaScript developer",
         "buttonCallToAction": "Things that I do"
     },
@@ -20,6 +20,7 @@
         "projectCard": {
             "tags": "Tags",
             "lookCode": "Code",
+            "learnMore": "Learn more",
             "use": "Open app"
         },
         "textMoreProjects": "I have more open-source projects",

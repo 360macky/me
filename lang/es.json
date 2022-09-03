@@ -20,6 +20,7 @@
         "projectCard": {
             "tags": "Etiquetas",
             "lookCode": "Código",
+            "learnMore": "Explorar",
             "use": "Abrir app"
         },
         "textMoreProjects": "Tengo más proyectos Open Source",
