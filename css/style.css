@@ -111,7 +111,7 @@ img {
 .nav-list a {
   display: block;
   font-size: 1.3rem;
-  padding: 20px;
+  padding: 1.25rem;
   transition-property: background-color;
   transition-timing-function: ease;
   transition-duration: 300ms;
@@ -127,7 +127,7 @@ img {
     display: none;
   }
   .welcome-section {
-    padding-top: 100px;
+    padding-top: 6.25rem;
   }
   .welcome-section h1 {
     font-size: 4rem;
@@ -141,12 +141,12 @@ img {
   }
   .welcome-section__profession {
     font-size: 1.7rem;
-    margin-top: 15px;
+    margin-top: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
   }
   .contact-section {
-    padding-top: 100px;
+    padding-top: 6.25rem;
   }
   .contact-section-header h1 {
     font-size: 3rem;
@@ -181,11 +181,11 @@ img {
     font-size: 1.8rem;
   }
   .welcome-section__profession {
-    margin-top: 14px;
+    margin-top: 0.875rem;
     font-size: 2rem;
   }
   .welcome-section__social-networks i {
-    padding: 15px;
+    padding: 0.938rem;
   }
   .contact-links {
     margin-top: 5rem;
@@ -219,7 +219,7 @@ img {
 }
 
 .welcome-section__more-information {
-  padding-top: 20px;
+  padding-top: 1.25rem;
   text-align: center;
   line-height: 1.4;
 }
@@ -229,13 +229,15 @@ img {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 1.25rem;
   gap: 1.4rem;
 }
 
 .welcome-section__social-networks i {
   transition: 0.3s ease-out background-color;
-  border-radius: 10px;
+  -webkit-border-radius: 0.625rem;
+  -moz-border-radius: 0.625rem;
+  border-radius: 0.625rem;
 }
 
 .welcome-section__social-networks i:hover {
@@ -347,6 +349,8 @@ img {
   background-color: var(--color-black);
   color: var(--color-white);
   border: none;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
   border-radius: 10px;
   font-size: 1.3rem;
   padding: 0.4rem;
@@ -473,6 +477,8 @@ img {
   margin-top: 0.5rem;
   background-color: var(--color-dark);
   color: var(--color-white);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
   border-radius: 20px;
   padding: 0.3rem 0.7rem;
 }
@@ -480,6 +486,8 @@ img {
 .btn {
   display: inline-block;
   padding: 1rem 2rem;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
   border-radius: 12px;
 }
 
@@ -552,6 +560,8 @@ img {
   margin-top: 1.2rem;
   background-color: var(--color-default);
   padding: 0.5rem 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
   border-radius: 2rem;
   transition-property: box-shadow;
   transition-duration: 250ms;
@@ -588,6 +598,8 @@ img {
   display: block;
   width: 190px;
   height: 190px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
   border-radius: 50%;
 }
 
@@ -612,6 +624,8 @@ img {
   padding: 28px;
   margin: 20px;
   border: 1px solid rgb(228, 228, 228);
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
   border-radius: 25px;
   transition: 250ms box-shadow ease;
   line-height: 1.3;
