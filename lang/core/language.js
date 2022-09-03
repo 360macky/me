@@ -8,15 +8,6 @@ const SPANISH_LANGUAGE = '/lang/es/texts.json';
 const ENGLISH_LANGUAGE = '/lang/en/texts.json';
 
 const ENGLISH_PROJECTS = {
-  0: {
-    name: 'Saturn',
-    description: 'Ecommerce website powered by Firebase and integrated with Stripe',
-    tags: ['React', 'Firebase', 'Material Icons', 'Stripe', 'React Router'],
-    url_repo: 'https://github.com/360macky/Saturn',
-    url_learn: 'https://github.com/360macky/Saturn',
-    url_deploy: 'https://saturn-32b13.web.app/',
-    image: 'https://portfolio.marceloarias.com/images/projects/saturn.webp',
-  },
   1: {
     name: '1spaceX',
     description: 'SpaceX Capsules Finder with information like landings, status, type and more',
@@ -36,15 +27,6 @@ const ENGLISH_PROJECTS = {
     image: 'https://portfolio.marceloarias.com/images/projects/miniedit.webp',
   },
   3: {
-    name: 'ReactFlix',
-    description: 'Search and know more about your favorite movies instantly',
-    tags: ['React', 'NodeJS', 'Async-await', 'The Movie Database', 'JSON', 'JavaScript'],
-    url_repo: 'https://github.com/360macky/ReactFlix',
-    url_learn: 'https://github.com/360macky/ReactFlix',
-    url_deploy: 'https://reactflix.vercel.app/',
-    image: 'https://portfolio.marceloarias.com/images/projects/reactflix.webp',
-  },
-  4: {
     name: 'Hackbank',
     description: 'The first Bank-to-bank transfer simulator in Peru',
     tags: ['React', 'React Native', 'Expo', 'React Navigation'],
@@ -52,6 +34,15 @@ const ENGLISH_PROJECTS = {
     url_learn: 'https://github.com/360macky/hackbank/',
     url_deploy: 'https://hackbank.app/',
     image: 'https://portfolio.marceloarias.com/images/projects/hackbank.webp',
+  },
+  4: {
+    name: 'ReactFlix',
+    description: 'Search and know more about your favorite movies instantly',
+    tags: ['React', 'NodeJS', 'The Movie Database', 'JSON', 'JavaScript'],
+    url_repo: 'https://github.com/360macky/ReactFlix',
+    url_learn: 'https://github.com/360macky/ReactFlix',
+    url_deploy: 'https://reactflix.vercel.app/',
+    image: 'https://portfolio.marceloarias.com/images/projects/reactflix.webp',
   },
   5: {
     name: 'PlatziKey',
@@ -63,18 +54,18 @@ const ENGLISH_PROJECTS = {
     url_deploy: 'https://github.com/360macky/platzikey',
     image: 'https://portfolio.marceloarias.com/images/projects/platzikey.webp',
   },
-};
-
-const SPANISH_PROJECTS = {
-  0: {
+  6: {
     name: 'Saturn',
-    description: 'Sitio web de comercio electrónico alojado en Firebase e integrado con Stripe',
+    description: 'Ecommerce website powered by Firebase and integrated with Stripe',
     tags: ['React', 'Firebase', 'Material Icons', 'Stripe', 'React Router'],
     url_repo: 'https://github.com/360macky/Saturn',
     url_learn: 'https://github.com/360macky/Saturn',
     url_deploy: 'https://saturn-32b13.web.app/',
     image: 'https://portfolio.marceloarias.com/images/projects/saturn.webp',
   },
+};
+
+const SPANISH_PROJECTS = {
   1: {
     name: '1spaceX',
     description: 'Buscador de cápsulas SpaceX con información como aterrizajes, estado, tipo y más',
@@ -94,15 +85,6 @@ const SPANISH_PROJECTS = {
     image: 'https://portfolio.marceloarias.com/images/projects/miniedit.webp',
   },
   3: {
-    name: 'ReactFlix',
-    description: 'Busca y conoce más sobre tus películas favoritas',
-    tags: ['React', 'NodeJS', 'Async-await', 'The Movie Database', 'JSON'],
-    url_repo: 'https://github.com/360macky/ReactFlix',
-    url_learn: 'https://github.com/360macky/ReactFlix',
-    url_deploy: 'https://reactflix.vercel.app/',
-    image: 'https://portfolio.marceloarias.com/images/projects/reactflix.webp',
-  },
-  4: {
     name: 'Hackbank',
     description: 'El primer simulador de transferencia de banco-a-banco en Perú',
     tags: ['React', 'React Native', 'Expo', 'React Navigation'],
@@ -110,6 +92,15 @@ const SPANISH_PROJECTS = {
     url_learn: 'https://github.com/360macky/hackbank/',
     url_deploy: 'https://hackbank.app/',
     image: 'https://portfolio.marceloarias.com/images/projects/hackbank.webp',
+  },
+  4: {
+    name: 'ReactFlix',
+    description: 'Busca y conoce más sobre tus películas favoritas',
+    tags: ['React', 'NodeJS', 'The Movie Database', 'JSON'],
+    url_repo: 'https://github.com/360macky/ReactFlix',
+    url_learn: 'https://github.com/360macky/ReactFlix',
+    url_deploy: 'https://reactflix.vercel.app/',
+    image: 'https://portfolio.marceloarias.com/images/projects/reactflix.webp',
   },
   5: {
     name: 'PlatziKey',
@@ -120,6 +111,15 @@ const SPANISH_PROJECTS = {
     url_learn: 'https://github.com/360macky/platzikey',
     url_deploy: 'https://github.com/360macky/platzikey',
     image: 'https://portfolio.marceloarias.com/images/projects/platzikey.webp',
+  },
+  6: {
+    name: 'Saturn',
+    description: 'Sitio web de comercio electrónico alojado en Firebase e integrado con Stripe',
+    tags: ['React', 'Firebase', 'Material Icons', 'Stripe', 'React Router'],
+    url_repo: 'https://github.com/360macky/Saturn',
+    url_learn: 'https://github.com/360macky/Saturn',
+    url_deploy: 'https://saturn-32b13.web.app/',
+    image: 'https://portfolio.marceloarias.com/images/projects/saturn.webp',
   },
 };
 
