@@ -35,7 +35,18 @@ const cardElement = {
     image: '<div class="project-image-container"><div class="project-image" style="background-image: url(\'IMAGE\');"></div></div>',
     name: '<p class="project-title">NAME</p>',
     description: '<p class="project-description">DESCRIPTION</p>',
-    url: '<div class="project-actions"><a class="project-actions__button project-actions__button--secondary" href="URL_REPO" target="_blank" rel="noreferrer"><i class="fas fa-laptop-code"></i> <label class="lookCode">Code</label> <i class="fas fa-microscope"></i></a><a class="project-actions__button project-actions__button--recommended" href="URL_DEPLOY" target="_blank" rel="noreferrer"><i class="fas fa-meteor"></i> <label class="use">Use!</label> <i class="fas fa-atom"></i></a></div>',
+    url: `
+        <div class="project-actions">
+            <div class="project-actions__first-section">
+                <a class="project-actions__button project-actions__button--secondary" href="URL_REPO" target="_blank" rel="noreferrer">
+                    <i class="fas fa-laptop-code"></i> <label class="lookCode">Code</label>
+                </a>
+                <a class="project-actions__button project-actions__button--secondary" href="URL_LEARN" target="_blank" rel="noreferrer">
+                    <i class="fas fa-microscope"></i> <label class="learnMore">Learn more</label>
+                </a>
+            </div>
+            <a class="project-actions__button project-actions__button--recommended" href="URL_DEPLOY" target="_blank" rel="noreferrer"><i class="fas fa-sort"></i> <label class="use" id="use">Use!</label> <i class="fas fa-atom"></i></a>
+        </div>`,
     tag: '<a href="https://www.google.com/search?q=TAG" target="_blank" title="TAG" rel="noreferrer">TAG</a>',
 };
 
@@ -75,6 +86,8 @@ function loadProjects(projectsStack) {
         projectCard = projectCard.concat(projectTagsElement);
 
         projectUrlElement = projectUrlElement.replace('URL_REPO', project['url_repo']);
+        
+        projectUrlElement = projectUrlElement.replace('URL_LEARN', project['url_learn']);
 
         projectUrlElement = projectUrlElement.replace('URL_DEPLOY', project['url_deploy']);
 
@@ -90,13 +103,13 @@ function loadProjects(projectsStack) {
 function switchTheme() {
     const ifDarkThemeEnabled = window.matchMedia('(prefers-color-scheme: dark)').matches;
     if (ifDarkThemeEnabled) {
-        console.log('Tonight is gonna b');
         document.documentElement.style.setProperty('--white', '#f3f3f3');
         document.documentElement.style.setProperty('--color-default', '#2a313a');
         document.documentElement.style.setProperty('--color-black', '#1b1f25');
         document.documentElement.style.setProperty('--color-default-darker', '#001367');
         document.documentElement.style.setProperty('--color-primary', '#425fc7');
         document.documentElement.style.setProperty('--color-dark', '#003696');
+        document.documentElement.style.setProperty('--color-primary-lighter', '#7A97FF');
     } else {
         document.documentElement.style.setProperty('--white', '#1b1f25');
         document.documentElement.style.setProperty('--color-default', '#dddddd');
@@ -104,6 +117,7 @@ function switchTheme() {
         document.documentElement.style.setProperty('--color-default-darker', '#bac6ff');
         document.documentElement.style.setProperty('--color-primary', '#839eff');
         document.documentElement.style.setProperty('--color-dark', '#839eff');
+        document.documentElement.style.setProperty('--color-primary-lighter', '#1b1f25');
     }
 }
 
