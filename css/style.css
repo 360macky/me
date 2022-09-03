@@ -15,6 +15,7 @@
     --color-black: #1b1f25;
     --color-default-darker: #001367;
     --color-primary: #425fc7;
+    --color-primary-lighter: #7a97ff;
     --color-dark: #003696;
     --mobile-font-width: 28.75em;
     --font-inter: 'Inter', sans-serif;
@@ -91,8 +92,14 @@ img {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: var(--color-primary);
+    backdrop-filter: blur(1rem) brightness(110%);
     z-index: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+    .nav {
+        backdrop-filter: blur(5px) brightness(40%);
+    }
 }
 
 .nav-list {
@@ -110,7 +117,7 @@ img {
 
 .nav-list a:hover,
 .nav-list a:focus {
-    background-color: var(--color-dark);
+    color: var(--color-primary-lighter);
 }
 
 @media (max-width: 640px) {
@@ -133,7 +140,6 @@ img {
     .welcome-section__profession {
         font-size: 1.7rem;
         margin-top: 15px;
-        text-align: center;
     }
     .contact-section {
         padding-top: 100px;
@@ -177,6 +183,12 @@ img {
         width: 50%;
         font-size: 1.5rem;
     }
+    .project-actions__first-section {
+        flex-direction: row !important;
+    }
+    .project-actions__button--secondary {
+        width: 49% !important;
+    }
 }
 
 .welcome-section {
@@ -192,6 +204,7 @@ img {
 .welcome-section__profession {
     font-weight: 200;
     color: var(--color-primary);
+    text-align: center;
 }
 
 .welcome-section__more-information {
@@ -223,7 +236,7 @@ img {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 10rem 1.5rem;
+    padding: 9rem 1.5rem;
     background-color: var(--color-dark);
 }
 
@@ -308,6 +321,14 @@ img {
     align-self: end;
     margin-top: 2rem;
     margin-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.project-actions__first-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .project-actions__button {
@@ -316,25 +337,31 @@ img {
     color: var(--white);
     border: none;
     border-radius: 10px;
-    padding: 10px 20px;
-    margin: 1px 12px;
-    margin-top: 0.5rem;
     font-size: 1.3rem;
+    padding: 0.4rem;
+    transition-property: box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: ease;
+}
+
+.project-actions__button:active {
+    box-shadow: 0px 0px 2.5rem 0px var(--color-primary);
+    -webkit-box-shadow: 0px 0px 2.5rem 0px var(--color-primary);
+    -moz-box-shadow: 0px 0px 2.5rem 0px var(--color-primary);
+}
+
+.project-actions__button--secondary {
+    width: 100%;
+    margin-bottom: 0.6rem;
 }
 
 .project-actions__button--secondary i {
-    transition: 0.3s ease-out;
-    visibility: hidden;
-    opacity: 0;
-}
-
-.project-actions__button--secondary:hover i {
-    transition: 0.3s ease-out;
     visibility: visible;
     opacity: 1;
 }
 
 .project-actions__button--recommended {
+    padding: 0.6rem 0.6rem;
     background-color: var(--color-primary);
 }
 
@@ -353,6 +380,12 @@ img {
     }
 }
 
+.project-actions__button {
+    font-family: var(--font-inter);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
 .project-actions__button--recommended:hover .fa-atom {
     transition: 3s ease-out;
     transform: rotate(360deg);
@@ -367,7 +400,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 2rem 0.5rem;
+    padding: 1.2rem 0.5rem;
     font-size: 2rem;
     min-height: 70px;
     font-family: var(--font-inter);
@@ -387,15 +420,18 @@ img {
 }
 
 .project-card:hover {
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 1px 2rem rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
+}
+
+.project-card:hover .project-image {
     transform: scale(1.05);
 }
 
 .project-description {
-    margin-top: 5px;
-    font-size: 1.2rem;
-    padding: 0px 40px;
     font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    padding: 0px 2rem;
     line-height: 1.1;
     font-weight: 200;
 }
@@ -405,18 +441,18 @@ img {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 1.2rem;
+    margin-top: 0.8rem;
     font-size: 1rem;
-    padding: 0px 8px;
+    padding: 0 0.5rem;
 }
 
 .project-tags a {
-    margin-right: 0.8rem;
-    margin-top: 0.8rem;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
     background-color: var(--color-dark);
     color: var(--white);
     border-radius: 20px;
-    padding: 5px;
+    padding: 0.3rem 0.7rem;
 }
 
 .btn {
@@ -428,7 +464,13 @@ img {
 .btn__call-action {
     font-family: var(--font-inter);
     background-color: var(--color-default);
-    transition: 0.2s ease-out;
+    transition: 250ms ease-out;
+}
+
+.btn__call-action:active {
+    box-shadow: 0px 0px 2.5rem 0px var(--color-dark);
+    -webkit-box-shadow: 0px 0px 2.5rem 0px var(--color-dark);
+    -moz-box-shadow: 0px 0px 2.5rem 0px var(--color-dark);
 }
 
 .btn__call-action:hover {
@@ -456,10 +498,6 @@ img {
     font-size: 2rem;
     transition: 0.2s ease-out;
     border: 2px solid var(--white);
-}
-
-.btn__show-all:hover {
-    background-color: var(--color-primary);
 }
 
 .about-me-section {
@@ -514,7 +552,7 @@ img {
 
 .project-section-header {
     margin-top: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 2rem;
     color: var(--color-primary);
 }
 
@@ -528,28 +566,23 @@ img {
 
 .about-me-container > div {
     width: 380px;
-    background-color: white;
-    color: rgb(17, 17, 17);
+    background-color: var(--color-black);
+    color: var(--white);
     padding: 28px;
     margin: 20px;
     border: 1px solid rgb(228, 228, 228);
     border-radius: 25px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    transition: 300ms background-color, color;
+    transition: 250ms box-shadow ease;
+    line-height: 1.2;
+    font-size: 1.2rem;
 }
 
 .about-me-container > div:hover {
-    background-color: var(--color-primary);
-    color: white;
-}
-
-.about-me-container > div:hover h3 {
-    transition: 300ms color;
-    color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 0px 24px;
 }
 
 .about-me-container h3 {
-    color: var(--color-primary);
+    color: var(--color-primary-lighter);
     font-size: 2rem;
     margin-bottom: 1rem;
 }
