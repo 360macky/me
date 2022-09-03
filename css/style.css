@@ -161,9 +161,16 @@ img {
     .projects__description {
         font-size: 1.4rem;
         padding: 0 !important;
+        margin-bottom: 1rem;
     }
     .projects-section {
-        padding: 7rem 1.5rem !important;
+        padding: 7rem 1rem !important;
+    }
+    .project-tags {
+        display: none !important;
+    }
+    .project-image {
+        height: 12rem !important;
     }
 }
 
@@ -309,7 +316,7 @@ img {
 
 .project-image {
     width: 100%;
-    height: 250px;
+    height: 15.6rem;
     background-size: cover;
     background-position: center;
     overflow: hidden;
@@ -341,12 +348,13 @@ img {
     border-radius: 10px;
     font-size: 1.3rem;
     padding: 0.4rem;
-    transition-property: box-shadow;
+    transition-property: box-shadow, transform;
     transition-duration: 250ms;
     transition-timing-function: ease;
 }
 
 .project-actions__button:active {
+    transform: scale(0.98);
     box-shadow: 0px 0px 2.5rem 0px var(--color-primary);
     -webkit-box-shadow: 0px 0px 2.5rem 0px var(--color-primary);
     -moz-box-shadow: 0px 0px 2.5rem 0px var(--color-primary);
@@ -355,6 +363,7 @@ img {
 .project-actions__button--secondary {
     width: 100%;
     margin-bottom: 0.6rem;
+    padding: 0.5rem 0rem;
 }
 
 .project-actions__button--secondary i {
@@ -415,7 +424,9 @@ img {
     overflow: hidden;
     background-color: var(--color-default);
     padding: 0px 0px 8px 0px;
-    border-radius: 15px;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    border-radius: 1rem;
     transition-duration: 0.3s;
     transition-timing-function: ease;
     transition-property: box-shadow transform;
@@ -522,17 +533,32 @@ img {
 }
 
 .welcome-section__switch_language {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 0.7rem;
+    background-color: var(--color-default);
+    padding: 0.5rem 2rem;
+    border-radius: 2rem;
+    transition-property: box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: ease;
+    cursor: pointer;
+}
+
+.welcome-section__switch_language:active {
+    box-shadow: 0px 0px 1.5rem 0px var(--color-primary);
+    -webkit-box-shadow: 0px 0px 1.5rem 0px var(--color-primary);
+    -moz-box-shadow: 0px 0px 1.5rem 0px var(--color-primary);
+    color: var(--color-primary-lighter);
 }
 
 .welcome-section__switch_language a {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     transition: 300ms color;
-    color: var(--color-primary);
-}
-
-.welcome-section__switch_language a:hover {
     color: var(--white);
+    font-family: var(--font-inter);
+    font-weight: 300;
 }
 
 .img-profile-container {
@@ -575,11 +601,13 @@ img {
     border: 1px solid rgb(228, 228, 228);
     border-radius: 25px;
     transition: 250ms box-shadow ease;
-    line-height: 1.2;
+    line-height: 1.3;
     font-size: 1.2rem;
 }
 
 .about-me-container > div:hover {
+    -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 0px 24px;
+    -moz-box-shadow: rgba(149, 157, 165, 0.2) 0px 0px 24px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 0px 24px;
 }
 
