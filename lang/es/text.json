@@ -1,0 +1,60 @@
+{
+    "mainElements": {
+        "nav": ["Hola", "Proyectos", "Sobre mí", "Contacto"],
+        "switchLanguage": {
+            "en": {
+                "message": "Read it in English"
+            }
+        },
+        "switchLanguagePreference": "en"
+    },
+    "welcomePage": {
+        "title": "Hola, soy Marcelo",
+        "briefDescription": "un desarrollador JavaScript avanzado",
+        "buttonCallToAction": "Cosas que hago"
+    },
+    "projects": {
+        "title": "Estos son algunos de mis proyectos",
+        "description": "He creado aplicaciones web y móviles, partiendo de una idea, creando por un prototipo en Figma, maquetándolo en HTML+CSS y luego desarrollando los módulos internos de la aplicación. Esta es una selección de ellos. Actualmente actualizo mis aplicaciones integrando prácticas de linting, testing y a11y.",
+        "projectInput": "Buscar proyectos",
+        "projectCard": {
+            "tags": "Etiquetas",
+            "lookCode": "Código",
+            "learnMore": "Explorar",
+            "use": "Abrir app"
+        },
+        "textMoreProjects": "Tengo más proyectos Open Source",
+        "moreProjectsButton": "Ver más"
+    },
+    "about": {
+        "title": "Sobre mí",
+        "card_1": {
+            "title": "Breve historia",
+            "content": "Desde 2015 comencé a crear mis primeros sitios web. Aprendí los conceptos básicos de HTML y he complementado mis conocimientos con CSS y JavaScript. He trabajado con Vue y Angular, pero React.js es mi librería preferida."
+        },
+        "card_2": {
+            "title": "Actualmente",
+            "content": "Como desarrollador de FrontEnd, puedo crear, diseñar e implementar sitios web utilizando buenas prácticas. Aún así, sigo aprendiendo sobre diseño UX, prototipos de UI y nuevas librerías JS."
+        },
+        "card_3": {
+            "title": "Más datos",
+            "content": [
+                "Aproximadamente 7 años programando, y con experiencia laboral previa.",
+                "Nunca paro de aprender.",
+                "Soy graduado en Desarrollo de Software del instituto tecnológico SENATI.",
+                "Amo lo que hago."
+            ]
+        }
+    },
+    "contact": {
+        "title": "¡A crear algo juntos!",
+        "links": {
+            "github": "Proyectos en GitHub",
+            "twitter": "Twitter",
+            "mail": "Envíame un correo",
+            "youtube": "Mira mis vídeos",
+            "linkedin": "Mis certificaciones",
+            "blog": "Mi blog personal"
+        }
+    }
+}
