@@ -4,8 +4,8 @@ document.cookie = 'preferredLanguage=' + languageCode;
 let languageEs = {};
 let languageEn = {};
 
-const SPANISH_LANGUAGE = '/lang/es.json';
-const ENGLISH_LANGUAGE = '/lang/en.json';
+const SPANISH_LANGUAGE = '/lang/es/texts.json';
+const ENGLISH_LANGUAGE = '/lang/en/texts.json';
 
 const ENGLISH_PROJECTS = {
     0: {
