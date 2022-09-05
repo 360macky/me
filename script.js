@@ -106,7 +106,7 @@ function loadProjects(projectsStack) {
 function switchTheme() {
   const ifDarkThemeEnabled = window.matchMedia('(prefers-color-scheme: dark)').matches;
   if (ifDarkThemeEnabled) {
-    document.getElementsByTagName('meta')['theme-color'].content = '#425fc7';
+    document.getElementsByTagName('meta')['theme-color'].content = '#000000';
     document.documentElement.style.setProperty('--color-white', '#f3f3f3');
     document.documentElement.style.setProperty('--color-default', '#2a313a');
     document.documentElement.style.setProperty('--color-black', '#1b1f25');
