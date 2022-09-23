@@ -8,6 +8,15 @@ const SPANISH_LANGUAGE = '/lang/es/texts.json';
 const ENGLISH_LANGUAGE = '/lang/en/texts.json';
 
 const ENGLISH_PROJECTS = {
+  0: {
+    name: 'Graphem',
+    description: 'GraphQL telemetry plugin connector for NASA Open MCT',
+    tags: ['GraphQL', 'WebSockets', 'Open MCT', 'Package'],
+    url_repo: 'https://github.com/360macky/graphem',
+    url_learn: 'https://github.com/360macky/graphem',
+    url_deploy: 'https://github.com/360macky/graphem',
+    image: 'https://portfolio.marceloarias.com/images/projects/graphem.webp',
+  },
   1: {
     name: '1spaceX',
     description: 'SpaceX Capsules Finder with information like landings, status, type and more',
@@ -54,18 +63,18 @@ const ENGLISH_PROJECTS = {
     url_deploy: 'https://github.com/360macky/platzikey',
     image: 'https://portfolio.marceloarias.com/images/projects/platzikey.webp',
   },
-  6: {
+};
+
+const SPANISH_PROJECTS = {
+  0: {
     name: 'Graphem',
-    description: 'GraphQL telemetry plugin connector for NASA Open MCT',
+    description: 'Plugin de telemtría conector entre GraphQL y NASA Open MCT',
     tags: ['GraphQL', 'WebSockets', 'Open MCT', 'Package'],
     url_repo: 'https://github.com/360macky/graphem',
     url_learn: 'https://github.com/360macky/graphem',
     url_deploy: 'https://github.com/360macky/graphem',
     image: 'https://portfolio.marceloarias.com/images/projects/graphem.webp',
   },
-};
-
-const SPANISH_PROJECTS = {
   1: {
     name: '1spaceX',
     description: 'Buscador de cápsulas SpaceX con información como aterrizajes, estado, tipo y más',
@@ -111,15 +120,6 @@ const SPANISH_PROJECTS = {
     url_learn: 'https://github.com/360macky/platzikey',
     url_deploy: 'https://github.com/360macky/platzikey',
     image: 'https://portfolio.marceloarias.com/images/projects/platzikey.webp',
-  },
-  6: {
-    name: 'Graphem',
-    description: 'Plugin de telemtría conector entre GraphQL y NASA Open MCT',
-    tags: ['GraphQL', 'WebSockets', 'Open MCT', 'Package'],
-    url_repo: 'https://github.com/360macky/graphem',
-    url_learn: 'https://github.com/360macky/graphem',
-    url_deploy: 'https://github.com/360macky/graphem',
-    image: 'https://portfolio.marceloarias.com/images/projects/graphem.webp',
   },
 };
 
