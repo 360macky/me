@@ -18,15 +18,6 @@ const ENGLISH_PROJECTS = {
     image: 'https://portfolio.marceloarias.com/images/projects/graphem.webp',
   },
   1: {
-    name: '1spaceX',
-    description: 'SpaceX Capsules Finder with information like landings, status, type and more',
-    tags: ['SpaceX API', 'React', 'NodeJS', 'SpaceX'],
-    url_repo: 'https://github.com/360macky/spacex-capsules-search',
-    url_learn: 'https://github.com/360macky/spacex-capsules-search',
-    url_deploy: 'https://1spacex.com/',
-    image: 'https://portfolio.marceloarias.com/images/projects/spacex-search.webp',
-  },
-  2: {
     name: 'MiniEdit',
     description: 'A simple photo editing web app',
     tags: ['JavaScript', 'Filters.js'],
@@ -34,6 +25,15 @@ const ENGLISH_PROJECTS = {
     url_learn: 'https://github.com/360macky/miniedit',
     url_deploy: 'https://miniedit.me/',
     image: 'https://portfolio.marceloarias.com/images/projects/miniedit.webp',
+  },
+  2: {
+    name: '1spaceX',
+    description: 'SpaceX Capsules Finder with information like landings, status, type and more',
+    tags: ['SpaceX API', 'React', 'NodeJS', 'SpaceX'],
+    url_repo: 'https://github.com/360macky/spacex-capsules-search',
+    url_learn: 'https://github.com/360macky/spacex-capsules-search',
+    url_deploy: 'https://1spacex.com/',
+    image: 'https://portfolio.marceloarias.com/images/projects/spacex-search.webp',
   },
   3: {
     name: 'Hackbank',
@@ -76,15 +76,6 @@ const SPANISH_PROJECTS = {
     image: 'https://portfolio.marceloarias.com/images/projects/graphem.webp',
   },
   1: {
-    name: '1spaceX',
-    description: 'Buscador de cápsulas SpaceX con información como aterrizajes, estado, tipo y más',
-    tags: ['SpaceX API', 'React', 'NodeJS', 'SpaceX'],
-    url_repo: 'https://github.com/360macky/spacex-capsules-search',
-    url_learn: 'https://github.com/360macky/spacex-capsules-search',
-    url_deploy: 'https://1spacex.com/',
-    image: 'https://portfolio.marceloarias.com/images/projects/spacex-search.webp',
-  },
-  2: {
     name: 'MiniEdit',
     description: 'Una aplicación web simple de edición de fotografías.',
     tags: ['JavaScript', 'Filters.js'],
@@ -92,6 +83,15 @@ const SPANISH_PROJECTS = {
     url_learn: 'https://github.com/360macky/miniedit',
     url_deploy: 'https://miniedit.me/',
     image: 'https://portfolio.marceloarias.com/images/projects/miniedit.webp',
+  },
+  2: {
+    name: '1spaceX',
+    description: 'Buscador de cápsulas SpaceX con información como aterrizajes, estado, tipo y más',
+    tags: ['SpaceX API', 'React', 'NodeJS', 'SpaceX'],
+    url_repo: 'https://github.com/360macky/spacex-capsules-search',
+    url_learn: 'https://github.com/360macky/spacex-capsules-search',
+    url_deploy: 'https://1spacex.com/',
+    image: 'https://portfolio.marceloarias.com/images/projects/spacex-search.webp',
   },
   3: {
     name: 'Hackbank',
