@@ -16,7 +16,7 @@
   },
   "projects": {
     "title": "Estos son algunos de mis proyectos",
-    "description": "He creado aplicaciones web y móviles, partiendo de una idea, creando por un prototipo en Figma, maquetándolo en HTML+CSS y luego desarrollando los módulos internos de la aplicación. Esta es una selección de ellos. Actualmente actualizo mis aplicaciones integrando prácticas de linting, testing y a11y.",
+    "description": "He creado aplicaciones web y móviles, partiendo de una idea, diseñando un prototipo de interfaz, maquetándolo en HTML/CSS y luego desarrollando los módulos internos de la aplicación. Esta es una selección de mis proyectos.",
     "projectInput": "Buscar proyectos",
     "projectCard": {
       "tags": "Etiquetas",
