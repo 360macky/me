@@ -13,8 +13,8 @@ const ENGLISH_PROJECTS = {
     description: 'GraphQL telemetry plugin connector for NASA Open MCT',
     tags: ['GraphQL', 'WebSockets', 'Open MCT', 'Package'],
     url_repo: 'https://github.com/360macky/graphem',
-    url_learn: 'https://github.com/360macky/graphem',
-    url_deploy: 'https://github.com/360macky/graphem',
+    url_learn: 'https://graphem.space/',
+    url_deploy: 'https://graphem.space/',
     image: 'https://portfolio.marceloarias.com/images/projects/graphem.webp',
   },
   1: {
@@ -71,8 +71,8 @@ const SPANISH_PROJECTS = {
     description: 'Plugin de telemtría conector entre GraphQL y NASA Open MCT',
     tags: ['GraphQL', 'WebSockets', 'Open MCT', 'Package'],
     url_repo: 'https://github.com/360macky/graphem',
-    url_learn: 'https://github.com/360macky/graphem',
-    url_deploy: 'https://github.com/360macky/graphem',
+    url_learn: 'https://graphem.space/',
+    url_deploy: 'https://graphem.space/',
     image: 'https://portfolio.marceloarias.com/images/projects/graphem.webp',
   },
   1: {
