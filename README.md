@@ -8,10 +8,10 @@
 </p>
 
 <img
-  src=".github/screenshot.jpeg"
+  src=".github/preview.gif"
   align="center"
-  title="Screenshot of Marcelo Arias portafolio"  
-  alt="Screenshot of Marcelo Arias portafolio"  
+  title="Preview of Marcelo Arias portafolio"  
+  alt="Preview of Marcelo Arias portafolio"  
 />
 
 ## 💻 Development
