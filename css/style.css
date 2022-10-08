@@ -253,6 +253,36 @@ img {
   background-color: var(--color-dark);
 }
 
+.projects__diagram {
+  display: none;
+}
+
+.projects-diagram-image {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .projects__diagram {
+    display: flex;
+    padding-bottom: 3rem;
+  }
+  .projects-diagram-image {
+    display: block;
+    width: 64rem;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-property: box-shadow transform;
+  }
+  .projects-diagram-image:hover {
+    transform: scale(1.1);
+  }
+  @media (prefers-color-scheme: dark) {
+    .projects-diagram-image {
+      filter: invert(1);
+    }
+  }
+}
+
 .projects__description {
   padding: 1rem;
   padding-bottom: 3rem;
