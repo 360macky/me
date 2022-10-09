@@ -113,6 +113,7 @@ function switchTheme() {
     document.documentElement.style.setProperty('--color-default-darker', '#001367');
     document.documentElement.style.setProperty('--color-primary', '#425fc7');
     document.documentElement.style.setProperty('--color-dark', '#003696');
+    document.documentElement.style.setProperty('--color-dark50', '#00369680');
     document.documentElement.style.setProperty('--color-primary-lighter', '#7A97FF');
   } else {
     document.getElementsByTagName('meta')['theme-color'].content = '#ffffff';
@@ -122,6 +123,7 @@ function switchTheme() {
     document.documentElement.style.setProperty('--color-default-darker', '#bac6ff');
     document.documentElement.style.setProperty('--color-primary', '#839eff');
     document.documentElement.style.setProperty('--color-dark', '#839eff');
+    document.documentElement.style.setProperty('--color-dark50', '#839eff80');
     document.documentElement.style.setProperty('--color-primary-lighter', '#1b1f25');
   }
 }

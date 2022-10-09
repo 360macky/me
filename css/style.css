@@ -17,6 +17,7 @@
   --color-primary: #425fc7;
   --color-primary-lighter: #7a97ff;
   --color-dark: #003696;
+  --color-dark50: #00369680;
   --mobile-font-width: 28.75em;
   --font-inter: 'Inter', sans-serif;
   --font-fira-code: 'Fira Code', monospace;
@@ -419,9 +420,86 @@ img {
   background-color: var(--color-primary);
 }
 
+.circle-of-development--container {
+  position: relative;
+  text-shadow: 0 0 0.875rem var(--color-black);
+}
+
+.circle-of-development--text:hover {
+  transform: scale(1.2);
+  background-color: var(--color-dark50);
+}
+
+.circle-of-development--text {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transition-property: transform, background-color;
+  transition-duration: 300ms;
+  transition-timing-function: ease;
+}
+
+.circle-of-development--text h3 {
+  font-size: 2.6rem;
+  color: var(--color-white);
+  font-weight: bold;
+  font-family: var(--font-inter) !important;
+}
+
+.circle-of-development {
+  max-width: 40rem;
+}
+
+@media (prefers-color-scheme: light) {
+  .circle-of-development {
+    filter: invert(1);
+  }
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .footer-atom {
     animation: footer-atom-spin infinite 3s ease-in-out;
+  }
+  .circle-of-development {
+    animation: circle-spin infinite 10s ease;
+  }
+}
+
+@keyframes circle-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  11.1% {
+    transform: rotate(45deg);
+  }
+  22.1% {
+    transform: rotate(90deg);
+  }
+  33.1% {
+    transform: rotate(135deg);
+  }
+  44.1% {
+    transform: rotate(180deg);
+  }
+  55.1% {
+    transform: rotate(225deg);
+  }
+  66.1% {
+    transform: rotate(270deg);
+  }
+  77.1% {
+    transform: rotate(315deg);
+  }
+  88.1% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
 
@@ -555,13 +633,18 @@ img {
 
 .btn__show-all {
   margin-top: 2rem;
-  font-size: 2rem;
+  font-size: 1.8rem;
   transition: 0.2s ease-out;
+  background-color: var(--color-primary);
   border: 2px solid var(--color-white);
 }
 
+.circle-of-development--text:hover .btn__show-all {
+  background-color: var(--color-black);
+}
+
 .btn__show-all:active {
-  transform: scale(0.98);
+  transform: scale(0.9);
 }
 
 .about-me-section {
@@ -696,6 +779,16 @@ img {
 @media (max-width: 640px) {
   .contact-section-header h1 {
     font-size: 3.2rem;
+  }
+  .circle-of-development {
+    opacity: 0;
+    animation: none;
+  }
+  .circle-of-development--text h3 {
+    font-size: 1.8rem;
+  }
+  .btn__show-all {
+    font-size: 1.6rem;
   }
 }
 
