@@ -15,7 +15,7 @@ const ENGLISH_PROJECTS = {
     url_repo: 'https://github.com/360macky/graphem',
     url_learn: 'https://graphem.space/',
     url_deploy: 'https://graphem.space/',
-    image: 'https://portfolio.marceloarias.com/images/projects/graphem.webp',
+    image: 'https://marceloarias.com/images/projects/graphem.webp',
   },
   1: {
     name: 'ScannerCam',
@@ -24,7 +24,7 @@ const ENGLISH_PROJECTS = {
     url_repo: 'https://github.com/360macky/scannercam',
     url_learn: 'https://scanner.cam/',
     url_deploy: 'https://scanner.cam/',
-    image: 'https://portfolio.marceloarias.com/images/projects/scannercam.webp',
+    image: 'https://marceloarias.com/images/projects/scannercam.webp',
   },
   2: {
     name: 'MiniEdit',
@@ -33,7 +33,7 @@ const ENGLISH_PROJECTS = {
     url_repo: 'https://github.com/360macky/miniedit',
     url_learn: 'https://miniedit.me/about',
     url_deploy: 'https://miniedit.me/',
-    image: 'https://portfolio.marceloarias.com/images/projects/miniedit.webp',
+    image: 'https://marceloarias.com/images/projects/miniedit.webp',
   },
   3: {
     name: 'Hackbank',
@@ -42,7 +42,7 @@ const ENGLISH_PROJECTS = {
     url_repo: 'https://github.com/360macky/hackbank/',
     url_learn: 'https://github.com/360macky/hackbank/',
     url_deploy: 'https://hackbank.app/',
-    image: 'https://portfolio.marceloarias.com/images/projects/hackbank.webp',
+    image: 'https://marceloarias.com/images/projects/hackbank.webp',
   },
   4: {
     name: '1spaceX',
@@ -51,7 +51,7 @@ const ENGLISH_PROJECTS = {
     url_repo: 'https://github.com/360macky/1spaceX/',
     url_learn: 'https://1spacex.com/about',
     url_deploy: 'https://1spacex.com/',
-    image: 'https://portfolio.marceloarias.com/images/projects/spacex-search.webp',
+    image: 'https://marceloarias.com/images/projects/spacex-search.webp',
   },
   5: {
     name: 'PlatziKey',
@@ -61,7 +61,7 @@ const ENGLISH_PROJECTS = {
     url_repo: 'https://github.com/360macky/platzikey',
     url_learn: 'https://github.com/360macky/platzikey',
     url_deploy: 'https://github.com/360macky/platzikey',
-    image: 'https://portfolio.marceloarias.com/images/projects/platzikey.webp',
+    image: 'https://marceloarias.com/images/projects/platzikey.webp',
   },
 };
 
@@ -73,7 +73,7 @@ const SPANISH_PROJECTS = {
     url_repo: 'https://github.com/360macky/graphem',
     url_learn: 'https://graphem.space/',
     url_deploy: 'https://graphem.space/',
-    image: 'https://portfolio.marceloarias.com/images/projects/graphem.webp',
+    image: 'https://marceloarias.com/images/projects/graphem.webp',
   },
   1: {
     name: 'ScannerCam',
@@ -82,7 +82,7 @@ const SPANISH_PROJECTS = {
     url_repo: 'https://github.com/360macky/scannercam',
     url_learn: 'https://scanner.cam/',
     url_deploy: 'https://scanner.cam/',
-    image: 'https://portfolio.marceloarias.com/images/projects/scannercam.webp',
+    image: 'https://marceloarias.com/images/projects/scannercam.webp',
   },
   2: {
     name: 'MiniEdit',
@@ -91,7 +91,7 @@ const SPANISH_PROJECTS = {
     url_repo: 'https://github.com/360macky/miniedit',
     url_learn: 'https://miniedit.me/about',
     url_deploy: 'https://miniedit.me/',
-    image: 'https://portfolio.marceloarias.com/images/projects/miniedit.webp',
+    image: 'https://marceloarias.com/images/projects/miniedit.webp',
   },
   3: {
     name: 'Hackbank',
@@ -100,7 +100,7 @@ const SPANISH_PROJECTS = {
     url_repo: 'https://github.com/360macky/hackbank/',
     url_learn: 'https://github.com/360macky/hackbank/',
     url_deploy: 'https://hackbank.app/',
-    image: 'https://portfolio.marceloarias.com/images/projects/hackbank.webp',
+    image: 'https://marceloarias.com/images/projects/hackbank.webp',
   },
   4: {
     name: '1spaceX',
@@ -109,7 +109,7 @@ const SPANISH_PROJECTS = {
     url_repo: 'https://github.com/360macky/1spaceX/',
     url_learn: 'https://1spacex.com/about',
     url_deploy: 'https://1spacex.com/',
-    image: 'https://portfolio.marceloarias.com/images/projects/spacex-search.webp',
+    image: 'https://marceloarias.com/images/projects/spacex-search.webp',
   },
   5: {
     name: 'PlatziKey',
@@ -119,7 +119,7 @@ const SPANISH_PROJECTS = {
     url_repo: 'https://github.com/360macky/platzikey',
     url_learn: 'https://github.com/360macky/platzikey',
     url_deploy: 'https://github.com/360macky/platzikey',
-    image: 'https://portfolio.marceloarias.com/images/projects/platzikey.webp',
+    image: 'https://marceloarias.com/images/projects/platzikey.webp',
   },
 };
 
