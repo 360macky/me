@@ -64,6 +64,33 @@ h3 {
 .website-title {
   letter-spacing: -0.15rem;
   font-weight: 700;
+  animation-name: grow-title;
+  animation-timing-function: ease;
+  animation-duration: 300ms;
+}
+
+@keyframes grow-title {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.welcome-section__brief-description {
+  animation-name: appear-description;
+  animation-timing-function: ease;
+  animation-duration: 300ms;
+}
+
+@keyframes appear-description {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
 }
 
 ul {
@@ -215,7 +242,7 @@ img {
 
 .welcome-section__profession {
   font-weight: 200;
-  color: var(--color-primary);
+  color: var(--color-primary-lighter);
   text-align: center;
 }
 
@@ -603,6 +630,9 @@ img {
   font-family: var(--font-inter);
   background-color: var(--color-default);
   transition: 250ms ease-out;
+  animation-name: reduce-call-to-action;
+  animation-timing-function: ease;
+  animation-duration: 300ms;
 }
 
 .btn__call-action:active {
@@ -621,6 +651,17 @@ img {
 
 .btn__call-action:hover .fa-hand-paper {
   transform: rotate(-20deg);
+}
+
+@keyframes reduce-call-to-action {
+  from {
+    transform: scale(1.1);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 100;
+  }
 }
 
 .far,
