@@ -43,7 +43,7 @@ const cardElement = {
                     <i class="fas fa-laptop-code" role="img"></i> <label class="lookCode">Code</label>
                 </a>
                 <a class="project-actions__button project-actions__button--secondary" href="URL_LEARN" target="_blank" rel="noreferrer">
-                    <i class="fas fa-microscope" role="img"></i> <label class="learnMore">Learn more</label>
+                    <i class="fas fa-microscope" role="img"></i> <label class="learnMore">Explore</label>
                 </a>
             </div>
             <a class="project-actions__button project-actions__button--recommended" href="URL_DEPLOY" target="_blank" rel="noreferrer">
