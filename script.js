@@ -124,7 +124,7 @@ function switchTheme() {
     document.documentElement.style.setProperty('--color-primary', '#839eff');
     document.documentElement.style.setProperty('--color-dark', '#839eff');
     document.documentElement.style.setProperty('--color-dark50', '#839eff80');
-    document.documentElement.style.setProperty('--color-primary-lighter', '#1b1f25');
+    document.documentElement.style.setProperty('--color-primary-lighter', '#425fc7');
   }
 }
 
