@@ -54,7 +54,7 @@ const ENGLISH_PROJECTS = {
     image: 'https://marceloarias.com/images/projects/spacex-search.webp',
   },
   5: {
-    name: 'PlatziKey',
+    name: 'PlatKey',
     description:
       'A Chrome extension that improves Platzi Exams with keyboard shortcuts, an integrated whiteboard and Zen/SSH mode',
     tags: ['Chrome', 'JavaScript', 'WebKit', 'Extension'],
@@ -112,7 +112,7 @@ const SPANISH_PROJECTS = {
     image: 'https://marceloarias.com/images/projects/spacex-search.webp',
   },
   5: {
-    name: 'PlatziKey',
+    name: 'PlatKey',
     description:
       'Una extensión que mejora la experiencia de los exámenes de Platzi con atajos de teclado, una pizarra integrada y modo Zen/SSH',
     tags: ['Chrome', 'JavaScript', 'WebKit', 'Extension'],
