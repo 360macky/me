@@ -103,6 +103,8 @@ function loadProjects(projectsStack) {
   projectsGrid.innerHTML = projectsCards;
 }
 
+const welcomeSection = document.querySelector('.welcome-section');
+
 function switchTheme() {
   const ifDarkThemeEnabled = window.matchMedia('(prefers-color-scheme: dark)').matches;
   if (ifDarkThemeEnabled) {
@@ -115,6 +117,7 @@ function switchTheme() {
     document.documentElement.style.setProperty('--color-dark', '#003696');
     document.documentElement.style.setProperty('--color-dark50', '#00369680');
     document.documentElement.style.setProperty('--color-primary-lighter', '#7A97FF');
+    welcomeSection.style.backgroundImage = `url('../images/dark-background.webp')`;
   } else {
     document.getElementsByTagName('meta')['theme-color'].content = '#ffffff';
     document.documentElement.style.setProperty('--color-white', '#1b1f25');
@@ -125,8 +128,18 @@ function switchTheme() {
     document.documentElement.style.setProperty('--color-dark', '#839eff');
     document.documentElement.style.setProperty('--color-dark50', '#839eff80');
     document.documentElement.style.setProperty('--color-primary-lighter', '#425fc7');
+    welcomeSection.style.backgroundImage = `url('../images/background.webp')`;
   }
 }
 
 window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', switchTheme);
 switchTheme();
+
+// Animations at the beginning of the page
+
+const nav = document.querySelector('.nav');
+const socialNetworks = document.querySelector('.welcome-section__social-networks');
+setTimeout(() => {
+  nav.style.transform = "translateY(0)";
+  socialNetworks.style.opacity = "100";
+}, 600);

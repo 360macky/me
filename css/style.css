@@ -63,25 +63,14 @@ h3 {
 
 .website-title {
   letter-spacing: -0.15rem;
-  font-weight: 700;
-  animation-name: grow-title;
-  animation-timing-function: ease;
-  animation-duration: 300ms;
-}
-
-@keyframes grow-title {
-  from {
-    transform: scale(0);
-  }
-  to {
-    transform: scale(1);
-  }
+  font-weight: 800;
 }
 
 .welcome-section__brief-description {
   animation-name: appear-description;
   animation-timing-function: ease;
   animation-duration: 300ms;
+  transition: opacity 300ms ease;
 }
 
 @keyframes appear-description {
@@ -123,6 +112,10 @@ img {
   backdrop-filter: blur(1rem) brightness(110%);
   -webkit-backdrop-filter: blur(1rem) brightness(110%);
   z-index: 2;
+  transform: translateY(-100%);
+  transition-property: transform;
+  transition-duration: 300ms;
+  transition-timing-function: ease;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -143,6 +136,9 @@ img {
   transition-property: background-color;
   transition-timing-function: ease;
   transition-duration: 300ms;
+  font-family: var(--font-inter);
+  display: flex;
+  column-gap: 0.5rem;
 }
 
 .nav-list a:hover,
@@ -237,7 +233,10 @@ img {
   align-items: center;
   width: 100%;
   min-height: 100vh;
-  background-color: var(--color-black);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: rotate-background 60s linear infinite;
 }
 
 .welcome-section__profession {
@@ -258,7 +257,11 @@ img {
   justify-content: center;
   align-items: center;
   margin-top: 1.25rem;
-  gap: 1.4rem;
+  column-gap: 1.4rem;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 300ms;
+  transition-timing-function: ease;
 }
 
 .welcome-section__social-networks i {
@@ -269,7 +272,7 @@ img {
 }
 
 .welcome-section__social-networks i:hover {
-  background-color: var(--color-dark);
+  background-color: var(--color-black)
 }
 
 .projects-section {
@@ -628,21 +631,23 @@ img {
 
 .btn__call-action {
   font-family: var(--font-inter);
-  background-color: var(--color-default);
+  background-color: var(--color-black);
   transition: 250ms ease-out;
   animation-name: reduce-call-to-action;
   animation-timing-function: ease;
   animation-duration: 300ms;
+  box-shadow: 0px 0px 2rem 0px var(--color-primary);
+  -webkit-box-shadow: 0px 0px 2rem 0px var(--color-primary);
+  -moz-box-shadow: 0px 0px 2rem 0px var(--color-primary);
+  border: 0.1rem solid var(--color-primary);
 }
 
 .btn__call-action:active {
-  box-shadow: 0px 0px 2.5rem 0px var(--color-dark);
-  -webkit-box-shadow: 0px 0px 2.5rem 0px var(--color-dark);
-  -moz-box-shadow: 0px 0px 2.5rem 0px var(--color-dark);
+  transform: scale(1.05);
 }
 
 .btn__call-action:hover {
-  background-color: var(--color-dark);
+  background-color: var(--color-black);
 }
 
 .btn__call-action:hover .fa-magic {
@@ -712,7 +717,7 @@ img {
   justify-content: center;
   align-items: center;
   margin-top: 1.2rem;
-  background-color: var(--color-default);
+  background-color: transparent;
   padding: 0.5rem 2rem;
   -webkit-border-radius: 2rem;
   -moz-border-radius: 2rem;
