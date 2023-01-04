@@ -73,15 +73,6 @@ h3 {
   transition: opacity 300ms ease;
 }
 
-@keyframes appear-description {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 100;
-  }
-}
-
 ul {
   list-style: none;
 }
@@ -902,12 +893,13 @@ footer {
   font-family: var(--font-inter);
   display: flex;
   flex-direction: column;
+  row-gap: 1.2rem;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
   background-color: var(--color-default);
   border-top: 4px solid var(--color-primary);
   padding: 2rem;
+  font-size: 1.6rem;
 }
 
 @media (max-width: 640px) {
