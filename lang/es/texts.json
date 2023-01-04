@@ -12,7 +12,8 @@
   "welcomePage": {
     "title": "Hola, soy Marcelo",
     "briefDescription": "un desarrollador JavaScript avanzado",
-    "buttonCallToAction": "Cosas que hago"
+    "buttonCallToAction": "Cosas que hago",
+    "contributionsDescription": "Creador o Contribuidor Open-Source en"
   },
   "projects": {
     "title": "Estos son algunos de mis proyectos",
@@ -57,7 +58,8 @@
       "mail": "Envíame un correo",
       "youtube": "Mira mis vídeos",
       "linkedin": "Mis certificaciones",
-      "blog": "Mi blog personal"
+      "blog": "Mi blog personal",
+      "google": "Mi perfil Google Developer"
     }
   }
 }

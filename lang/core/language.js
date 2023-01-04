@@ -131,6 +131,7 @@ function renderLanguageContent(language) {
   document.getElementById('title').textContent = language.welcomePage.title;
   document.getElementById('briefDescription').textContent = language.welcomePage.briefDescription;
   document.getElementById('buttonCallToAction').textContent = language.welcomePage.buttonCallToAction;
+  document.getElementById('contributionsDescription').textContent = language.welcomePage.contributionsDescription;
 
   // Projects
   document.getElementById('projectsTitle').textContent = language.projects.title;
@@ -174,6 +175,8 @@ function renderLanguageContent(language) {
     language.contact.links['linkedin'];
   document.getElementById('contactContent').children[4].children[1].textContent =
     language.contact.links['blog'];
+  document.getElementById('contactContent').children[5].children[1].textContent =
+    language.contact.links['google'];
 
   for (
     let buttonIndex = 0;

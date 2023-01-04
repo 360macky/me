@@ -12,7 +12,8 @@
   "welcomePage": {
     "title": "Hi, I'm Marcelo",
     "briefDescription": "an experienced JavaScript developer",
-    "buttonCallToAction": "Things that I do"
+    "buttonCallToAction": "Things that I do",
+    "contributionsDescription": "Creator or Open-Source Contributor at"
   },
   "projects": {
     "title": "These are some of my projects",
@@ -57,7 +58,8 @@
       "mail": "Send a mail",
       "youtube": "Watch my videos",
       "linkedin": "My certifications",
-      "blog": "My personal blog"
+      "blog": "My personal blog",
+      "google": "Google Developer profile"
     }
   }
 }
