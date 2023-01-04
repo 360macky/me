@@ -180,6 +180,7 @@ img {
   }
   .welcome-section__social-networks i {
     margin: 0px;
+    width: 2rem !important;
   }
   .about-me-section h2 {
     font-size: 3.2rem;
@@ -269,6 +270,10 @@ img {
   -webkit-border-radius: 0.625rem;
   -moz-border-radius: 0.625rem;
   border-radius: 0.625rem;
+  width: 3.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .welcome-section__social-networks i:hover {
