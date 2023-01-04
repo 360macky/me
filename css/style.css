@@ -766,8 +766,8 @@ img {
 }
 
 .project-section-header {
-  margin-top: 100px;
-  margin-bottom: 2rem;
+  margin-top: 6rem;
+  margin-bottom: 3rem;
   color: var(--color-white);
 }
 
@@ -777,14 +777,15 @@ img {
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
+  column-gap: 2rem;
+  row-gap: 1.5rem;
 }
 
 .about-me-container > div {
-  width: 24rem;
+  width: 22rem;
   background-color: var(--color-black);
   color: var(--color-white);
   padding: 1.75rem;
-  margin: 1.2rem;
   border: 1px solid rgb(228, 228, 228);
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
@@ -802,8 +803,14 @@ img {
 
 .about-me-container h3 {
   color: var(--color-primary-lighter);
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin-bottom: 1rem;
+}
+
+.about-me-container p,
+.about-me-container li {
+  font-family: var(--font-inter);
+  font-weight: 300;
 }
 
 .about-me-container {
