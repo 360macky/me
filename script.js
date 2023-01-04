@@ -186,6 +186,7 @@ const description = websiteDescription.textContent;
 
 setTimeout(() => {
   websiteTitle.style.opacity = "100";
+  websiteTitle.style.transform = "unset";
   nav.style.transform = "translateY(0)";
 }, 600);
 
