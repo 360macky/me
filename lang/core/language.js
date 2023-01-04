@@ -162,6 +162,8 @@ function renderLanguageContent(language) {
 
   // Contact
   document.getElementById('contactTitle').textContent = language.contact.title;
+  document.getElementById('contactDescription').textContent = language.contact.description;
+  document.getElementById('contactCallToAction').textContent = language.contact.buttonCallToAction;
   document.getElementById('contactContent').children[0].children[1].textContent =
     language.contact.links['github'];
   document.getElementById('contactContent').children[1].children[1].textContent =
