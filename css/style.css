@@ -859,7 +859,6 @@ img {
 }
 
 .contact-section-header {
-  transform: scale(1.4);
   opacity: 0;
   transition-property: opacity transform;
   transition-duration: 400ms;
