@@ -725,14 +725,6 @@ img {
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: ease;
-  cursor: pointer;
-}
-
-.welcome-section__switch_language:active {
-  box-shadow: 0px 0px 1.5rem 0px var(--color-primary);
-  -webkit-box-shadow: 0px 0px 1.5rem 0px var(--color-primary);
-  -moz-box-shadow: 0px 0px 1.5rem 0px var(--color-primary);
-  color: var(--color-primary-lighter);
 }
 
 .welcome-section__switch_language a {
@@ -741,6 +733,11 @@ img {
   color: var(--color-white);
   font-family: var(--font-inter);
   font-weight: 300;
+  cursor: pointer;
+}
+
+.welcome-section__switch_language a:hover {
+  text-decoration: underline;
 }
 
 .img-profile-container {
