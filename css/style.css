@@ -381,7 +381,7 @@ img {
   max-width: 640px;
   margin: 0px auto 40px auto;
   opacity: 0;
-  transform: scale(1.5);
+  transform: scale(1.1);
   transition-property: opacity, transform;
   transition-duration: 400ms;
   transition-timing-function: ease;
