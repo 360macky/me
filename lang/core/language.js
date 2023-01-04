@@ -169,12 +169,10 @@ function renderLanguageContent(language) {
   document.getElementById('contactContent').children[1].children[1].textContent =
     language.contact.links['twitter'];
   document.getElementById('contactContent').children[2].children[1].textContent =
-    language.contact.links['mail'];
-  document.getElementById('contactContent').children[3].children[1].textContent =
     language.contact.links['youtube'];
-  document.getElementById('contactContent').children[4].children[1].textContent =
+  document.getElementById('contactContent').children[3].children[1].textContent =
     language.contact.links['linkedin'];
-  document.getElementById('contactContent').children[5].children[1].textContent =
+  document.getElementById('contactContent').children[4].children[1].textContent =
     language.contact.links['blog'];
 
   for (
