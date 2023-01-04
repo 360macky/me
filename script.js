@@ -1,3 +1,42 @@
+const scrollElements = document.querySelectorAll(".to-be-scrolled");
+
+/**
+ * Check if element is in view
+ * @param {*} el
+ * @param {*} percentageScroll 
+ * @returns void
+ */
+const elementInView = (el, percentageScroll = 100) => {
+  const elementTop = el.getBoundingClientRect().top;
+  return (
+    elementTop <= 
+    ((window.innerHeight || document.documentElement.clientHeight) * (percentageScroll/100))
+  );
+};
+
+/**
+ * Display element after scrolling into view
+ * @param {*} element 
+ */
+const displayScrollElement = (element) => {
+  element.classList.add("scrolled");
+};
+
+/**
+ * Handle scroll animation for elements
+ */
+const handleScrollAnimation = () => {
+  scrollElements.forEach((el) => {
+    if (elementInView(el, 70)) {
+      displayScrollElement(el);
+    }
+  }) 
+}
+
+window.addEventListener('scroll', () => {
+  handleScrollAnimation();
+})
+
 function searchOnChange() {
   let projects;
 

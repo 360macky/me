@@ -301,6 +301,11 @@ img {
   .projects__diagram {
     display: flex;
     padding-bottom: 3rem;
+    transform: scale(1.1);
+    opacity: 0;
+    transition-property: opacity, transform;
+    transition-duration: 400ms;
+    transition-timing-function: ease;
   }
   .projects-diagram-image {
     display: block;
@@ -326,6 +331,10 @@ img {
   font-family: var(--font-inter);
   font-weight: 300;
   line-height: 130%;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 400ms;
+  transition-timing-function: ease;
 }
 
 .searchbox {
@@ -367,6 +376,11 @@ img {
 .projects-section-header {
   max-width: 640px;
   margin: 0px auto 40px auto;
+  opacity: 0;
+  transform: scale(1.5);
+  transition-property: opacity, transform;
+  transition-duration: 400ms;
+  transition-timing-function: ease;
 }
 
 .projects-grid {
@@ -378,6 +392,10 @@ img {
   margin: 0rem auto;
   margin-bottom: 70px;
   align-items: flex-start;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 400ms;
+  transition-timing-function: ease;
 }
 
 .project-image-container {
@@ -458,6 +476,10 @@ img {
 .circle-of-development--container {
   position: relative;
   text-shadow: 0 0 0.875rem var(--color-black);
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 400ms;
+  transition-timing-function: ease;
 }
 
 .circle-of-development--text:hover {
@@ -585,7 +607,7 @@ img {
   border-radius: 1rem;
   transition-duration: 0.3s;
   transition-timing-function: ease;
-  transition-property: box-shadow transform;
+  transition-property: box-shadow transform opacity;
 }
 
 .project-card:hover {
@@ -769,6 +791,10 @@ img {
   margin-top: 6rem;
   margin-bottom: 3rem;
   color: var(--color-white);
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 400ms;
+  transition-timing-function: ease;
 }
 
 .about-me-container {
@@ -889,4 +915,9 @@ footer {
     flex-direction: column;
     text-align: center;
   }
+}
+
+.to-be-scrolled.scrolled {
+  opacity: 1 !important;
+  transform: unset;
 }
