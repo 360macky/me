@@ -49,6 +49,8 @@
   },
   "contact": {
     "title": "Let's create together...",
+    "description": "Whether you have an offer, a question or just want to say hi",
+    "buttonCallToAction": "Send a mail",
     "links": {
       "github": "GitHub Projects",
       "twitter": "Twitter",
