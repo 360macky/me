@@ -64,12 +64,12 @@ h3 {
 .website-title {
   letter-spacing: -0.15rem;
   font-weight: 800;
+  opacity: 0;
+  transition: opacity 300ms ease;
 }
 
 .welcome-section__brief-description {
-  animation-name: appear-description;
-  animation-timing-function: ease;
-  animation-duration: 300ms;
+  opacity: 0;
   transition: opacity 300ms ease;
 }
 
@@ -636,9 +636,6 @@ img {
   animation-name: reduce-call-to-action;
   animation-timing-function: ease;
   animation-duration: 300ms;
-  box-shadow: 0px 0px 2rem 0px var(--color-primary);
-  -webkit-box-shadow: 0px 0px 2rem 0px var(--color-primary);
-  -moz-box-shadow: 0px 0px 2rem 0px var(--color-primary);
   border: 0.1rem solid var(--color-primary);
 }
 
@@ -648,6 +645,9 @@ img {
 
 .btn__call-action:hover {
   background-color: var(--color-black);
+  box-shadow: 0px 0px 2rem 0px var(--color-primary);
+  -webkit-box-shadow: 0px 0px 2rem 0px var(--color-primary);
+  -moz-box-shadow: 0px 0px 2rem 0px var(--color-primary);
 }
 
 .btn__call-action:hover .fa-magic {
@@ -660,7 +660,7 @@ img {
 
 @keyframes reduce-call-to-action {
   from {
-    transform: scale(1.1);
+    transform: scale(1.5);
     opacity: 0;
   }
   to {
@@ -722,9 +722,10 @@ img {
   -webkit-border-radius: 2rem;
   -moz-border-radius: 2rem;
   border-radius: 2rem;
-  transition-property: box-shadow;
+  transition-property: box-shadow, opacity;
   transition-duration: 250ms;
   transition-timing-function: ease;
+  opacity: 0;
 }
 
 .welcome-section__switch_language a {

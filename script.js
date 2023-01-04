@@ -139,7 +139,17 @@ switchTheme();
 
 const nav = document.querySelector('.nav');
 const socialNetworks = document.querySelector('.welcome-section__social-networks');
+const websiteTitle = document.querySelector('.website-title');
+const websiteDescription = document.querySelector('.welcome-section__brief-description');
+const switchLanguage = document.querySelector('.welcome-section__switch_language');
+
 setTimeout(() => {
+  websiteTitle.style.opacity = "100";
   nav.style.transform = "translateY(0)";
-  socialNetworks.style.opacity = "100";
 }, 600);
+
+setTimeout(() => {
+  websiteDescription.style.opacity = "100";
+  switchLanguage.style.opacity = "100";
+  socialNetworks.style.opacity = "100";
+}, 800);
