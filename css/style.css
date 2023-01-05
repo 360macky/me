@@ -328,18 +328,42 @@ img {
 }
 
 .welcome-section__work img:hover {
-  filter: grayscale(0%);
+  filter: grayscale(0);
   transform: translateY(-0.1rem);
 }
 
 @media (prefers-color-scheme: dark) {
   .welcome-section__work img {
     filter: grayscale(1) brightness(8);
+    -webkit-filter: grayscale(1) brightness(8);
     opacity: 0.6;
   }
   .welcome-section__work img:hover {
     filter: brightness(8) drop-shadow(0 0 1.6rem #fff);
+    -webkit-filter: brightness(8) drop-shadow(0 0 1.6rem #fff);
     opacity: 1;
+  }
+}
+
+/* For Safari: https://stackoverflow.com/a/17472322/10576458 */
+/* Disable transition of filters for Safari */
+@supports (-webkit-hyphens:none) { 
+  .welcome-section__work img {
+    filter: grayscale(1) brightness(1) !important;
+    -webkit-filter: grayscale(1) brightness(1);
+    transform: none;
+    opacity: 1;
+  }
+  .welcome-section__work img:hover {
+    filter: grayscale(1) !important;
+    -webkit-filter: grayscale(1);
+    transform: none;
+    opacity: 1;
+  }
+  @media (prefers-color-scheme: dark) {
+    .welcome-section__work img {
+      filter: grayscale(1) brightness(2) !important;
+    }
   }
 }
 
