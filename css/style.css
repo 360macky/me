@@ -145,7 +145,7 @@ img {
 }
 
 @media (max-width: 640px) {
-  .nav-list label {
+  .nav-list p {
     display: none;
   }
   .welcome-section {
