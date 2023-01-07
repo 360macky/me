@@ -79,14 +79,14 @@ const cardElement = {
         <div class="project-actions">
             <div class="project-actions__first-section">
                 <a class="project-actions__button project-actions__button--secondary" href="URL_REPO" target="_blank" rel="noreferrer">
-                    <i class="fas fa-laptop-code" role="img"></i> <label class="lookCode">Code</label>
+                    <i class="fas fa-laptop-code" role="img" aria-hidden="true"></i> <label class="lookCode">Code</label>
                 </a>
                 <a class="project-actions__button project-actions__button--secondary" href="URL_LEARN" target="_blank" rel="noreferrer">
-                    <i class="fas fa-microscope" role="img"></i> <label class="learnMore">Explore</label>
+                    <i class="fas fa-microscope" role="img" aria-hidden="true"></i> <label class="learnMore">Explore</label>
                 </a>
             </div>
             <a class="project-actions__button project-actions__button--recommended" href="URL_DEPLOY" target="_blank" rel="noreferrer">
-                <i class="fas fa-sort" role="img"></i> <label class="use" id="use">Use!</label> <i class="fas fa-atom" role="img"></i>
+                <i class="fas fa-sort" role="img" aria-hidden="true"></i> <label class="use" id="use">Use!</label> <i class="fas fa-atom" role="img" aria-hidden="true"></i>
             </a>
         </div>`,
   tag: '<a href="https://www.google.com/search?q=TAG" target="_blank" title="TAG" rel="noreferrer">TAG</a>',
