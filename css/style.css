@@ -753,7 +753,9 @@ img {
 .btn__call-action {
   font-family: var(--font-inter);
   background-color: var(--color-black);
-  transition: 250ms ease-out;
+  transition-property: transform;
+  transition-duration: 250ms;
+  transition-timing-function: ease-out;
   animation-name: reduce-call-to-action;
   animation-timing-function: ease;
   animation-duration: 300ms;
