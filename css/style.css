@@ -140,6 +140,10 @@ img {
   color: var(--color-primary-lighter);
 }
 
+.nav-list a:active {
+  text-shadow: 0 0 1.5rem var(--color-primary-lighter);
+}
+
 @media (max-width: 640px) {
   .nav-list label {
     display: none;
