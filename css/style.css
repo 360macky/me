@@ -178,15 +178,15 @@ img {
     font-size: 3.2rem;
   }
   .welcome-section__social-networks i {
-    margin: 0px;
-    width: 2rem !important;
+    margin: 0;
+    width: 2rem;
   }
   .about-me-section h2 {
     font-size: 3.2rem;
   }
   .projects__description {
     font-size: 1.2rem;
-    padding: 0 !important;
+    padding: 0;
     margin-bottom: 1rem;
   }
   .projects-section {
@@ -240,6 +240,12 @@ img {
   .project-actions__button--secondary {
     width: 49% !important;
   }
+  .welcome-section__social-networks i {
+    width: 3.4rem;
+  }
+  .projects__description {
+    padding: 1rem;
+  }
 }
 
 .welcome-section {
@@ -284,7 +290,6 @@ img {
   -webkit-border-radius: 0.625rem;
   -moz-border-radius: 0.625rem;
   border-radius: 0.625rem;
-  width: 3.4rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -416,7 +421,6 @@ img {
 }
 
 .projects__description {
-  padding: 1rem;
   padding-bottom: 3rem;
   max-width: 1024px;
   font-family: var(--font-inter);
