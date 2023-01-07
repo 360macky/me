@@ -1,4 +1,4 @@
-<h1 align="center">Portfolio.MarceloArias.com</h1>
+<h1 align="center">Marcelo Arias Portfolio</h1>
 
 <p align="center"> 💡 Portfolio of projects and web applications made by me 😊</p>
 <p align="center"><a href="https://portfolio.marceloarias.com/">💻 Go to the website! 🚀</a></p>
@@ -31,13 +31,13 @@ In order to have a better performance in search engines and in social networks, 
 ```html
 <meta property="og:type" content="profile" />
 <meta property="og:title" content="👨‍💻🚀 Marcelo Arias Portfolio" />
-<meta property="og:url" content="https://portfolio.marceloarias.com/" />
-<meta property="og:site_name" content="https://portfolio.marceloarias.com/" />
+<meta property="og:url" content="https://marceloarias.com/" />
+<meta property="og:site_name" content="https://marceloarias.com/" />
 <meta
   property="og:description"
   content="I am Marcelo Arias, an expert JavaScript developer and this is my portfolio of projects."
 />
-<meta property="og:image" content="https://portfolio.marceloarias.com/images/thumbnail/thumbnail.png" />
+<meta property="og:image" content="https://marceloarias.com/images/thumbnail/thumbnail.png" />
 ```
 
 ### 🌓 Dark/Light Theme
