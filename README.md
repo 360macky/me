@@ -3,8 +3,9 @@
 <p align="center"> 💡 Portfolio of projects and web applications made by me 😊</p>
 <p align="center"><a href="https://portfolio.marceloarias.com/">💻 Go to the website! 🚀</a></p>
 
+
 <p align="center">
-    <a href="https://github.com/360macky/me/actions/workflows/audit.yml"><img src="https://github.com/360macky/me/actions/workflows/audit.yml/badge.svg" /></a>
+  <img src="https://img.shields.io/github/actions/workflow/status/360macky/me/audit.yml?label=Performance%20tests&logo=google&logoColor=white&style=for-the-badge" />
 </p>
 
 <img
