@@ -851,36 +851,19 @@ img {
   opacity: 0;
 }
 
-.welcome-section__switch_language a {
+.welcome-section__switch_language__btn {
+  background-color: transparent;
+  border: none;
   font-size: 1.2rem;
-  transition: 300ms color;
+  transition: 100ms color;
   color: var(--color-white);
   font-family: var(--font-inter);
   font-weight: 300;
   cursor: pointer;
 }
 
-.welcome-section__switch_language a:hover {
+.welcome-section__switch_language__btn:hover {
   text-decoration: underline;
-}
-
-.img-profile-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-bottom: 50px;
-}
-
-.rounded-image {
-  display: block;
-  margin: 0;
-  text-align: center;
-  display: block;
-  width: 190px;
-  height: 190px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
 }
 
 .project-section-header {
