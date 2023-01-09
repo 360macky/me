@@ -29,23 +29,34 @@
     "moreProjectsButton": "Show all"
   },
   "about": {
-    "title": "A little more about me",
+    "title": "Experience",
     "card_1": {
       "title": "Brief story",
-      "content": "Since 2015 I started creating my first websites. I learned the basics of HTML at a very young age, and over the years I have supplemented my knowledge with CSS and JavaScript. I have worked with Vue and Angular, but React.js is my preferred library."
+      "content": "At 13 years old I was fascinated by the Internet and how it worked. I develop my first website and published on Christmas 2015. Over the years, I've learned to code and how to build websites and web applications considering performance and accessibility."
     },
     "card_2": {
-      "title": "Today",
-      "content": "As a FrontEnd Developer I can build, design and deploy web apps considering performance, accessibility and SEO. I've worked with companies and startups. I've created my own projects."
+      "title": "Tech Writing",
+      "content": "Then, I started writing about technology, programming, and other topics that I find interesting in DEV. Last year I published Codebase. A newsletter for web development and machine learning."
     },
     "card_3": {
-      "title": "More data",
-      "content": [
-        "+7 years programming, and with work experience.",
-        "I love to be an Open Source contributor.",
-        "I'm Software Development graduate of the National Institute of Technology.",
-        "I love what I do. I teach what I do."
-      ]
+      "title": "Work at Start-ups",
+      "content": "I've worked at two start-ups as a Software Developer: Blaze and Tutoom. Please check out my LinkedIn profile for more information about how I've contributed to the product development of these companies."
+    },
+    "card_4": {
+      "title": "Open-Source Contributor",
+      "content": "I love to create and contribute to Open Source projects (Websites, apps, browser extensions, plugins). Currently, I'm working on NASA Open MCT. A web-based mission control framework for visualizing telemetry."
+    },
+    "card_5": {
+      "title": "Educative Content Creator",
+      "content": "I've two YouTube channels (for English/Spanish-speaking communities). 'Tech and Marcelo' is a channel where I share my knowledge about programming. 'Arte de programar' is a channel where I teach Computer Science concepts with animations and drawings."
+    },
+    "card_6": {
+      "title": "Lifelong learner",
+      "content": "Graduated in Software Development career. I always try to learn new things and experiment with new technologies. It's the best way to keep up with the fast-paced world. Not everything I learn is related to programming. Space exploration and Aerial Robotics are topics that I love to learn about."
+    },
+    "card_7": {
+      "title": "Today",
+      "content": "I love to create"
     }
   },
   "contact": {

@@ -148,7 +148,7 @@ function switchTheme() {
   const ifDarkThemeEnabled = window.matchMedia('(prefers-color-scheme: dark)').matches;
   if (ifDarkThemeEnabled) {
     document.getElementsByTagName('meta')['theme-color'].content = '#000000';
-    document.documentElement.style.setProperty('--color-white', '#f3f3f3');
+    document.documentElement.style.setProperty('--color-white', '#f7f7f7');
     document.documentElement.style.setProperty('--color-default', '#2a313a');
     document.documentElement.style.setProperty('--color-black', '#1b1f25');
     document.documentElement.style.setProperty('--color-default-darker', '#001367');
@@ -160,8 +160,8 @@ function switchTheme() {
   } else {
     document.getElementsByTagName('meta')['theme-color'].content = '#ffffff';
     document.documentElement.style.setProperty('--color-white', '#1b1f25');
-    document.documentElement.style.setProperty('--color-default', '#dddddd');
-    document.documentElement.style.setProperty('--color-black', '#f3f3f3');
+    document.documentElement.style.setProperty('--color-default', '#f7f7f7');
+    document.documentElement.style.setProperty('--color-black', '#f7f7f7');
     document.documentElement.style.setProperty('--color-default-darker', '#bac6ff');
     document.documentElement.style.setProperty('--color-primary', '#839eff');
     document.documentElement.style.setProperty('--color-dark', '#839eff');

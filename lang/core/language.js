@@ -147,19 +147,27 @@ function renderLanguageContent(language) {
 
   // About
   document.getElementById('aboutTitle').textContent = language.about.title;
+
   document.getElementById('briefStory').textContent = language.about.card_1.title;
   document.getElementById('briefStory__content').textContent = language.about.card_1.content;
-  document.getElementById('today').textContent = language.about.card_2.title;
-  document.getElementById('today__content').textContent = language.about.card_2.content;
-  document.getElementById('moreData').textContent = language.about.card_3.title;
-  document.getElementById('moreData__content').children[0].children[1].textContent =
-    language.about.card_3.content[0];
-  document.getElementById('moreData__content').children[1].children[1].textContent =
-    language.about.card_3.content[1];
-  document.getElementById('moreData__content').children[2].children[1].textContent =
-    language.about.card_3.content[2];
-  document.getElementById('moreData__content').children[3].children[1].textContent =
-    language.about.card_3.content[3];
+
+  document.getElementById('techWriting').textContent = language.about.card_2.title;
+  document.getElementById('techWriting__content').textContent = language.about.card_2.content;
+
+  document.getElementById('workStory').textContent = language.about.card_3.title;
+  document.getElementById('workStory__content').textContent = language.about.card_3.content;
+
+  document.getElementById('openSource').textContent = language.about.card_4.title;
+  document.getElementById('openSource__content').textContent = language.about.card_4.content;
+
+  document.getElementById('creator').textContent = language.about.card_5.title;
+  document.getElementById('creator__content').textContent = language.about.card_5.content;
+
+  document.getElementById('lifelongLearner').textContent = language.about.card_6.title;
+  document.getElementById('lifelongLearner__content').textContent = language.about.card_6.content;
+
+  document.getElementById('today').textContent = language.about.card_7.title;
+  document.getElementById('today__content').textContent = language.about.card_7.content;
 
   // Contact
   document.getElementById('contactTitle').textContent = language.contact.title;

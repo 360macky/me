@@ -1,10 +1,10 @@
 {
   "title": "Portafolio de Marcelo Arias",
   "mainElements": {
-    "nav": ["Hola", "Proyectos", "Sobre mí", "Contacto"],
+    "nav": ["Hola", "Proyectos", "Experiencia", "Contacto"],
     "switchLanguage": {
       "en": {
-        "message": "Read it in English"
+        "message": "Read in English"
       }
     },
     "switchLanguagePreference": "en"
@@ -29,23 +29,34 @@
     "moreProjectsButton": "Ver más"
   },
   "about": {
-    "title": "Sobre mí",
+    "title": "Experiencia",
     "card_1": {
       "title": "Breve historia",
-      "content": "Desde 2015 comencé a crear mis primeros sitios web. Aprendí los conceptos básicos de HTML y he complementado mis conocimientos con CSS y JavaScript. He trabajado con Vue y Angular, pero React.js es mi librería preferida."
+      "content": "A los 13 años me fascinaba Internet y cómo funcionaba. Desarrollé mi primer sitio web y lo publiqué en la Navidad de 2015. A lo largo de los años, aprendí a programar y a cómo crear sitios web y aplicaciones web teniendo en cuenta el rendimiento y la accesibilidad."
     },
     "card_2": {
-      "title": "Actualmente",
-      "content": "Como Desarrollador FrontEnd puedo construir, diseñar e implementar aplicaciones web teniendo en cuenta el rendimiento, la accesibilidad y el SEO. He trabajado con empresas y startups. He creado mis propios proyectos."
+      "title": "Escritor en tecnología",
+      "content": "Luego, comencé a escribir sobre tecnología, programación y otros temas que encuentro interesantes en DEV. El año pasado publiqué Codebase. Un newsletter sobre desarrollo web y machine learning."
     },
     "card_3": {
-      "title": "Más datos",
-      "content": [
-        "Más de 7 años programando, y con experiencia laboral.",
-        "Amo ser contribuidor de proyectos Open Source",
-        "Soy graduado en Desarrollo de Software del instituto tecnológico SENATI.",
-        "Amo lo que hago. Enseño lo que hago."
-      ]
+      "title": "Mi trabajo en Start-ups",
+      "content": "He trabajado en dos start-ups como Desarrollador de Software: Blaze y Tutoom. Puedes revisar mi perfil de LinkedIn para saber cómo he contribuido al desarrollo de productos de estas empresas."
+    },
+    "card_4": {
+      "title": "Contribuidor Open-Source",
+      "content": "Me encanta crear y contribuir a proyectos de código abierto (sitios web, aplicaciones, extensiones de navegador, complementos). Actualmente, estoy trabajando en NASA Open MCT. Un framework de visualización para misiones espaciales basado en la web."
+    },
+    "card_5": {
+      "title": "Creador de contenido educativo",
+      "content": "Tengo dos canales de YouTube (para comunidades de habla inglesa/española). 'Tech with Marcelo' es un canal donde comparto mis conocimientos sobre programación. 'Arte de programar' es un canal donde enseño conceptos de Informática con animaciones y dibujos."
+    },
+    "card_6": {
+      "title": "Aprendiz de toda la vida",
+      "content": "Egresado de la carrera de Desarrollo de Software. Me gusta aprender cosas nuevas y experimentar con nuevas tecnologías. Es la mejor manera de mantenerse al día con el mundo acelerado. No todo lo que aprendo está relacionado con la programación. La exploración espacial y la robótica aérea son temas sobre los que me encanta aprender también."
+    },
+    "card_7": {
+      "title": "Hoy",
+      "content": "Me gusta crear"
     }
   },
   "contact": {
