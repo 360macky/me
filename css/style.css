@@ -867,7 +867,7 @@ img {
 }
 
 .project-section-header {
-  margin-top: 6rem;
+  margin-top: 4rem;
   margin-bottom: 3rem;
   color: var(--color-white);
   opacity: 0;
@@ -952,6 +952,9 @@ img {
 }
 
 @media (max-width: 640px) {
+  .project-section-header {
+    margin-top: 6rem;
+  }
   .contact-section-header h1 {
     font-size: 3.2rem;
   }
