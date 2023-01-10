@@ -10,7 +10,7 @@ const ENGLISH_LANGUAGE = '/lang/en/texts.json';
 const ENGLISH_PROJECTS = {
   0: {
     name: 'Graphem',
-    description: 'GraphQL telemetry plugin connector for NASA Open MCT',
+    description: 'GraphQL telemetry plugin connector for NASA visualization framework',
     tags: ['GraphQL', 'WebSockets', 'Open MCT', 'Node package'],
     url_repo: 'https://github.com/360macky/graphem',
     url_learn: 'https://graphem.space/',
@@ -19,7 +19,7 @@ const ENGLISH_PROJECTS = {
   },
   1: {
     name: 'ScannerCam',
-    description: 'Computer Vision Web recognizer of objects in camera with speech',
+    description: 'Computer Vision web app recognizer of objects in camera with speech',
     tags: ['React', 'Tensorflow', 'Speech Synthesis API', 'TypeScript'],
     url_repo: 'https://github.com/360macky/scannercam',
     url_learn: 'https://www.scanner.cam/about',
@@ -37,7 +37,7 @@ const ENGLISH_PROJECTS = {
   },
   3: {
     name: 'Hackbank',
-    description: 'The first Bank-to-bank transfer simulator in Peru',
+    description: 'Bank-to-bank transfer simulator for Web, Android and iPhone',
     tags: ['React', 'React Native', 'Expo', 'React Navigation'],
     url_repo: 'https://github.com/360macky/hackbank/',
     url_learn: 'https://github.com/360macky/hackbank/',
@@ -46,7 +46,7 @@ const ENGLISH_PROJECTS = {
   },
   4: {
     name: '1spaceX',
-    description: 'SpaceX Capsules Finder with information like landings, status, type and more',
+    description: 'Search platform for SpaceX complex physical items: Capsules, Launches, Payloads, Rockets and more',
     tags: ['SpaceX API', 'React', 'NodeJS', 'SpaceX'],
     url_repo: 'https://github.com/360macky/1spaceX/',
     url_learn: 'https://1spacex.com/about',
@@ -56,7 +56,7 @@ const ENGLISH_PROJECTS = {
   5: {
     name: 'PlatKey',
     description:
-      'A Chrome extension that improves Platzi Exams with keyboard shortcuts, an integrated whiteboard and Zen/SSH mode',
+      'Chrome/Safari extension that improves Platzi with keyboard shortcuts, integrated whiteboard and Zen/SSH mode',
     tags: ['Chrome', 'JavaScript', 'WebKit', 'Extension'],
     url_repo: 'https://github.com/360macky/platzikey',
     url_learn: 'https://platkey.dev/',
@@ -68,7 +68,7 @@ const ENGLISH_PROJECTS = {
 const SPANISH_PROJECTS = {
   0: {
     name: 'Graphem',
-    description: 'Plugin de telemtría conector entre GraphQL y NASA Open MCT',
+    description: 'Plugin de telemtría conector entre GraphQL y el framework de visualización de NASA',
     tags: ['GraphQL', 'WebSockets', 'Open MCT', 'Node package'],
     url_repo: 'https://github.com/360macky/graphem',
     url_learn: 'https://graphem.space/',
@@ -77,7 +77,7 @@ const SPANISH_PROJECTS = {
   },
   1: {
     name: 'ScannerCam',
-    description: 'Reconocedor de IA de objetos en cámara con voz',
+    description: 'Aplicación web de reconocimiento óptico de objetos en cámara con voz',
     tags: ['React', 'Tensorflow', 'Speech Synthesis API', 'TypeScript'],
     url_repo: 'https://github.com/360macky/scannercam',
     url_learn: 'https://scanner.cam/about',
@@ -86,7 +86,7 @@ const SPANISH_PROJECTS = {
   },
   2: {
     name: 'MiniEdit',
-    description: 'Una aplicación web simple de edición de fotografías.',
+    description: 'Una aplicación web simple de edición de fotografías',
     tags: ['JavaScript', 'Filters.js'],
     url_repo: 'https://github.com/360macky/miniedit',
     url_learn: 'https://miniedit.me/about',
@@ -95,7 +95,7 @@ const SPANISH_PROJECTS = {
   },
   3: {
     name: 'Hackbank',
-    description: 'El primer simulador de transferencia de banco-a-banco en Perú',
+    description: 'Simulador de transferencia de banco-a-banco para Web, Android y iPhone',
     tags: ['React', 'React Native', 'Expo', 'React Navigation'],
     url_repo: 'https://github.com/360macky/hackbank/',
     url_learn: 'https://github.com/360macky/hackbank/',
@@ -104,7 +104,7 @@ const SPANISH_PROJECTS = {
   },
   4: {
     name: '1spaceX',
-    description: 'Buscador de cápsulas SpaceX con información como aterrizajes, estado, tipo y más',
+    description: 'Plataforma de búsqueda para componentes físicos: Capsulas, Lanzamientos, Cohetes y más',
     tags: ['SpaceX API', 'React', 'NodeJS', 'SpaceX'],
     url_repo: 'https://github.com/360macky/1spaceX/',
     url_learn: 'https://1spacex.com/about',
@@ -114,7 +114,7 @@ const SPANISH_PROJECTS = {
   5: {
     name: 'PlatKey',
     description:
-      'Una extensión que mejora la experiencia de los exámenes de Platzi con atajos de teclado, una pizarra integrada y modo Zen/SSH',
+      'Extensión que mejora la experiencia de Platzi con atajos de teclado, una pizarra integrada y modo Zen/SSH',
     tags: ['Chrome', 'JavaScript', 'WebKit', 'Extension'],
     url_repo: 'https://github.com/360macky/platzikey',
     url_learn: 'https://platkey.dev/',
