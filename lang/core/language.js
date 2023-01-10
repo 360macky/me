@@ -169,6 +169,10 @@ function renderLanguageContent(language) {
   document.getElementById('today').textContent = language.about.card_7.title;
   document.getElementById('today__content').textContent = language.about.card_7.content;
 
+  document.getElementById('contributions').textContent = language.about.contributions;
+  document.getElementById('devArticles').textContent = language.about.devArticles;
+  document.getElementById('onlineCertifications').textContent = language.about.onlineCertifications;
+
   // Contact
   document.getElementById('contactTitle').textContent = language.contact.title;
   document.getElementById('contactDescription').textContent = language.contact.description;

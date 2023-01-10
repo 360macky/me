@@ -30,6 +30,9 @@
   },
   "about": {
     "title": "Experiencia",
+    "contributions": "Contribuciones",
+    "devArticles": "Blog en DEV",
+    "onlineCertifications": "Certificaciones online",
     "card_1": {
       "title": "Breve historia",
       "content": "A los 13 años me fascinaba Internet y cómo funcionaba. Desarrollé mi primer sitio web y lo publiqué en la Navidad de 2015. A lo largo de los años, aprendí a programar y a cómo crear sitios web y aplicaciones web teniendo en cuenta el rendimiento y la accesibilidad."

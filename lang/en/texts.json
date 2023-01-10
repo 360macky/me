@@ -30,6 +30,9 @@
   },
   "about": {
     "title": "Experience",
+    "contributions": "Contributions",
+    "devArticles": "DEV articles",
+    "onlineCertifications": "Online Certifications",
     "card_1": {
       "title": "Brief story",
       "content": "At 13 years old I was fascinated by the Internet and how it worked. I develop my first website and published on Christmas 2015. Over the years, I've learned to code and how to build websites and web applications considering performance and accessibility."
