@@ -40,8 +40,8 @@ const ENGLISH_PROJECTS = {
     description: 'Bank-to-bank transfer simulator for Web, Android and iPhone',
     tags: ['React', 'React Native', 'Expo', 'React Navigation'],
     url_repo: 'https://github.com/360macky/hackbank/',
-    url_learn: 'https://github.com/360macky/hackbank/',
-    url_deploy: 'https://hackbank.app/',
+    url_learn: 'https://hackbank.app/',
+    url_deploy: 'https://web.hackbank.app/',
     image: 'https://marceloarias.com/images/projects/hackbank.webp',
   },
   4: {
@@ -98,8 +98,8 @@ const SPANISH_PROJECTS = {
     description: 'Simulador de transferencia de banco-a-banco para Web, Android y iPhone',
     tags: ['React', 'React Native', 'Expo', 'React Navigation'],
     url_repo: 'https://github.com/360macky/hackbank/',
-    url_learn: 'https://github.com/360macky/hackbank/',
-    url_deploy: 'https://hackbank.app/',
+    url_learn: 'https://hackbank.app/',
+    url_deploy: 'https://web.hackbank.app/',
     image: 'https://marceloarias.com/images/projects/hackbank.webp',
   },
   4: {
