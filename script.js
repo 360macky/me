@@ -1,6 +1,22 @@
 const scrollElements = document.querySelectorAll(".to-be-scrolled");
 
 /**
+ * Copy email address to system clipboard
+ */
+const copyEmailAddress = () => {
+  const copyCallToAction = document.getElementById("copy-call-to-action");
+  const copiedCallToAction = document.getElementById("copied-call-to-action");
+  const email = "hello@marceloarias.com";
+  navigator.clipboard.writeText(email);
+  const copyIcon = document.querySelector(".fa-copy");
+  copyIcon.style.display = "none";
+  copyCallToAction.style.display = "none";
+  const checkIcon = document.querySelector(".fa-check");
+  checkIcon.style.display = "inline-block";
+  copiedCallToAction.style.display = "flex";
+}
+
+/**
  * Check if element is in view
  * @param {*} el
  * @param {*} percentageScroll 
