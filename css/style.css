@@ -1122,8 +1122,9 @@ img {
   font-size: 1.8rem;
   padding: 1rem 2rem;
   border-radius: 0.7rem 0 0 0.7rem;
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgba(0, 0, 0, 0.1);
   color: var(--color-white);
+  border: 0.1rem solid var(--color-primary-lighter);
 }
 
 .contact__email-container .copy {
