@@ -65,7 +65,9 @@
   "contact": {
     "title": "¡A crear algo juntos!",
     "description": "Ya sea que tengas una oferta, una pregunta o sólo saludar",
-    "buttonCallToAction": "Envíame un correo",
+    "buttonCallToAction": "hello@marceloarias.com",
+    "emailCopy": "Copia el correo electrónico de abajo",
+    "emailCopied": "¡Correo electrónico copiado!",
     "links": {
       "github": "Proyectos en GitHub",
       "twitter": "Twitter",
