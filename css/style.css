@@ -757,9 +757,6 @@ img {
   transition-property: transform background-color box-shadow;
   transition-duration: 250ms;
   transition-timing-function: ease-out;
-  animation-name: reduce-call-to-action;
-  animation-timing-function: ease;
-  animation-duration: 300ms;
   border: 0.1rem solid var(--color-primary);
 }
 
@@ -780,17 +777,6 @@ img {
 
 .btn__call-action:hover .fa-hand-paper {
   transform: rotate(-20deg);
-}
-
-@keyframes reduce-call-to-action {
-  from {
-    transform: scale(1.5);
-    opacity: 0;
-  }
-  to {
-    transform: scale(1);
-    opacity: 100;
-  }
 }
 
 .far,
