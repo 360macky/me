@@ -67,10 +67,10 @@
     </script>
   </head>
   <body>
-    <navbar id="navbar" class="nav">
+    <nav id="navbar" class="nav">
       <ul class="nav-list">
         <li>
-          <a href="#welcome-section" aria-label="Welcome section">
+          <a href="#welcome" aria-label="Welcome section">
             <i class="far fa-hand-peace nav__icons" role="img"></i>
             <p id="nav__hello">Hello</p></a
           >
@@ -94,20 +94,23 @@
           >
         </li>
       </ul>
-    </navbar>
+    </nav>
 
-    <section id="welcome-section" class="welcome-section">
+    <section id="welcome" class="welcome-section">
       <h1 id="title" class="website-title">Hi I'm Marcelo</h1>
       <div class="welcome-section__profession">
         <p id="briefDescription" class="welcome-section__brief-description"
           ></p
         >
       </div>
-      <div style="margin-top: 25px">
-        <a href="#work" class="btn btn__call-action">
+      <div class="welcome-section__buttons">
+        <a href="#work" class="btn btn__call-action btn__call-action--primary">
           <i class="fas fa-magic" role="img"></i>
-          &nbsp;<label id="buttonCallToAction">Things that I do</label>&nbsp;
-          <i class="fas fa-hand-paper" role="img"></i>
+          &nbsp;<label id="buttonCallToAction">Things that I do</label>
+        </a>
+        <a href="https://articles.marceloarias.com/" target="_blank" class="btn btn__call-action btn__call-action--secondary">
+          <label id="caseStudiesAction">Case studies</label>&nbsp;
+          <i class="fas fa-microscope" role="img"></i>
         </a>
       </div>
       <div class="welcome-section__work">

@@ -131,6 +131,7 @@ function renderLanguageContent(language) {
   document.getElementById('title').textContent = language.welcomePage.title;
   document.getElementById('briefDescription').textContent = language.welcomePage.briefDescription;
   document.getElementById('buttonCallToAction').textContent = language.welcomePage.buttonCallToAction;
+  document.getElementById('caseStudiesAction').textContent = language.welcomePage.caseStudiesAction;
   document.getElementById('contributionsDescription').textContent = language.welcomePage.contributionsDescription;
 
   // Projects

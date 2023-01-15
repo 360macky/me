@@ -613,12 +613,27 @@ img {
   }
 }
 
+@keyframes translate-background {
+  0% {
+    background-position: top;
+  }
+  50% {
+    background-position: bottom;
+  }
+  100% {
+    background-position: top;
+  }
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .footer-atom {
     animation: footer-atom-spin infinite 3s ease-in-out;
   }
   .circle-of-development {
     animation: circle-spin infinite 10s ease;
+  }
+  .welcome-section {
+    animation: translate-background infinite 30s ease;
   }
 }
 
@@ -742,32 +757,50 @@ img {
   padding: 0.3rem 0.7rem;
 }
 
+.welcome-section__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 25px;
+  row-gap: 0.5rem;
+  column-gap: 1rem;
+}
+
 .btn {
   display: inline-block;
   padding: 1rem 2rem;
-  -webkit-border-radius: 12px;
-  -moz-border-radius: 12px;
-  border-radius: 12px;
+  -webkit-border-radius: 0.8rem;
+  -moz-border-radius: 0.8rem;
+  border-radius: 0.8rem;
 }
 
 .btn__call-action {
   font-family: var(--font-inter);
   background-color: var(--color-black);
-  transition-property: transform background-color box-shadow;
+  transition-property: transform box-shadow;
   transition-duration: 250ms;
   transition-timing-function: ease-out;
-  border: 0.1rem solid var(--color-primary);
+  font-size: 1.6rem;
 }
 
 .btn__call-action:active {
   transform: scale(1.05);
 }
 
-.btn__call-action:hover {
-  background-color: var(--color-black);
+.btn__call-action:hover {  
   box-shadow: 0px 0px 3rem 0px var(--color-primary);
   -webkit-box-shadow: 0px 0px 3rem 0px var(--color-primary);
   -moz-box-shadow: 0px 0px 3rem 0px var(--color-primary);
+}
+
+.btn__call-action--primary {
+  background-color: var(--color-primary-lighter);
+  color: var(--color-black);
+  border: 0.1rem solid var(--color-primary-lighter);
+}
+
+.btn__call-action--secondary {
+  border: 0.1rem solid var(--color-primary-lighter);
 }
 
 .btn__call-action:hover .fa-magic {
@@ -1018,16 +1051,22 @@ img {
   font-size: 4.2rem;
 }
 
+@media (max-width: 1024px) {
+  .circle-of-development {
+    opacity: 0;
+    animation: none;
+  }
+  .circle-of-development--text:hover {
+    transform: none;
+  }
+}
+
 @media (max-width: 640px) {
   .project-section-header {
     margin-top: 6rem;
   }
   .contact-section-header h1 {
     font-size: 3.2rem;
-  }
-  .circle-of-development {
-    opacity: 0;
-    animation: none;
   }
   .circle-of-development--text h3 {
     font-size: 1.8rem;

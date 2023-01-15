@@ -13,7 +13,8 @@
     "title": "Hi, I'm Marcelo",
     "briefDescription": "an experienced JavaScript developer",
     "buttonCallToAction": "Things that I do",
-    "contributionsDescription": "Creator or Open-Source Contributor at"
+    "contributionsDescription": "Creator or Open-Source Contributor at",
+    "caseStudiesAction": "Case studies"
   },
   "projects": {
     "title": "These are some of my projects",
