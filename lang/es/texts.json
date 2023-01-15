@@ -78,5 +78,9 @@
       "blog": "Mi blog personal",
       "google": "Mi perfil Google Developer"
     }
+  },
+  "footer": {
+    "phrase": "Suceden cosas maravillosas cuando combinas creatividad y tecnología. Aquí puedes encontrar algunos de mis proyectos.",
+    "madeWith": "Hecho por Marcelo Arias con HTML, CSS, JavaScript y amor."
   }
 }

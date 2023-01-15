@@ -1,41 +1,41 @@
-const scrollElements = document.querySelectorAll(".to-be-scrolled");
+const scrollElements = document.querySelectorAll('.to-be-scrolled');
 
 /**
  * Copy email address to system clipboard
  */
 const copyEmailAddress = () => {
-  const copyCallToAction = document.getElementById("copy-call-to-action");
-  const copiedCallToAction = document.getElementById("copied-call-to-action");
-  const email = "hello@marceloarias.com";
+  const copyCallToAction = document.getElementById('copy-call-to-action');
+  const copiedCallToAction = document.getElementById('copied-call-to-action');
+  const email = 'hello@marceloarias.com';
   navigator.clipboard.writeText(email);
-  const copyIcon = document.querySelector(".fa-copy");
-  copyIcon.style.display = "none";
-  copyCallToAction.style.display = "none";
-  const checkIcon = document.querySelector(".fa-check");
-  checkIcon.style.display = "inline-block";
-  copiedCallToAction.style.display = "flex";
-}
+  const copyIcon = document.querySelector('.fa-copy');
+  copyIcon.style.display = 'none';
+  copyCallToAction.style.display = 'none';
+  const checkIcon = document.querySelector('.fa-check');
+  checkIcon.style.display = 'inline-block';
+  copiedCallToAction.style.display = 'flex';
+};
 
 /**
  * Check if element is in view
  * @param {*} el
- * @param {*} percentageScroll 
+ * @param {*} percentageScroll
  * @returns void
  */
 const elementInView = (el, percentageScroll = 100) => {
   const elementTop = el.getBoundingClientRect().top;
   return (
-    elementTop <= 
-    ((window.innerHeight || document.documentElement.clientHeight) * (percentageScroll/100))
+    elementTop <=
+    (window.innerHeight || document.documentElement.clientHeight) * (percentageScroll / 100)
   );
 };
 
 /**
  * Display element after scrolling into view
- * @param {*} element 
+ * @param {*} element
  */
 const displayScrollElement = (element) => {
-  element.classList.add("scrolled");
+  element.classList.add('scrolled');
 };
 
 /**
@@ -46,12 +46,12 @@ const handleScrollAnimation = () => {
     if (elementInView(el, 70)) {
       displayScrollElement(el);
     }
-  }) 
-}
+  });
+};
 
 window.addEventListener('scroll', () => {
   handleScrollAnimation();
-})
+});
 
 function searchOnChange() {
   let projects;
@@ -201,14 +201,14 @@ const websiteWorks = document.querySelector('.welcome-section__work');
 const description = websiteDescription.textContent;
 
 setTimeout(() => {
-  websiteTitle.style.opacity = "100";
-  websiteTitle.style.transform = "unset";
-  nav.style.transform = "translateY(0)";
+  websiteTitle.style.opacity = '100';
+  websiteTitle.style.transform = 'unset';
+  nav.style.transform = 'translateY(0)';
 }, 600);
 
 setTimeout(() => {
-  websiteDescription.style.opacity = "100";
-  switchLanguage.style.opacity = "100";
-  socialNetworks.style.opacity = "100";
-  websiteWorks.style.opacity = "100";
+  websiteDescription.style.opacity = '100';
+  switchLanguage.style.opacity = '100';
+  socialNetworks.style.opacity = '100';
+  websiteWorks.style.opacity = '100';
 }, 800);

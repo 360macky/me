@@ -46,7 +46,8 @@ const ENGLISH_PROJECTS = {
   },
   4: {
     name: '1spaceX',
-    description: 'Search platform for SpaceX complex physical items: Capsules, Launches, Payloads, Rockets and more',
+    description:
+      'Search platform for SpaceX complex physical items: Capsules, Launches, Payloads, Rockets and more',
     tags: ['SpaceX API', 'React', 'NodeJS', 'SpaceX'],
     url_repo: 'https://github.com/360macky/1spaceX/',
     url_learn: 'https://1spacex.com/about',
@@ -104,7 +105,8 @@ const SPANISH_PROJECTS = {
   },
   4: {
     name: '1spaceX',
-    description: 'Plataforma de búsqueda para componentes físicos: Capsulas, Lanzamientos, Cohetes y más',
+    description:
+      'Plataforma de búsqueda para componentes físicos: Capsulas, Lanzamientos, Cohetes y más',
     tags: ['SpaceX API', 'React', 'NodeJS', 'SpaceX'],
     url_repo: 'https://github.com/360macky/1spaceX/',
     url_learn: 'https://1spacex.com/about',
@@ -132,7 +134,8 @@ function renderLanguageContent(language) {
   document.getElementById('briefDescription').textContent = language.welcomePage.briefDescription;
   document.getElementById('buttonCallToAction').textContent = language.welcomePage.buttonCallToAction;
   document.getElementById('caseStudiesAction').textContent = language.welcomePage.caseStudiesAction;
-  document.getElementById('contributionsDescription').textContent = language.welcomePage.contributionsDescription;
+  document.getElementById('contributionsDescription').textContent =
+    language.welcomePage.contributionsDescription;
 
   // Projects
   document.getElementById('projectsTitle').textContent = language.projects.title;
@@ -190,6 +193,10 @@ function renderLanguageContent(language) {
     language.contact.links['blog'];
   document.getElementById('contactContent').children[5].children[1].textContent =
     language.contact.links['google'];
+
+  // Footer
+  document.getElementById('phrase').textContent = language.footer.phrase;
+  document.getElementById('madeWith').textContent = language.footer.madeWith;
 
   for (
     let buttonIndex = 0;
