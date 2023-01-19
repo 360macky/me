@@ -174,6 +174,7 @@ function renderLanguageContent(language) {
   document.getElementById('today__content').textContent = language.about.card_7.content;
 
   document.getElementById('contributions').textContent = language.about.contributions;
+  document.getElementById('volunteering').textContent = language.about.volunteering;
   document.getElementById('devArticles').textContent = language.about.devArticles;
   document.getElementById('onlineCertifications').textContent = language.about.onlineCertifications;
 
