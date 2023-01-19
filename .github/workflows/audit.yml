@@ -4,11 +4,11 @@ jobs:
   lighthouse:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Audit URLs using Lighthouse
-        uses: treosh/lighthouse-ci-action@v8
+        uses: treosh/lighthouse-ci-action@v9
         with:
           urls: |
             https://marceloarias.com/
-          uploadArtifacts: false
+          uploadArtifacts: true
           configPath: './.github/workflows/setup/lighthouse-audit.json'
