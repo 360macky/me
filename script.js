@@ -114,7 +114,7 @@ function loadProjects(projectsStack) {
 
   for (let projectIndex in projectsStack) {
     let project = projectsStack[projectIndex];
-    let projectCard = '<div class="project-card">';
+    let projectCard = '<div class="project-card" role="listitem">';
     let projectUrlElement = cardElement['url'];
 
     projectCard = projectCard.concat(
