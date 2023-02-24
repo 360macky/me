@@ -439,10 +439,7 @@ img {
     width: 64rem;
     transition-duration: 0.3s;
     transition-timing-function: ease;
-    transition-property: box-shadow transform;
-  }
-  .projects-diagram-image:hover {
-    transform: scale(1.1);
+    transition-property: box-shadow;
   }
   @media (prefers-color-scheme: dark) {
     .projects-diagram-image {
