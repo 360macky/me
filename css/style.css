@@ -71,9 +71,9 @@ h3 {
 }
 
 .welcome-section__brief-description {
-  letter-spacing: 0.2rem;
   opacity: 0;
   transition: opacity 300ms ease;
+  line-height: 1.1;
 }
 
 ul {
@@ -166,6 +166,8 @@ img {
 
 .btn__call-action {
   font-size: 1.5rem;
+  width: 90%;
+  text-align: center;
 }
 
 .contact-section {
@@ -239,6 +241,7 @@ img {
   }
   .btn__call-action {
     font-size: 1.6rem;
+    width: auto;
   }
   .welcome-section__profession {
     margin-top: 0.875rem;
