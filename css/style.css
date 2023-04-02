@@ -773,6 +773,7 @@ img {
 
 .btn__call-action--secondary {
   border: 0.1rem solid var(--color-primary-lighter);
+  color: var(--color-primary-lighter);
 }
 
 .btn__call-action:hover .fa-magic {
