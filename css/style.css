@@ -164,6 +164,10 @@ img {
   height: 12.5rem;
 }
 
+.project-logo {
+  width: 3.8rem;
+}
+
 .btn__call-action {
   font-size: 1.5rem;
   width: 90%;
@@ -694,8 +698,9 @@ img {
 
 .project-title {
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  column-gap: 0.8rem;
+  align-items: center;
   padding: 1.2rem 0.5rem;
   font-size: 2rem;
   min-height: 70px;
