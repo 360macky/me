@@ -40,6 +40,12 @@ body {
   box-sizing: border-box;
 }
 
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--color-black);
+  }
+}
+
 h1,
 h2 {
   font-family: var(--font-inter);
