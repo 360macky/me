@@ -859,7 +859,7 @@ img {
 .welcome-section__switch_language__btn {
   background-color: transparent;
   border: none;
-  font-size: 1.2rem;
+  font-size: 1rem;
   transition: 100ms color;
   color: var(--color-white);
   font-family: var(--font-inter);
