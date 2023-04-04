@@ -89,7 +89,7 @@ function searchOnChange() {
 const cardElement = {
   image:
     '<div class="project-image-container"><div class="project-image" style="background-image: url(\'IMAGE\');"></div></div>',
-  name: '<h3 class="project-title">NAME</h3>',
+  name: '<h3 class="project-title"><img src="logo" class="project-logo" alt="" />NAME</h3>',
   description: '<p class="project-description">DESCRIPTION</p>',
   url: `
         <div class="project-actions">
@@ -123,6 +123,7 @@ function loadProjects(projectsStack) {
 
     projectCard = projectCard.concat(
       cardElement['name'].replace('name'.toUpperCase(), projectsStack[projectIndex]['name'])
+      .replace('logo', projectsStack[projectIndex]['logo'])
     );
 
     projectCard = projectCard.concat(
@@ -163,6 +164,7 @@ const welcomeSection = document.querySelector('.welcome-section');
 function switchTheme() {
   const ifDarkThemeEnabled = window.matchMedia('(prefers-color-scheme: dark)').matches;
   if (ifDarkThemeEnabled) {
+    document.querySelector('link[rel="icon"]').href = './images/favicon/icon-dark.ico';
     document.getElementsByTagName('meta')['theme-color'].content = '#000000';
     document.documentElement.style.setProperty('--color-white', '#f7f7f7');
     document.documentElement.style.setProperty('--color-default', '#2a313a');
@@ -174,6 +176,7 @@ function switchTheme() {
     document.documentElement.style.setProperty('--color-primary-lighter', '#7A97FF');
     welcomeSection.style.backgroundImage = `url('../images/dark-background.webp')`;
   } else {
+    document.querySelector('link[rel="icon"]').href = './images/favicon/icon-light.ico';
     document.getElementsByTagName('meta')['theme-color'].content = '#ffffff';
     document.documentElement.style.setProperty('--color-white', '#1b1f25');
     document.documentElement.style.setProperty('--color-default', '#f7f7f7');
