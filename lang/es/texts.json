@@ -18,7 +18,7 @@
   },
   "projects": {
     "title": "Estos son algunos de mis proyectos",
-    "description": "He creado aplicaciones web y móviles, partiendo de una idea, diseñando un prototipo de interfaz, maquetándolo en HTML/CSS y luego desarrollando los módulos internos de la aplicación. Esta es una selección de mis proyectos.",
+    "description": "He trabajado en una variedad de aplicaciones: desde el concepto, el diseño, el desarrollo y la publicación. Estos son algunos de mis favoritos.",
     "projectInput": "Buscar proyectos",
     "projectCard": {
       "tags": "Etiquetas",

@@ -18,7 +18,7 @@
   },
   "projects": {
     "title": "These are some of my projects",
-    "description": "I've created web and mobile apps, starting from an idea, going through a UI prototype, laying it out in HTML/CSS and then developing the modules of the app. This is a selection of them.",
+    "description": "I've worked on a variety of apps: From the concept, the design, the development, and the deployment. These are some of my favorite.",
     "projectInput": "Search in my projects",
     "projectCard": {
       "tags": "Tags",
