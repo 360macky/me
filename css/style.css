@@ -261,7 +261,6 @@ img {
     font-size: 1.3rem;
   }
   .welcome-section__social-networks i {
-    margin-top: 1.4rem;
     padding: 0.938rem;
   }
   .contact__social-networks-links {
@@ -345,9 +344,9 @@ img {
 
 .welcome-section__social-networks i {
   transition: 0.3s ease-out background-color;
-  -webkit-border-radius: 0.625rem;
-  -moz-border-radius: 0.625rem;
-  border-radius: 0.625rem;
+  -webkit-border-radius: 5rem;
+  -moz-border-radius: 5rem;
+  border-radius: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
