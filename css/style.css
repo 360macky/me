@@ -250,14 +250,15 @@ img {
     padding-bottom: none;
   }
   .btn__call-action {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     width: auto;
   }
   .welcome-section__profession {
     margin-top: 0.875rem;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
   .welcome-section__social-networks i {
+    margin-top: 1.4rem;
     padding: 0.938rem;
   }
   .contact__social-networks-links {
@@ -786,8 +787,15 @@ img {
 }
 
 .btn__call-action--secondary {
-  border: 0.1rem solid var(--color-primary-lighter);
+  border: 0.1rem solid var(--color-primary);
   color: var(--color-primary-lighter);
+}
+
+/* If dark mode is enabled */
+@media (prefers-color-scheme: dark) {
+  .btn__call-action--secondary {
+    border: 0.1rem solid var(--color-primary-lighter);
+  }
 }
 
 .btn__call-action:hover .fa-magic {
