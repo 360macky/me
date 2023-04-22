@@ -109,13 +109,16 @@ img {
   top: 0;
   left: 0;
   width: 100%;
-  backdrop-filter: blur(1rem) brightness(120%);
-  -webkit-backdrop-filter: blur(1rem) brightness(120%);
   z-index: 2;
   transform: translateY(-100%);
   transition-property: transform;
   transition-duration: 300ms;
   transition-timing-function: ease;
+}
+
+.nav-scroll-down {
+  backdrop-filter: blur(1rem) brightness(120%);
+  -webkit-backdrop-filter: blur(1rem) brightness(120%);
 }
 
 @media (prefers-color-scheme: dark) {

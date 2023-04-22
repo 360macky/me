@@ -215,3 +215,11 @@ setTimeout(() => {
   socialNetworks.style.opacity = '100';
   websiteWorks.style.opacity = '100';
 }, 800);
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 0) {
+      nav.classList.add('nav-scroll-down');
+  } else {
+      nav.classList.remove('nav-scroll-down');
+  }
+});
