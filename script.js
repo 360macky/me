@@ -177,7 +177,7 @@ function switchTheme() {
     welcomeSection.style.backgroundImage = `url('../images/dark-background.webp')`;
   } else {
     document.querySelector('link[rel="icon"]').href = './images/favicon/icon-light.ico';
-    document.getElementsByTagName('meta')['theme-color'].content = '#ffffff';
+    document.getElementsByTagName('meta')['theme-color'].content = '#E3E6FD';
     document.documentElement.style.setProperty('--color-white', '#1b1f25');
     document.documentElement.style.setProperty('--color-default', '#f7f7f7');
     document.documentElement.style.setProperty('--color-black', '#f7f7f7');
@@ -206,7 +206,6 @@ const description = websiteDescription.textContent;
 setTimeout(() => {
   websiteTitle.style.opacity = '100';
   websiteTitle.style.transform = 'unset';
-  nav.style.transform = 'translateY(0)';
 }, 600);
 
 setTimeout(() => {
@@ -214,6 +213,7 @@ setTimeout(() => {
   switchLanguage.style.opacity = '100';
   socialNetworks.style.opacity = '100';
   websiteWorks.style.opacity = '100';
+  nav.style.transform = 'translateY(0)';
 }, 800);
 
 window.addEventListener('scroll', () => {
@@ -223,3 +223,26 @@ window.addEventListener('scroll', () => {
       nav.classList.remove('nav-scroll-down');
   }
 });
+
+const imagePaths = [
+  './images/portraits/01.png',
+  './images/portraits/02.png',
+  './images/portraits/03.png',
+  './images/portraits/04.png'
+];
+
+function setRandomStartingImage() {
+  const randomIndex = Math.floor(Math.random() * imagePaths.length);
+  document.getElementById('portrait').src = imagePaths[randomIndex];
+  return randomIndex;
+}
+
+function updateImageSrc() {
+  let currentIndex = setRandomStartingImage();
+  setInterval(() => {
+      currentIndex = (currentIndex + 1) % imagePaths.length;
+      document.getElementById('portrait').src = imagePaths[currentIndex];
+  }, 2000);
+}
+
+window.addEventListener('load', updateImageSrc)
