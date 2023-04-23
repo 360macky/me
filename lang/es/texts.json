@@ -1,7 +1,12 @@
 {
   "title": "Marcelo Arias — Desarrollador de Software",
   "mainElements": {
-    "nav": ["Hola", "Proyectos", "Experiencia", "Contacto"],
+    "nav": [
+      "Hola",
+      "Proyectos",
+      "Experiencia",
+      "Contacto"
+    ],
     "switchLanguage": {
       "en": {
         "message": "Read in English"
@@ -11,9 +16,9 @@
   },
   "welcomePage": {
     "title": "Marcelo Arias",
-    "briefDescription": "— También conocido en Internet como @360macky —",
+    "briefDescription": "> en Internet estoy como @360macky",
     "buttonCallToAction": "Portafolio",
-    "contributionsDescription": "Creador o Contribuidor Open-Source en",
+    "contributionsDescription": "Soy el creador de las siguientes apps y proyectos",
     "caseStudiesAction": "Casos de estudio"
   },
   "projects": {

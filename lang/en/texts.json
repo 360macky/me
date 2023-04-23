@@ -1,7 +1,12 @@
 {
   "title": "Marcelo Arias — Software Engineer",
   "mainElements": {
-    "nav": ["Hello", "Work", "Experience", "Contact"],
+    "nav": [
+      "Hello",
+      "Work",
+      "Experience",
+      "Contact"
+    ],
     "switchLanguage": {
       "en": {
         "message": "Leer en español"
@@ -11,9 +16,9 @@
   },
   "welcomePage": {
     "title": "Marcelo Arias",
-    "briefDescription": "— Also known in the Internet as @360macky —",
+    "briefDescription": "> in the Internet, I'm @360macky",
     "buttonCallToAction": "Showcase",
-    "contributionsDescription": "Creator or Open-Source Contributor at",
+    "contributionsDescription": "I'm the creator of the following apps & projects",
     "caseStudiesAction": "Case studies"
   },
   "projects": {
