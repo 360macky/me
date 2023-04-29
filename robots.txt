@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://www.marceloarias.com/sitemap.xml
+Sitemap: https://marceloarias.com/sitemap.xml
