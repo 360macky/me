@@ -51,9 +51,16 @@
 #white-cover p {
   text-align: center;
   color: var(--color-white);
-  letter-spacing: -0.30rem;
-  font-size: 5.4rem;
+  letter-spacing: -0.1rem;
+  font-size: 2.5rem;
   font-weight: 600;
+}
+
+@media (min-width: 640px) {
+  #white-cover p {
+    font-size: 5.4rem;
+    letter-spacing: -0.30rem;
+  }
 }
 
 ::selection {
@@ -203,7 +210,6 @@ img {
   padding-right: 1rem;
 }
 
-/* For desktop: */
 @media (min-width: 640px) {
   .welcome-section h1 {
     padding-left: 0;
