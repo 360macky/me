@@ -1,3 +1,22 @@
+document.addEventListener('DOMContentLoaded', function() {
+  const whiteCover = document.getElementById('white-cover');
+  const typewriterText = document.getElementById('typewriter-text');
+  typewriterText.textContent = '@360macky';
+  typewriterText.style.animation = 'fadeIn 0.3s';
+  typewriterText.style.animationDelay = '0.3s'; // Add this line for the delay
+  typewriterText.style.animationFillMode = 'both';
+
+  setTimeout(function() {
+    whiteCover.style.opacity = '0';
+    whiteCover.style.transform = 'scale(1)';
+    setTimeout(function() {
+      whiteCover.style.display = 'none';
+    }, 400);
+  }, 700);
+});
+
+
+
 const scrollElements = document.querySelectorAll('.to-be-scrolled');
 
 /**
@@ -169,11 +188,11 @@ function switchTheme() {
     document.documentElement.style.setProperty('--color-white', '#f7f7f7');
     document.documentElement.style.setProperty('--color-default', '#2a313a');
     document.documentElement.style.setProperty('--color-black', '#1b1f25');
-    document.documentElement.style.setProperty('--color-default-darker', '#001367');
-    document.documentElement.style.setProperty('--color-primary', '#425fc7');
-    document.documentElement.style.setProperty('--color-dark', '#003696');
-    document.documentElement.style.setProperty('--color-dark50', '#00369680');
-    document.documentElement.style.setProperty('--color-primary-lighter', '#7A97FF');
+    document.documentElement.style.setProperty('--color-default-darker', '#333333');
+    document.documentElement.style.setProperty('--color-primary', '#3d3d3d');
+    document.documentElement.style.setProperty('--color-dark', '#111111');
+    document.documentElement.style.setProperty('--color-dark50', '#11111180');
+    document.documentElement.style.setProperty('--color-primary-lighter', '#e7e7e7');
     welcomeSection.style.backgroundImage = `url('../images/dark-background.webp')`;
   } else {
     document.querySelector('link[rel="icon"]').href = './images/favicon/icon-light.ico';
@@ -181,11 +200,11 @@ function switchTheme() {
     document.documentElement.style.setProperty('--color-white', '#1b1f25');
     document.documentElement.style.setProperty('--color-default', '#f7f7f7');
     document.documentElement.style.setProperty('--color-black', '#f7f7f7');
-    document.documentElement.style.setProperty('--color-default-darker', '#bac6ff');
-    document.documentElement.style.setProperty('--color-primary', '#839eff');
-    document.documentElement.style.setProperty('--color-dark', '#839eff');
-    document.documentElement.style.setProperty('--color-dark50', '#839eff80');
-    document.documentElement.style.setProperty('--color-primary-lighter', '#425fc7');
+    document.documentElement.style.setProperty('--color-default-darker', '#cccccc');
+    document.documentElement.style.setProperty('--color-primary', '#c2c2c2');
+    document.documentElement.style.setProperty('--color-dark', '#eeeeee');
+    document.documentElement.style.setProperty('--color-dark50', '#eeeeee80');
+    document.documentElement.style.setProperty('--color-primary-lighter', '#2e2e2e');
     welcomeSection.style.backgroundImage = `url('../images/background.webp')`;
   }
 }
@@ -206,7 +225,7 @@ const description = websiteDescription.textContent;
 setTimeout(() => {
   websiteTitle.style.opacity = '100';
   websiteTitle.style.transform = 'unset';
-}, 600);
+}, 1000);
 
 setTimeout(() => {
   websiteDescription.style.opacity = '100';
@@ -214,7 +233,7 @@ setTimeout(() => {
   socialNetworks.style.opacity = '100';
   websiteWorks.style.opacity = '100';
   nav.style.transform = 'translateY(0)';
-}, 800);
+}, 1200);
 
 window.addEventListener('scroll', () => {
   if (window.scrollY > 0) {
@@ -223,26 +242,3 @@ window.addEventListener('scroll', () => {
       nav.classList.remove('nav-scroll-down');
   }
 });
-
-const imagePaths = [
-  './images/portraits/01.png',
-  './images/portraits/02.png',
-  './images/portraits/03.png',
-  './images/portraits/04.png'
-];
-
-function setRandomStartingImage() {
-  const randomIndex = Math.floor(Math.random() * imagePaths.length);
-  document.getElementById('portrait').src = imagePaths[randomIndex];
-  return randomIndex;
-}
-
-function updateImageSrc() {
-  let currentIndex = setRandomStartingImage();
-  setInterval(() => {
-      currentIndex = (currentIndex + 1) % imagePaths.length;
-      document.getElementById('portrait').src = imagePaths[currentIndex];
-  }, 2000);
-}
-
-window.addEventListener('load', updateImageSrc)

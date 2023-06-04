@@ -13,13 +13,47 @@
   --color-white: #FBFBFB;
   --color-default: #2a313a;
   --color-black: #1b1f25;
-  --color-default-darker: #001367;
-  --color-primary: #425fc7;
-  --color-primary-lighter: #7a97ff;
-  --color-dark: #003696;
-  --color-dark50: #00369680;
+  --color-default-darker: #333333;
+  --color-primary: #3d3d3d;
+  --color-primary-lighter: #e7e7e7;
+  --color-dark: #111111;
+  --color-dark50: #11111180;
   --font-inter: 'Inter', sans-serif;
   --font-fira-code: 'Roboto Mono', monospace;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+#white-cover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  opacity: 1;
+  transform: scale(1.5);
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+#white-cover p {
+  text-align: center;
+  color: var(--color-white);
+  letter-spacing: -0.30rem;
+  font-size: 5.4rem;
+  font-weight: 600;
 }
 
 ::selection {
@@ -33,7 +67,7 @@ html {
 }
 
 body {
-  font-family: var(--font-fira-code);
+  font-family: var(--font-inter);
   font-size: 1.8rem;
   line-height: 1;
   color: var(--color-white);
@@ -67,7 +101,7 @@ h3 {
 }
 
 .website-title {
-  letter-spacing: -0.15rem;
+  letter-spacing: -0.25rem;
   font-weight: 800;
   opacity: 0;
   transform: translateY(2rem);
@@ -80,6 +114,8 @@ h3 {
   opacity: 0;
   transition: opacity 300ms ease;
   line-height: 1.1;
+  font-weight: 500;
+  letter-spacing: -0.02rem;
 }
 
 ul {
@@ -162,7 +198,17 @@ img {
 }
 
 .welcome-section h1 {
-  font-size: 4rem;
+  font-size: 5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* For desktop: */
+@media (min-width: 640px) {
+  .welcome-section h1 {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 .project-tags {
@@ -216,7 +262,8 @@ img {
 
   .welcome-section__social-networks i {
     margin: 0;
-    width: 2rem;
+    width: 2.8rem;
+    height: 2.8rem;
   }
 
   .about-me-section h2 {
@@ -405,7 +452,7 @@ img {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  column-gap: 1rem;
+  column-gap: 0.8rem;
   opacity: 0;
   transition-property: opacity;
   transition-duration: 300ms;
