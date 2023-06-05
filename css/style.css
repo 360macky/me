@@ -537,7 +537,7 @@ img {
 /* Disable transition of filters for Safari */
 @supports (-webkit-hyphens: none) {
   .welcome-section__work img {
-    filter: grayscale(1) brightness(1) !important;
+    filter: grayscale(1) brightness(0.5) !important;
     -webkit-filter: grayscale(1) brightness(1);
     transform: none;
     opacity: 1;
@@ -742,7 +742,8 @@ img {
 
 .project-actions__button--recommended {
   padding: 0.6rem 0.6rem;
-  background-color: var(--color-primary);
+  color: var(--color-black);
+  background-color: var(--color-primary-lighter);
 }
 
 .circle-of-development--container {
@@ -880,7 +881,7 @@ img {
 }
 
 .project-card:hover {
-  box-shadow: 0px 1px 2rem rgba(0, 0, 0, 0.5);
+  /* background-color: var(--color-black); */
 }
 
 .project-card:hover .project-image {
@@ -1432,8 +1433,7 @@ img {
   text-align: center;
   justify-content: center;
   align-items: center;
-  background-color: var(--color-black);
-  border-top: 4px solid var(--color-primary-lighter);
+  background-color: rgba(0, 0, 0, 0.2);
   padding: 5rem 0rem;
   font-size: 1.6rem;
 }

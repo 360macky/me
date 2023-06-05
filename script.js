@@ -196,7 +196,7 @@ function switchTheme() {
     welcomeSection.style.backgroundImage = `url('../images/dark-background.webp')`;
   } else {
     document.querySelector('link[rel="icon"]').href = './images/favicon/icon-light.ico';
-    document.getElementsByTagName('meta')['theme-color'].content = '#E3E6FD';
+    document.getElementsByTagName('meta')['theme-color'].content = '#FFFFFF';
     document.documentElement.style.setProperty('--color-white', '#1b1f25');
     document.documentElement.style.setProperty('--color-default', '#f7f7f7');
     document.documentElement.style.setProperty('--color-black', '#f7f7f7');
