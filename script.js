@@ -217,7 +217,7 @@ switchTheme();
 const nav = document.querySelector('.nav');
 const socialNetworks = document.querySelector('.welcome-section__social-networks');
 const websiteTitle = document.querySelector('.website-title');
-const websiteDescription = document.querySelector('.welcome-section__brief-description');
+const websiteDescription = document.querySelector('.welcome-section__handle');
 const switchLanguage = document.querySelector('.welcome-section__switch_language');
 const websiteWorks = document.querySelector('.welcome-section__work');
 const description = websiteDescription.textContent;
