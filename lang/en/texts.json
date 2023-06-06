@@ -16,14 +16,14 @@
   },
   "welcomePage": {
     "title": "Marcelo Arias",
-    "briefDescription": "> in the Internet, I'm @360macky",
+    "handle": "Software Engineer — @360macky",
     "buttonCallToAction": "Showcase",
-    "contributionsDescription": "I'm the creator of the following apps & projects",
+    "contributionsDescription": "Creator of the following apps & projects",
     "caseStudiesAction": "Case studies"
   },
   "projects": {
-    "title": "These are some of my projects",
-    "description": "I've worked on a variety of apps: From the concept, the design, the development, and the deployment. These are some of my favorite.",
+    "title": "Work",
+    "description": "From the concept, the design, the development, and the deployment. These are some of my favorite projects.",
     "projectInput": "Search in my projects",
     "projectCard": {
       "tags": "Tags",

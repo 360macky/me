@@ -16,14 +16,14 @@
   },
   "welcomePage": {
     "title": "Marcelo Arias",
-    "briefDescription": "> en Internet estoy como @360macky",
+    "handle": "Desarrollador de Software — @360macky",
     "buttonCallToAction": "Portafolio",
-    "contributionsDescription": "Soy el creador de las siguientes apps y proyectos",
+    "contributionsDescription": "Creador de las siguientes apps y proyectos",
     "caseStudiesAction": "Casos de estudio"
   },
   "projects": {
-    "title": "Estos son algunos de mis proyectos",
-    "description": "He trabajado en una variedad de aplicaciones: desde el concepto, el diseño, el desarrollo y la publicación. Estos son algunos de mis favoritos.",
+    "title": "Proyectos",
+    "description": "Desde el concepto, el diseño, el desarrollo y el lanzamiento. Estos son algunos de mis proyectos favoritos.",
     "projectInput": "Buscar proyectos",
     "projectCard": {
       "tags": "Etiquetas",
