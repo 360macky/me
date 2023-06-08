@@ -18,7 +18,7 @@
   --color-primary-lighter: #e7e7e7;
   --color-dark: #111111;
   --color-dark50: #11111180;
-  --font-inter: 'Inter', sans-serif;
+  --font-inter: -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
   --font-fira-code: 'Roboto Mono', monospace;
 }
 
@@ -109,6 +109,7 @@ h3 {
 
 .website-title {
   letter-spacing: -0.25rem;
+  line-height: 0.8;
   font-weight: 800;
   opacity: 0;
   transform: translateY(2rem);
@@ -117,12 +118,11 @@ h3 {
   transition-timing-function: ease;
 }
 
-.welcome-section__brief-description {
-  opacity: 0;
+.welcome-section__handle {
+  opacity: 0.2;
   transition: opacity 300ms ease;
   line-height: 1.1;
   font-weight: 500;
-  letter-spacing: -0.02rem;
 }
 
 ul {
@@ -604,7 +604,7 @@ img {
   padding-bottom: 3rem;
   max-width: 1024px;
   font-family: var(--font-inter);
-  font-weight: 300;
+  font-weight: 400;
   line-height: 130%;
   opacity: 0;
   transition-property: opacity;
@@ -889,7 +889,7 @@ img {
 }
 
 .project-description {
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-inter);
   font-size: 1.2rem;
   padding: 0px 2rem;
   line-height: 1.1;
@@ -1076,6 +1076,7 @@ img {
 .about-me-separator {
   width: 1rem !important;
   margin-bottom: 1rem;
+  filter: grayscale(1);
 }
 
 .box__description-container {
@@ -1433,7 +1434,7 @@ img {
   text-align: center;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.1);
   padding: 5rem 0rem;
   font-size: 1.6rem;
 }

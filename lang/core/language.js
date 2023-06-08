@@ -143,7 +143,7 @@ function renderLanguageContent(language) {
   document.getElementById('switchLanguage').textContent =
     language.mainElements.switchLanguage.en.message;
   document.getElementById('title').textContent = language.welcomePage.title;
-  document.getElementById('briefDescription').textContent = language.welcomePage.briefDescription;
+  document.getElementById('handle').textContent = language.welcomePage.handle;
   document.getElementById('buttonCallToAction').textContent = language.welcomePage.buttonCallToAction;
   document.getElementById('caseStudiesAction').textContent = language.welcomePage.caseStudiesAction;
   document.getElementById('contributionsDescription').textContent =
